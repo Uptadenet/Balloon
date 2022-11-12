@@ -1,2 +1,5770 @@
 # Google App Engine generated folder
 appengine-generated/
+
+DRAWEBLE
+
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:name="mutestrike"
+    android:height="dimension(6145)"
+    android:width="dimension(6145)"
+    android:viewportWidth="1103101952.000000"
+    android:viewportHeight="1103101952.000000">
+
+    <path
+        android:name="strike_thru_path"
+        android:fillColor="argb8(0xffb3bac2)"
+        android:pathData="M 19.73 21 L 21 19.73 L 4.27 3 L 3 4.27 Z"
+        android:strokeWidth="1065353216.000000" />
+
+    <clip-path
+        android:name="left_corner_mask"
+        android:pathData="M 0 0 L 24 0 L 24 24 L 0 24 L 0 0 Z M 7.365 8.635 L 7 9 L 7.73 9 Z" />
+
+    <clip-path
+        android:name="right_corner_mask"
+        android:pathData="M 0 0 L 24 0 L 24 24 L 0 24 L 0 0 Z M 14 16.02 L 14.73 16 L 14 15.27 Z" />
+
+    <clip-path
+        android:name="strike_thru_mask"
+        android:pathData="M 0 0 L 24 0 L 24 24 L 0 24 L 0 0 Z M 5.54 1.73 L 4.27 3 L 21 19.73 L 22.27 18.46 Z" />
+
+    <path
+        android:name="volume_path"
+        android:fillColor="argb8(0xffb3bac2)"
+        android:pathData="M 3 9 L 3 15 L 7 15 L 12 20 L 12 4 L 7 9 L 3 9 Z M 16.5 12 C 16.5 10.23 15.48 8.71 14 7.97 L 14 16.02 C 15.48 15.29 16.5 13.77 16.5 12 Z M 14 3.23 L 14 5.29 C 16.89 6.15 19 8.83 19 12 C 19 15.17 16.89 17.85 14 18.71 L 14 20.77 C 18.01 19.86 21 16.28 21 12 C 21 7.72 18.01 4.14 14 3.23 Z"
+        android:strokeWidth="1065353216.000000" />
+</vector>
+
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:name="mutestrike"
+    android:height="dimension(6145)"
+    android:width="dimension(6145)"
+    android:viewportWidth="1103101952.000000"
+    android:viewportHeight="1103101952.000000">
+
+    <path
+        android:name="strike_thru_path"
+        android:fillColor="argb8(0xffb3bac2)"
+        android:pathData="M 3 4.27 L 4.27 3 L 4.27 3 L 3 4.27 Z"
+        android:strokeWidth="1065353216.000000" />
+
+    <clip-path
+        android:name="left_corner_mask"
+        android:pathData="M 0 0 L 24 0 L 24 24 L 0 24 L 0 0 Z M 7 9 L 7.365 8.635 L 7.73 9 Z" />
+
+    <clip-path
+        android:name="right_corner_mask"
+        android:pathData="M 0 0 L 24 0 L 24 24 L 0 24 L 0 0 Z M 7.365 8.635 L 7 9 L 7.73 9 Z" />
+
+    <clip-path
+        android:name="strike_thru_mask"
+        android:pathData="M 5.54 1.73 L 4.27 3 L 4.27 3 L 5.54 1.73 Z" />
+
+    <path
+        android:name="volume_path"
+        android:fillColor="argb8(0xffb3bac2)"
+        android:pathData="M 3 9 L 3 15 L 7 15 L 12 20 L 12 4 L 7 9 L 3 9 Z M 16.5 12 C 16.5 10.23 15.48 8.71 14 7.97 L 14 16.02 C 15.48 15.29 16.5 13.77 16.5 12 Z M 14 3.23 L 14 5.29 C 16.89 6.15 19 8.83 19 12 C 19 15.17 16.89 17.85 14 18.71 L 14 20.77 C 18.01 19.86 21 16.28 21 12 C 21 7.72 18.01 4.14 14 3.23 Z"
+        android:strokeWidth="1065353216.000000" />
+</vector>
+
+Search WEB .XML 
+
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="dimension(6145)"
+    android:width="dimension(6145)"
+    android:viewportWidth="1103101952.000000"
+    android:viewportHeight="1103101952.000000">
+
+    <path
+        android:fillColor="argb8(0xffffffff)"
+        android:pathData="M15.5,14L20.5,19L19,20.5L14,15.5V14.71L13.73,14.43C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.43,13.73L14.71,14H15.5M9.5,4.5L8.95,4.53C8.71,5.05 8.34,5.93 8.07,7H10.93C10.66,5.93 10.29,5.05 10.05,4.53C9.87,4.5 9.69,4.5 9.5,4.5M13.83,7C13.24,5.97 12.29,5.17 11.15,4.78C11.39,5.31 11.7,6.08 11.93,7H13.83M5.17,7H7.07C7.3,6.08 7.61,5.31 7.85,4.78C6.71,5.17 5.76,5.97 5.17,7M4.5,9.5C4.5,10 4.58,10.53 4.73,11H6.87L6.75,9.5L6.87,8H4.73C4.58,8.47 4.5,9 4.5,9.5M14.27,11C14.42,10.53 14.5,10 14.5,9.5C14.5,9 14.42,8.47 14.27,8H12.13C12.21,8.5 12.25,9 12.25,9.5C12.25,10 12.21,10.5 12.13,11H14.27M7.87,8L7.75,9.5L7.87,11H11.13C11.21,10.5 11.25,10 11.25,9.5C11.25,9 11.21,8.5 11.13,8H7.87M9.5,14.5C9.68,14.5 9.86,14.5 10.03,14.47C10.28,13.95 10.66,13.07 10.93,12H8.07C8.34,13.07 8.72,13.95 8.97,14.47L9.5,14.5M13.83,12H11.93C11.7,12.92 11.39,13.69 11.15,14.22C12.29,13.83 13.24,13.03 13.83,12M5.17,12C5.76,13.03 6.71,13.83 7.85,14.22C7.61,13.69 7.3,12.92 7.07,12H5.17Z" />
+</vector>
+
+WEB XML
+
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="dimension(6145)"
+    android:width="dimension(6145)"
+    android:viewportWidth="1103101952.000000"
+    android:viewportHeight="1103101952.000000">
+
+    <path
+        android:fillColor="argb8(0xff000000)"
+        android:pathData="M16.36,14C16.44,13.34 16.5,12.68 16.5,12C16.5,11.32 16.44,10.66 16.36,10H19.74C19.9,10.64 20,11.31 20,12C20,12.69 19.9,13.36 19.74,14M14.59,19.56C15.19,18.45 15.65,17.25 15.97,16H18.92C17.96,17.65 16.43,18.93 14.59,19.56M14.34,14H9.66C9.56,13.34 9.5,12.68 9.5,12C9.5,11.32 9.56,10.65 9.66,10H14.34C14.43,10.65 14.5,11.32 14.5,12C14.5,12.68 14.43,13.34 14.34,14M12,19.96C11.17,18.76 10.5,17.43 10.09,16H13.91C13.5,17.43 12.83,18.76 12,19.96M8,8H5.08C6.03,6.34 7.57,5.06 9.4,4.44C8.8,5.55 8.35,6.75 8,8M5.08,16H8C8.35,17.25 8.8,18.45 9.4,19.56C7.57,18.93 6.03,17.65 5.08,16M4.26,14C4.1,13.36 4,12.69 4,12C4,11.31 4.1,10.64 4.26,10H7.64C7.56,10.66 7.5,11.32 7.5,12C7.5,12.68 7.56,13.34 7.64,14M12,4.03C12.83,5.23 13.5,6.57 13.91,8H10.09C10.5,6.57 11.17,5.23 12,4.03M18.92,8H15.97C15.65,6.75 15.19,5.55 14.59,4.44C16.43,5.07 17.96,6.34 18.92,8M12,2C6.47,2 2,6.5 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z" />
+</vector>
+
+İN FRONT 
+
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="dimension(6145)"
+    android:width="dimension(6145)"
+    android:viewportWidth="1103101952.000000"
+    android:viewportHeight="1103101952.000000">
+
+    <path
+        android:fillColor="argb8(0xff000000)"
+        android:pathData="M20 6h-2.18c.11-.31 .18 -.65 .18 -1 0-1.66-1.34-3-3-3-1.05 0-1.96 .54 -2.5 1.35l-.5 .67 -.5-.68C10.96 2.54 10.05 2 9 2 7.34 2 6 3.34 6 5c0 .35 .07 .69 .18 1H4c-1.11 0-1.99 .89 -1.99 2L2 19c0 1.11 .89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-5-2c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zM9 4c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zm11 15H4v-2h16v2zm0-5H4V8h5.08L7 10.83 8.62 12 11 8.76l1-1.36 1 1.36L15.38 12 17 10.83 14.92 8H20v6z" />
+
+    <path
+        android:pathData="M0 0h24v24H0z" />
+</vector>
+
+PLENATA
+
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="dimension(6145)"
+    android:width="dimension(6145)"
+    android:viewportWidth="1103101952.000000"
+    android:viewportHeight="1103101952.000000">
+
+    <path
+        android:fillColor="argb8(0xff000000)"
+        android:pathData="M12,2C6.48,2 2,6.48 2,12s4.48,10 10,10 10,-4.48 10,-10S17.52,2 12,2zM11,19.93c-3.95,-0.49 -7,-3.85 -7,-7.93 0,-0.62 0.08,-1.21 0.21,-1.79L9,15v1c0,1.1 0.9,2 2,2v1.93zM17.9,17.39c-0.26,-0.81 -1,-1.39 -1.9,-1.39h-1v-3c0,-0.55 -0.45,-1 -1,-1L8,12v-2h2c0.55,0 1,-0.45 1,-1L11,7h2c1.1,0 2,-0.9 2,-2v-0.41c2.93,1.19 5,4.06 5,7.41 0,2.08 -0.8,3.97 -2.1,5.39z" />
+</vector>
+
+ABC İN FRONT ,
+
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:tint="@attr/0x7f0400b2"
+    android:height="dimension(6145)"
+    android:width="dimension(6145)"
+    android:autoMirrored="true"
+    android:viewportWidth="1103101952.000000"
+    android:viewportHeight="1103101952.000000">
+
+    <group
+        android:name="arrow"
+        android:pivotX="1094713344.000000"
+        android:pivotY="1094713344.000000"
+        android:rotation="1119092736.000000">
+
+        <path
+            android:fillColor="@ref/0x0106000c"
+            android:pathData="M7,14 L12,9 L17,14 L7,14 Z" />
+
+        <path
+            android:pathData="M0,0 L24,0 L24,24 L0,24 L0,0 Z" />
+    </group>
+</vector>
+
+MR  BUTTON 
+
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f08019e" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f0801a0" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f0801a2" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f0801a4" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f0801a6" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f0801a8" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f0801aa" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f0801ac" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f0801ae" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f0801b0" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f0801b2" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f0801b4" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f0801b6" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f0801b8" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f0801ba" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f0801bc" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f0801be" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f0801c0" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f0801c2" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f0801c4" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f0801c6" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f0801c8" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f0801ca" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f0801cc" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f0801ce" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f0801d0" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f0801d2" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f0801d4" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f0801d6" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f0801d8" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f0801da" />
+</animation-list>
+
+MR BUTTON X 
+
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f08019f" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f0801a1" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f0801a3" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f0801a5" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f0801a7" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f0801a9" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f0801ab" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f0801ad" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f0801af" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f0801b1" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f0801b3" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f0801b5" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f0801b7" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f0801b9" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f0801bb" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f0801bd" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f0801bf" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f0801c1" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f0801c3" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f0801c5" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f0801c7" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f0801c9" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f0801cb" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f0801cd" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f0801cf" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f0801d1" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f0801d3" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f0801d5" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f0801d7" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f0801d9" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f0801db" />
+</animation-list>
+
+
+MR BUTTON XXX
+
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true">
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f080160" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f080162" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f080164" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f080166" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f080168" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f08016a" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f08016c" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f08016e" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f080170" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f080172" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f080174" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f080176" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f080178" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f08017a" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f08017c" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f08017e" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f080180" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f080182" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f080184" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f080186" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f080188" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f08018a" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f08018c" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f08018e" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f080190" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f080192" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f080194" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f080196" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f080198" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f08019a" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f08019c" />
+</animation-list>
+
+
+MR BUTTON XXL
+
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true">
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f080161" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f080163" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f080165" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f080167" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f080169" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f08016b" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f08016d" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f08016f" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f080171" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f080173" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f080175" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f080177" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f080179" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f08017b" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f08017d" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f08017f" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f080181" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f080183" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f080185" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f080187" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f080189" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f08018b" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f08018d" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f08018f" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f080191" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f080193" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f080195" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f080197" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f080199" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f08019b" />
+
+    <item
+        android:duration="42"
+        android:drawable="@ref/0x7f08019d" />
+</animation-list>
+
+
+MR BUTTON XLX
+
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="dimension(6145)"
+    android:width="dimension(6145)"
+    android:viewportWidth="1103101952.000000"
+    android:viewportHeight="1103101952.000000">
+
+    <path
+        android:fillColor="argb8(0xff000000)"
+        android:pathData="M12,0C5.364,0 0,5.364 0,12s5.364,12 12,12 12,-5.364 12,-12S18.636,0 12,0Z"
+        android:strokeWidth="1067030912.000000"
+        android:strokeAlpha="1061997760.000000"
+        android:fillAlpha="1061997760.000000" />
+
+    <path
+        android:fillColor="argb8(0xffffffff)"
+        android:pathData="M18,16.308 L16.308,18 12,13.692 7.692,18 6,16.308 10.308,12 6,7.692 7.692,6 12,10.308 16.308,6 18,7.692 13.692,12Z"
+        android:strokeWidth="1067030912.000000" />
+</vector>
+
+MR BUTTON CROSS
+
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="dimension(6145)"
+    android:width="dimension(6145)"
+    android:viewportWidth="1103101952.000000"
+    android:viewportHeight="1103101952.000000">
+
+    <path
+        android:fillColor="argb8(0xffffffff)"
+        android:pathData="M12,0C5.364,0 0,5.364 0,12s5.364,12 12,12 12,-5.364 12,-12S18.636,0 12,0Z"
+        android:strokeWidth="1067030912.000000"
+        android:strokeAlpha="1061997760.000000"
+        android:fillAlpha="1061997760.000000" />
+
+    <path
+        android:fillColor="argb8(0xff000000)"
+        android:pathData="M18,16.308 L16.308,18 12,13.692 7.692,18 6,16.308 10.308,12 6,7.692 7.692,6 12,10.308 16.308,6 18,7.692 13.692,12Z"
+        android:strokeWidth="1067030912.000000" />
+</vector>
+
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:tint="@attr/0x7f0400b2"
+    android:height="dimension(6145)"
+    android:width="dimension(6145)"
+    android:viewportWidth="1103101952.000000"
+    android:viewportHeight="1103101952.000000">
+
+    <path
+        android:fillColor="@ref/0x0106000b"
+        android:pathData="M12,14c1.7,0 3,-1.3 3,-3l0,-6c0,-1.7 -1.3,-3 -3,-3c-1.7,0 -3,1.3 -3,3l0,6C9,12.7 10.3,14 12,14zM17.299999,11c0,3 -2.5,5.1 -5.3,5.1c-2.8,0 -5.3,-2.1 -5.3,-5.1L5,11c0,3.4 2.7,6.2 6,6.7L11,21l2,0l0,-3.3c3.3,-0.5 6,-3.3 6,-6.7L17.299999,11.000001z" />
+</vector>
+
+APİ
+
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:tint="@attr/0x7f0400b2"
+    android:height="dimension(6145)"
+    android:width="dimension(6145)"
+    android:viewportWidth="1103101952.000000"
+    android:viewportHeight="1103101952.000000">
+
+    <path
+        android:fillColor="@ref/0x0106000b"
+        android:pathData="M15.5,14l-0.8,0l-0.3,-0.3c1,-1.1 1.6,-2.6 1.6,-4.2C16,5.9 13.1,3 9.5,3C5.9,3 3,5.9 3,9.5S5.9,16 9.5,16c1.6,0 3.1,-0.6 4.2,-1.6l0.3,0.3l0,0.8l5,5l1.5,-1.5L15.5,14zM9.5,14C7,14 5,12 5,9.5S7,5 9.5,5C12,5 14,7 14,9.5S12,14 9.5,14z" />
+</vector>
+
+CHİP 
+
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="dimension(6145)"
+    android:width="dimension(6145)"
+    android:viewportWidth="1103101952.000000"
+    android:viewportHeight="1103101952.000000">
+
+    <path
+        android:fillColor="argb8(0xff191919)"
+        android:pathData="M12,12m-12,0a12,12 0,1 1,24 0a12,12 0,1 1,-24 0"
+        android:strokeColor="argb8(0x0)"
+        android:strokeWidth="1065353216.000000"
+        android:fillAlpha="1056964608.000000" />
+
+    <path
+        android:fillColor="argb8(0xffffffff)"
+        android:pathData="M9.189,15.939l-3.127,-3.128l-1.061,1.061l4.189,4.189l9,-9l-1.061,-1.061z"
+        android:strokeColor="argb8(0x0)"
+        android:strokeWidth="1065353216.000000" />
+</vector>
+
+COMMON GOOGLE 
+
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:left="dimension(769)"
+        android:top="dimension(769)"
+        android:right="dimension(769)"
+        android:bottom="dimension(769)">
+
+        <shape
+            android:shape="0">
+
+            <solid
+                android:color="argb8(0xffebebeb)" />
+
+            <corners
+                android:radius="dimension(513)" />
+
+            <padding
+                android:left="dimension(12801)"
+                android:top="dimension(2049)"
+                android:right="dimension(2817)"
+                android:bottom="dimension(1793)" />
+        </shape>
+    </item>
+
+    <item
+        android:left="dimension(-9215)">
+
+        <bitmap
+            android:gravity="0x13"
+            android:src="@ref/0x7f080120" />
+    </item>
+</layer-list>
+
+FRONT.XML
+
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="dimension(6145)"
+    android:width="dimension(6145)"
+    android:viewportWidth="1103101952.000000"
+    android:viewportHeight="1103101952.000000">
+
+    <path
+        android:fillColor="argb8(0xff000000)"
+        android:pathData="M15.5,14h-0.79l-0.28,-0.27C15.41,12.59 16,11.11 16,9.5 16,5.91 13.09,3 9.5,3S3,5.91 3,9.5 5.91,16 9.5,16c1.61,0 3.09,-0.59 4.23,-1.57l0.27,0.28v0.79l5,4.99L20.49,19l-4.99,-5zM9.5,14C7.01,14 5,11.99 5,9.5S7.01,5 9.5,5 14,7.01 14,9.5 11.99,14 9.5,14z" />
+</vector>
+
+APZNX
+
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:left="dimension(257)">
+
+        <shape>
+
+            <gradient
+                android:startColor="argb8(0x44000000)"
+                android:endColor="argb8(0x7000000)"
+                android:angle="1132920832.000000"
+                android:centerColor="argb8(0x44000000)" />
+
+            <corners
+                android:radius="dimension(8961)" />
+        </shape>
+    </item>
+
+    <item
+        android:right="dimension(257)"
+        android:bottom="dimension(769)">
+
+        <shape>
+
+            <solid
+                android:color="argb8(0xff55a11f)" />
+                
+                
+                GOOGLE SİGNED DİSABLED 
+                
+                <?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:left="dimension(769)"
+        android:top="dimension(769)"
+        android:right="dimension(769)"
+        android:bottom="dimension(769)">
+
+        <shape
+            android:shape="0">
+
+            <solid
+                android:color="argb8(0xffebebeb)" />
+
+            <corners
+                android:radius="dimension(513)" />
+
+            <padding
+                android:left="dimension(1793)"
+                android:top="dimension(1793)"
+                android:right="dimension(1793)"
+                android:bottom="dimension(1793)" />
+        </shape>
+    </item>
+
+    <item>
+
+        <bitmap
+            android:gravity="0x11"
+            android:src="@ref/0x7f080120" />
+    </item>
+</layer-list>
+
+reaction.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="dimension(6145)"
+    android:width="dimension(6145)"
+    android:viewportWidth="1103101952.000000"
+    android:viewportHeight="1103101952.000000">
+
+    <path
+        android:fillColor="argb8(0xff000000)"
+        android:pathData="M17.65,6.35C16.2,4.9 14.21,4 12,4c-4.42,0 -7.99,3.58 -7.99,8s3.57,8 7.99,8c3.73,0 6.84,-2.55 7.73,-6h-2.08c-0.82,2.33 -3.04,4 -5.65,4 -3.31,0 -6,-2.69 -6,-6s2.69,-6 6,-6c1.66,0 3.14,0.69 4.22,1.78L13,11h7V4l-2.35,2.35z" />
+</vector>
+
+FRONT HİSTORY 
+
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="dimension(6145)"
+    android:width="dimension(6145)"
+    android:viewportWidth="1103101952.000000"
+    android:viewportHeight="1103101952.000000">
+
+    <path
+        android:fillColor="argb8(0xff000000)"
+        android:pathData="M11.99,2C6.47,2 2,6.48 2,12s4.47,10 9.99,10C17.52,22 22,17.52 22,12S17.52,2 11.99,2zM12,20c-4.42,0 -8,-3.58 -8,-8s3.58,-8 8,-8 8,3.58 8,8 -3.58,8 -8,8z" />
+
+    <path
+        android:fillColor="argb8(0xff000000)"
+        android:pathData="M12.5,7H11v6l5.25,3.15 0.75,-1.23 -4.5,-2.67z" />
+</vector>
+
+BG.XML
+
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:left="dimension(513)"
+        android:top="dimension(769)"
+        android:right="dimension(513)"
+        android:bottom="dimension(769)">
+
+        <shape
+            android:shape="0">
+
+            <gradient
+                android:startColor="argb8(0xf000000)"
+                android:endColor="argb8(0xf000000)"
+                android:angle="1132920832.000000" />
+
+            <corners
+                android:radius="dimension(4353)" />
+        </shape>
+    </item>
+
+    <item
+        android:left="dimension(769)"
+        android:top="dimension(769)"
+        android:right="dimension(769)"
+        android:bottom="dimension(1281)">
+
+        <shape
+            android:shape="0">
+
+            <gradient
+                android:startColor="argb8(0xff0070ff)"
+                android:endColor="argb8(0xff0070ff)"
+                android:angle="1132920832.000000" />
+
+            <corners
+                android:radius="dimension(4353)" />
+        </shape>
+    </item>
+</layer-list>
+
+seek.progress
+
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@ref/0x01020000">
+
+        <shape>
+
+            <solid
+                android:color="argb8(0xa5ffffff)" />
+
+            <size
+                android:height="dimension(257)" />
+
+            <corners
+                android:radius="dimension(12582945)" />
+        </shape>
+    </item>
+
+    <item
+        android:id="@ref/0x0102000f">
+
+        <clip>
+
+            <shape>
+
+                <solid
+                    android:color="argb8(0xffffffff)" />
+
+                <size
+                    android:height="dimension(257)" />
+
+                <corners
+                    android:radius="dimension(12582945)" />
+            </shape>
+        </clip>
+    </item>
+
+    <item
+        android:id="@ref/0x0102000d">
+
+        <clip>
+
+            <shape>
+
+                <solid
+                    android:color="argb8(0xfff85959)" />
+
+                <size
+                    android:height="dimension(257)" />
+
+                <corners
+                    android:radius="dimension(12582945)" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>
+
+star.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="dimension(6145)"
+    android:width="dimension(6145)"
+    android:viewportWidth="1103101952.000000"
+    android:viewportHeight="1103101952.000000">
+
+    <path
+        android:fillColor="argb8(0xff000000)"
+        android:pathData="M22,9.24l-7.19,-0.62L12,2 9.19,8.63 2,9.24l5.46,4.73L5.82,21 12,17.27 18.18,21l-1.63,-7.03L22,9.24zM12,15.4l-3.76,2.27 1,-4.28 -3.32,-2.88 4.38,-0.38L12,6.1l1.71,4.04 4.38,0.38 -3.32,2.88 1,4.28L12,15.4z" />
+</vector>
+
+tt.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@ref/0x01020000">
+
+        <shape>
+
+            <solid
+                android:color="argb8(0xa5ffffff)" />
+
+            <size
+                android:height="dimension(513)" />
+
+            <corners
+                android:radius="dimension(257)" />
+        </shape>
+    </item>
+
+    <item
+        android:id="@ref/0x0102000f">
+
+        <clip>
+
+            <shape>
+
+                <solid
+                    android:color="argb8(0xffffffff)" />
+
+                <size
+                    android:height="dimension(513)" />
+
+                <corners
+                    android:radius="dimension(257)" />
+            </shape>
+        </clip>
+    </item>
+
+    <item
+        android:id="@ref/0x0102000d">
+
+        <clip>
+
+            <shape>
+
+                <solid
+                    android:color="argb8(0xfff85959)" />
+
+                <size
+                    android:height="dimension(513)" />
+
+                <corners
+                    android:radius="dimension(257)" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>
+
+drawwable.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@ref/0x01020000">
+
+        <shape>
+
+            <solid
+                android:color="argb8(0xa5ffffff)" />
+
+            <size
+                android:height="dimension(513)" />
+
+            <corners
+                android:radius="dimension(257)" />
+        </shape>
+    </item>
+
+    <item
+        android:id="@ref/0x0102000f">
+
+        <clip>
+
+            <shape>
+
+                <solid
+                    android:color="argb8(0xffffffff)" />
+
+                <size
+                    android:height="dimension(513)" />
+
+                <corners
+                    android:radius="dimension(257)" />
+            </shape>
+        </clip>
+    </item>
+
+    <item
+        android:id="@ref/0x0102000d">
+
+        <clip>
+
+            <shape>
+
+                <solid
+                    android:color="argb8(0xfff85959)" />
+
+                <size
+                    android:height="dimension(513)" />
+
+                <corners
+                    android:radius="dimension(257)" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>
+
+meterial.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@ref/0x01020000"
+        android:drawable="@ref/0x7f08004d" />
+
+    <item
+        android:id="@ref/0x0102000f">
+
+        <scale
+            android:scaleWidth="100%">
+
+            <selector>
+
+                <item
+                    android:state_enabled="false">
+
+                    <color
+                        android:color="@ref/0x0106000d" />
+                </item>
+
+                <item
+                    android:drawable="@ref/0x7f08004c" />
+            </selector>
+        </scale>
+    </item>
+
+    <item
+        android:id="@ref/0x0102000d">
+
+        <scale
+            android:scaleWidth="100%">
+
+            <selector>
+
+                <item
+                    android:state_enabled="false">
+
+                    <color
+                        android:color="@ref/0x0106000d" />
+                </item>
+
+                <item
+                    android:drawable="@ref/0x7f08004c" />
+            </selector>
+        </scale>
+    </item>
+</layer-list>
+
+action.tabs.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="dimension(6145)"
+    android:width="dimension(6145)"
+    android:viewportWidth="1103101952.000000"
+    android:viewportHeight="1103101952.000000">
+
+    <path
+        android:fillColor="argb8(0xff000000)"
+        android:pathData="M4,10.5c-0.83,0 -1.5,0.67 -1.5,1.5s0.67,1.5 1.5,1.5 1.5,-0.67 1.5,-1.5 -0.67,-1.5 -1.5,-1.5zM4,4.5c-0.83,0 -1.5,0.67 -1.5,1.5S3.17,7.5 4,7.5 5.5,6.83 5.5,6 4.83,4.5 4,4.5zM4,16.5c-0.83,0 -1.5,0.68 -1.5,1.5s0.68,1.5 1.5,1.5 1.5,-0.68 1.5,-1.5 -0.67,-1.5 -1.5,-1.5zM7,19h14v-2L7,17v2zM7,13h14v-2L7,11v2zM7,5v2h14L21,5L7,5z" />
+</vector>
+
+selector.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_pressed="true">
+
+        <shape
+            android:shape="0">
+
+            <solid
+                android:color="@ref/0x7f0600d8" />
+
+            <corners
+                android:radius="dimension(513)"
+                android:topLeftRadius="dimension(1)"
+                android:topRightRadius="dimension(1)"
+                android:bottomLeftRadius="dimension(1281)"
+                android:bottomRightRadius="dimension(1281)" />
+        </shape>
+    </item>
+
+    <item
+        android:state_pressed="false">
+
+        <shape
+            android:shape="0">
+
+            <solid
+                android:color="@ref/0x7f0600d7" />
+
+            <corners
+                android:radius="dimension(513)"
+                android:topLeftRadius="dimension(1)"
+                android:topRightRadius="dimension(1)"
+                android:bottomLeftRadius="dimension(1281)"
+                android:bottomRightRadius="dimension(1281)" />
+        </shape>
+    </item>
+</selector>
+
+selctor 2 .xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_pressed="true">
+
+        <shape
+            android:shape="0">
+
+            <solid
+                android:color="@ref/0x7f0600d8" />
+
+            <corners
+                android:radius="dimension(513)"
+                android:topLeftRadius="dimension(1281)"
+                android:topRightRadius="dimension(1281)"
+                android:bottomLeftRadius="dimension(1)"
+                android:bottomRightRadius="dimension(1)" />
+        </shape>
+    </item>
+
+    <item
+        android:state_pressed="false">
+
+        <shape
+            android:shape="0">
+
+            <solid
+                android:color="@ref/0x7f0600d7" />
+
+            <corners
+                android:radius="dimension(513)"
+                android:topLeftRadius="dimension(1281)"
+                android:topRightRadius="dimension(1281)"
+                android:bottomLeftRadius="dimension(1)"
+                android:bottomRightRadius="dimension(1)" />
+        </shape>
+    </item>
+</selector>
+
+circle.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_pressed="true">
+
+        <shape
+            android:shape="0">
+
+            <solid
+                android:color="@ref/0x7f0600d8" />
+
+            <corners
+                android:radius="dimension(513)"
+                android:topLeftRadius="dimension(1281)"
+                android:topRightRadius="dimension(1281)"
+                android:bottomLeftRadius="dimension(1)"
+                android:bottomRightRadius="dimension(1)" />
+        </shape>
+    </item>
+
+    <item
+        android:state_pressed="false">
+
+        <shape
+            android:shape="0">
+
+            <solid
+                android:color="@ref/0x7f0600d7" />
+
+            <corners
+                android:radius="dimension(513)"
+                android:topLeftRadius="dimension(1281)"
+                android:topRightRadius="dimension(1281)"
+                android:bottomLeftRadius="dimension(1)"
+                android:bottomRightRadius="dimension(1)" />
+        </shape>
+    </item>
+</selector>
+
+abc.snippet.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<inset
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:insetLeft="@ref/0x7f070019"
+    android:insetRight="@ref/0x7f070019"
+    android:insetTop="@ref/0x7f070019"
+    android:insetBottom="@ref/0x7f070019">
+
+    <selector>
+
+        <item
+            android:state_checked="false"
+            android:state_pressed="false">
+
+            <layer-list>
+
+                <item
+                    android:drawable="@ref/0x7f08005f" />
+
+                <item
+                    android:drawable="@ref/0x7f080051" />
+            </layer-list>
+        </item>
+
+        <item>
+
+            <layer-list>
+
+                <item
+                    android:drawable="@ref/0x7f08005e" />
+
+                <item
+                    android:drawable="@ref/0x7f080051" />
+            </layer-list>
+        </item>
+    </selector>
+</inset>
+
+rect.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:left="dimension(257)">
+
+        <shape>
+
+            <gradient
+                android:startColor="argb8(0x44000000)"
+                android:endColor="argb8(0x7000000)"
+                android:angle="1132920832.000000" />
+
+            <corners
+                android:radius="dimension(769)" />
+        </shape>
+    </item>
+
+    <item
+        android:bottom="dimension(513)">
+
+        <shape>
+
+            <solid
+                android:color="argb8(0xffffffff)" />
+
+            <corners
+                android:radius="dimension(769)" />
+        </shape>
+    </item>
+</layer-list>
+
+shape.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<inset
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:insetLeft="@ref/0x7f070012"
+    android:insetRight="@ref/0x7f070012"
+    android:insetTop="@ref/0x7f070013"
+    android:insetBottom="@ref/0x7f070013">
+
+    <shape
+        android:shape="0">
+
+        <corners
+            android:radius="@ref/0x7f070018" />
+
+        <solid
+            android:color="@ref/0x0106000b" />
+
+        <padding
+            android:left="@ref/0x7f070014"
+            android:top="@ref/0x7f070015"
+            android:right="@ref/0x7f070014"
+            android:bottom="@ref/0x7f070015" />
+    </shape>
+</inset>
+
+meterial.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:tint="@attr/0x7f0400b2"
+    android:height="dimension(6145)"
+    android:width="dimension(6145)"
+    android:viewportWidth="1103101952.000000"
+    android:viewportHeight="1103101952.000000">
+
+    <path
+        android:fillColor="@ref/0x0106000b"
+        android:pathData="M12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2c-1.1,0 -2,0.9 -2,2S10.9,8 12,8zM12,10c-1.1,0 -2,0.9 -2,2s0.9,2 2,2c1.1,0 2,-0.9 2,-2S13.1,10 12,10zM12,16c-1.1,0 -2,0.9 -2,2s0.9,2 2,2c1.1,0 2,-0.9 2,-2S13.1,16 12,16z" />
+</vector>
+
+mute2.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:interpolator="@ref/0x010c000d"
+    android:duration="100"
+    android:valueFrom="M 0 0 L 24 0 L 24 24 L 0 24 L 0 0 Z M 5.54 1.73 L 4.27 3 L 4.27 3 L 5.54 1.73 Z"
+    android:valueTo="M 0 0 L 24 0 L 24 24 L 0 24 L 0 0 Z M 5.54 1.73 L 4.27 3 L 21 19.73 L 22.27 18.46 Z"
+    android:valueType="2"
+    android:propertyName="pathData" />
+
+unmute.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:interpolator="@ref/0x010c000d"
+    android:duration="100"
+    android:valueFrom="M 0 0 L 24 0 L 24 24 L 0 24 L 0 0 Z M 5.54 1.73 L 4.27 3 L 21 19.73 L 22.27 18.46 Z"
+    android:valueTo="M 0 0 L 24 0 L 24 24 L 0 24 L 0 0 Z M 5.54 1.73 L 4.27 3 L 4.27 3 L 5.54 1.73 Z"
+    android:valueType="2"
+    android:propertyName="pathData" />
+
+meterial.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:tint="@attr/0x7f0400b2"
+    android:height="dimension(6145)"
+    android:width="dimension(6145)"
+    android:autoMirrored="true"
+    android:viewportWidth="1103101952.000000"
+    android:viewportHeight="1103101952.000000">
+
+    <path
+        android:fillColor="@ref/0x0106000b"
+        android:pathData="M20,11L7.8,11l5.6,-5.6L12,4l-8,8l8,8l1.4,-1.4L7.8,13L20,13L20,11z" />
+</vector>
+
+invert.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="dimension(6145)"
+    android:width="dimension(6145)"
+    android:viewportWidth="1103101952.000000"
+    android:viewportHeight="1103101952.000000">
+
+    <path
+        android:fillColor="argb8(0xff000000)"
+        android:pathData="M20,15.31L23.31,12 20,8.69V4h-4.69L12,0.69 8.69,4H4v4.69L0.69,12 4,15.31V20h4.69L12,23.31 15.31,20H20v-4.69zM12,18V6c3.31,0 6,2.69 6,6s-2.69,6 -6,6z" />
+</vector>
+
+btn.2.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_pressed="true">
+
+        <shape
+            android:shape="0">
+
+            <solid
+                android:color="@ref/0x7f0600f5" />
+
+            <corners
+                android:radius="dimension(1025)" />
+
+            <stroke
+                android:width="dimension(257)"
+                android:color="argb8(0xbb0082ff)" />
+        </shape>
+    </item>
+
+    <item>
+
+        <shape
+            android:shape="0">
+
+            <solid
+                android:color="@ref/0x7f0600f5" />
+
+            <corners
+                android:radius="dimension(1025)" />
+
+            <stroke
+                android:width="dimension(257)"
+                android:color="argb8(0xbb0082ff)" />
+        </shape>
+    </item>
+</selector>
+
+deskop.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_pressed="true">
+
+        <shape
+            android:shape="0">
+
+            <solid
+                android:color="@ref/0x7f0600f5" />
+
+            <corners
+                android:radius="dimension(1025)" />
+
+            <stroke
+                android:width="dimension(257)"
+                android:color="argb8(0xbb0082ff)" />
+        </shape>
+    </item>
+
+    <item>
+
+        <shape
+            android:shape="0">
+
+            <solid
+                android:color="@ref/0x7f0600f5" />
+
+            <corners
+                android:radius="dimension(1025)" />
+
+            <stroke
+                android:width="dimension(257)"
+                android:color="argb8(0xbb0082ff)" />
+        </shape>
+    </item>
+</selector>
+
+webpage.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="dimension(6145)"
+    android:width="dimension(6145)"
+    android:viewportWidth="1103101952.000000"
+    android:viewportHeight="1103101952.000000">
+
+    <path
+        android:fillColor="argb8(0xff000000)"
+        android:pathData="M13,9H18.5L13,3.5V9M6,2H14L20,8V20A2,2 0 0,1 18,22H6C4.89,22 4,21.1 4,20V4C4,2.89 4.89,2 6,2M11,4H6V20H11L18,20V11H11V4Z" />
+</vector>
+
+focused.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:left="dimension(257)"
+        android:top="dimension(257)"
+        android:right="dimension(257)"
+        android:bottom="dimension(257)">
+
+        <shape
+            android:shape="0">
+
+            <solid
+                android:color="@ref/0x0106000d" />
+
+            <stroke
+                android:width="dimension(1025)"
+                android:color="argb8(0xffc6dafb)" />
+        </shape>
+    </item>
+
+    <item
+        android:drawable="@ref/0x7f0800f2" />
+</layer-list>
+
+
+dark.focused.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:left="dimension(257)"
+        android:top="dimension(257)"
+        android:right="dimension(257)"
+        android:bottom="dimension(257)">
+
+        <shape
+            android:shape="0">
+
+            <solid
+                android:color="@ref/0x0106000d" />
+
+            <stroke
+                android:width="dimension(1025)"
+                android:color="argb8(0xffc6dafb)" />
+        </shape>
+    </item>
+
+    <item
+        android:drawable="@ref/0x7f0800fb" />
+</layer-list>
+
+play.big.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_pressed="true">
+
+        <shape>
+
+            <stroke
+                android:width="dimension(257)"
+                android:color="@ref/0x7f0600e8" />
+
+            <solid
+                android:color="@ref/0x7f0600f5" />
+
+            <corners
+                android:radius="dimension(1025)" />
+        </shape>
+    </item>
+
+    <item>
+
+        <shape>
+
+            <stroke
+                android:width="dimension(257)"
+                android:color="@ref/0x7f0600e7" />
+
+            <solid
+                android:color="@ref/0x7f0600f5" />
+
+            <corners
+                android:radius="dimension(1025)" />
+        </shape>
+    </item>
+</selector>
+
+begin.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_pressed="true">
+
+        <shape>
+
+            <stroke
+                android:width="dimension(257)"
+                android:color="@ref/0x7f0600ea" />
+
+            <solid
+                android:color="@ref/0x7f0600e6" />
+
+            <corners
+                android:radius="dimension(1537)" />
+        </shape>
+    </item>
+
+    <item>
+
+        <shape>
+
+            <stroke
+                android:width="dimension(257)"
+                android:color="@ref/0x7f0600e9" />
+
+            <solid
+                android:color="@ref/0x7f0600e6" />
+
+            <corners
+                android:radius="dimension(1537)" />
+        </shape>
+    </item>
+</selector>
+
+focused.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:left="dimension(257)"
+        android:top="dimension(257)"
+        android:right="dimension(257)"
+        android:bottom="dimension(257)">
+
+        <shape
+            android:shape="0">
+
+            <solid
+                android:color="@ref/0x0106000d" />
+
+            <stroke
+                android:width="dimension(1025)"
+                android:color="argb8(0x4d4284f2)" />
+        </shape>
+    </item>
+
+    <item
+        android:drawable="@ref/0x7f0800f7" />
+</layer-list>
+
+
+light.foxused.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:left="dimension(257)"
+        android:top="dimension(257)"
+        android:right="dimension(257)"
+        android:bottom="dimension(257)">
+
+        <shape
+            android:shape="0">
+
+            <solid
+                android:color="@ref/0x0106000d" />
+
+            <stroke
+                android:width="dimension(1025)"
+                android:color="argb8(0x4d4284f2)" />
+        </shape>
+    </item>
+
+    <item
+        android:drawable="@ref/0x7f080100" />
+</layer-list>
+
+rounded.button.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_pressed="true">
+
+        <shape
+            android:shape="0">
+
+            <corners
+                android:radius="dimension(1025)" />
+
+            <solid
+                android:color="@ref/0x7f060025" />
+        </shape>
+    </item>
+
+    <item
+        android:state_focused="true">
+
+        <shape
+            android:shape="0">
+
+            <corners
+                android:radius="dimension(1025)" />
+
+            <solid
+                android:color="@ref/0x7f060025" />
+        </shape>
+    </item>
+
+    <item>
+
+        <shape
+            android:shape="0">
+
+            <corners
+                android:radius="dimension(1025)" />
+
+            <solid
+                android:color="@ref/0x7f060024" />
+        </shape>
+    </item>
+</selector>
+
+3.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:interpolator="@ref/0x010c000d"
+    android:duration="100"
+    android:valueFrom="M 0 0 L 24 0 L 24 24 L 0 24 L 0 0 Z M 7.365 8.635 L 7 9 L 7.73 9 Z"
+    android:valueTo="M 0 0 L 24 0 L 24 24 L 0 24 L 0 0 Z M 7.365 8.635 L 7 9 L 7 9 Z"
+    android:valueType="2"
+    android:propertyName="pathData" />
+
+4.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:interpolator="@ref/0x010c000d"
+    android:duration="100"
+    android:valueFrom="M 0 0 L 24 0 L 24 24 L 0 24 L 0 0 Z M 14 16.02 L 14.73 16 L 14 15.27 Z"
+    android:valueTo="M 0 0 L 24 0 L 24 24 L 0 24 L 0 0 Z M 14 16.02 L 14 16.02 L 14 16.02 Z"
+    android:valueType="2"
+    android:propertyName="pathData" />
+
+mute.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:interpolator="@ref/0x010c000d"
+    android:duration="100"
+    android:valueFrom="M 0 0 L 24 0 L 24 24 L 0 24 L 0 0 Z M 7.365 8.635 L 7 9 L 7 9 Z"
+    android:valueTo="M 0 0 L 24 0 L 24 24 L 0 24 L 0 0 Z M 7.365 8.635 L 7 9 L 7.73 9 Z"
+    android:valueType="2"
+    android:propertyName="pathData" />
+
+unmute.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:interpolator="@ref/0x010c000d"
+    android:duration="100"
+    android:valueFrom="M 0 0 L 24 0 L 24 24 L 0 24 L 0 0 Z M 14 16.02 L 14 16.02 L 14 16.02 Z"
+    android:valueTo="M 0 0 L 24 0 L 24 24 L 0 24 L 0 0 Z M 14 16.02 L 14.73 16 L 14 15.27 Z"
+    android:valueType="2"
+    android:propertyName="pathData" />
+
+rect.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:left="dimension(257)">
+
+        <shape>
+
+            <gradient
+                android:startColor="argb8(0xff000000)"
+                android:endColor="argb8(0x12000000)"
+                android:angle="1132920832.000000"
+                android:centerColor="argb8(0xff000000)" />
+        </shape>
+    </item>
+
+    <item
+        android:bottom="dimension(513)">
+
+        <shape>
+
+            <solid
+                android:color="argb8(0xffffffff)" />
+        </shape>
+    </item>
+</layer-list>
+
+bg.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="0">
+
+    <gradient
+        android:startColor="argb8(0xfff02d42)"
+        android:endColor="argb8(0xfffc4b3c)"
+        android:useLevel="true"
+        android:angle="1135869952.000000"
+        android:type="0" />
+
+    <size
+        android:height="dimension(9729)"
+        android:width="dimension(71681)" />
+
+    <corners
+        android:radius="dimension(4865)" />
+</shape>
+
+meterial.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<inset
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:insetLeft="@ref/0x7f07002d"
+    android:insetRight="@ref/0x7f07002d"
+    android:insetTop="@ref/0x7f07002e"
+    android:insetBottom="@ref/0x7f07002c">
+
+    <selector>
+
+        <item
+            android:state_enabled="false"
+            android:drawable="@ref/0x7f08005f" />
+
+        <item
+            android:state_focused="false"
+            android:state_pressed="false"
+            android:drawable="@ref/0x7f08005f" />
+
+        <item
+            android:drawable="@ref/0x7f08005e" />
+    </selector>
+</inset>
+
+boomark.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="dimension(6145)"
+    android:width="dimension(6145)"
+    android:viewportWidth="1103101952.000000"
+    android:viewportHeight="1103101952.000000">
+
+    <path
+        android:fillColor="argb8(0xff000000)"
+        android:pathData="M12,17.27L18.18,21l-1.64,-7.03L22,9.24l-7.19,-0.61L12,2 9.19,8.63 2,9.24l5.46,4.73L5.82,21z" />
+</vector>
+
+bg.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <solid
+        android:color="argb8(0xffffffff)"
+        android:alpha="0.000000" />
+
+    <stroke
+        android:width="dimension(769)"
+        android:color="argb8(0xffb1bcbe)" />
+
+    <corners
+        android:radius="dimension(7681)" />
+
+    <padding
+        android:left="dimension(12801)"
+        android:top="dimension(12801)"
+        android:right="dimension(12801)"
+        android:bottom="dimension(12801)" />
+</shape>
+
+seekbar.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:constantSize="true">
+
+    <item
+        android:state_enabled="false"
+        android:state_pressed="true"
+        android:drawable="@ref/0x0106000d" />
+
+    <item
+        android:state_enabled="false"
+        android:drawable="@ref/0x0106000d" />
+
+    <item
+        android:state_pressed="true">
+
+        <bitmap
+            android:gravity="0x11"
+            android:src="@ref/0x7f0800b9" />
+    </item>
+
+    <item>
+
+        <bitmap
+            android:gravity="0x11"
+            android:src="@ref/0x7f0800b8" />
+    </item>
+</selector>
+
+clear.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:tint="@attr/0x7f0400b2"
+    android:height="dimension(6145)"
+    android:width="dimension(6145)"
+    android:viewportWidth="1103101952.000000"
+    android:viewportHeight="1103101952.000000">
+
+    <path
+        android:fillColor="@ref/0x0106000b"
+        android:pathData="M19,6.41L17.59,5,12,10.59,6.41,5,5,6.41,10.59,12,5,17.59,6.41,19,12,13.41,17.59,19,19,17.59,13.41,12z" />
+</vector>
+_1.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:interpolator="@ref/0x010c000d"
+    android:duration="100"
+    android:valueFrom="M 19.73 21 L 21 19.73 L 4.27 3 L 3 4.27 Z"
+    android:valueTo="M 3 4.27 L 4.27 3 L 4.27 3 L 3 4.27 Z"
+    android:valueType="2"
+    android:propertyName="pathData" />
+_2mute.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:interpolator="@ref/0x010c000d"
+    android:duration="100"
+    android:valueFrom="M 3 4.27 L 4.27 3 L 4.27 3 L 3 4.27 Z"
+    android:valueTo="M 19.73 21 L 21 19.73 L 4.27 3 L 3 4.27 Z"
+    android:valueType="2"
+    android:propertyName="pathData" />
+
+folder.xml
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="dimension(6145)"
+    android:width="dimension(6145)"
+    android:viewportWidth="1103101952.000000"
+    android:viewportHeight="1103101952.000000">
+
+    <path
+        android:fillColor="argb8(0xff000000)"
+        android:pathData="M10,4H4c-1.1,0 -1.99,0.9 -1.99,2L2,18c0,1.1 0.9,2 2,2h16c1.1,0 2,-0.9 2,-2V8c0,-1.1 -0.9,-2 -2,-2h-8l-2,-2z" />
+</vector>
+
+expand.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true">
+
+    <item
+        android:duration="13"
+        android:drawable="@ref/0x7f080147" />
+
+    <item
+        android:duration="13"
+        android:drawable="@ref/0x7f080148" />
+
+    <item
+        android:duration="13"
+        android:drawable="@ref/0x7f080149" />
+
+    <item
+        android:duration="13"
+        android:drawable="@ref/0x7f08014a" />
+
+    <item
+        android:duration="13"
+        android:drawable="@ref/0x7f08014b" />
+
+collapse.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true">
+
+    <item
+        android:duration="13"
+        android:drawable="@ref/0x7f080137" />
+
+    <item
+        android:duration="13"
+        android:drawable="@ref/0x7f080138" />
+
+    <item
+        android:duration="13"
+        android:drawable="@ref/0x7f080139" />
+
+    <item
+        android:duration="13"
+        android:drawable="@ref/0x7f08013a" />
+
+    <item
+        android:duration="13"
+        android:drawable="@ref/0x7f08013b" />
+
+    <item
+        android:duration="13"
+        android:drawable="@ref/0x7f08013c" />
+
+    <item
+        android:duration="13"
+        android:drawable="@ref/0x7f08013d" />
+
+    <item
+        android:duration="13"
+        android:drawable="@ref/0x7f08013e" />
+
+    <item
+        android:duration="13"
+        android:drawable="@ref/0x7f08013f" />
+
+    <item
+        android:duration="13"
+        android:drawable="@ref/0x7f080140" />
+
+    <item
+        android:duration="13"
+        android:drawable="@ref/0x7f080141" />
+
+    <item
+        android:duration="13"
+        android:drawable="@ref/0x7f080142" />
+
+    <item
+        android:duration="13"
+        android:drawable="@ref/0x7f080143" />
+
+    <item
+        android:duration="13"
+        android:drawable="@ref/0x7f080144" />
+
+    <item
+        android:duration="13"
+        android:drawable="@ref/0x7f080145" />
+
+    <item
+        android:duration="13"
+        android:drawable="@ref/0x7f080146" />
+</animation-list>
+
+outline.xml
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="dimension(6145)"
+    android:width="dimension(6145)"
+    android:viewportWidth="1103101952.000000"
+    android:viewportHeight="1103101952.000000">
+
+    <path
+        android:fillColor="argb8(0xff000000)"
+        android:pathData="M17,18L12,15.82L7,18V5H17M17,3H7A2,2 0 0,0 5,5V21L12,18L19,21V5C19,3.89 18.1,3 17,3Z" />
+</vector>
+
+mute.xml
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:drawable="@ref/0x7f08000b">
+
+    <target
+        android:name="strike_thru_path"
+        android:animation="@ref/0x7f08000c" />
+
+    <target
+        android:name="strike_thru_mask"
+        android:animation="@ref/0x7f08000d" />
+
+    <target
+        android:name="left_corner_mask"
+        android:animation="@ref/0x7f08000e" />
+
+    <target
+        android:name="right_corner_mask"
+        android:animation="@ref/0x7f08000f" />
+</animated-vector>
+
+unmute.xml
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:drawable="@ref/0x7f080006">
+
+    <target
+        android:name="strike_thru_path"
+        android:animation="@ref/0x7f080007" />
+
+    <target
+        android:name="strike_thru_mask"
+        android:animation="@ref/0x7f080008" />
+
+    <target
+        android:name="left_corner_mask"
+        android:animation="@ref/0x7f080009" />
+
+    <target
+        android:name="right_corner_mask"
+        android:animation="@ref/0x7f08000a" />
+</animated-vector>
+
+meterial.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:constantSize="true">
+
+    <item
+        android:state_enabled="false"
+        android:state_pressed="true">
+
+        <bitmap
+            android:gravity="0x11"
+            android:src="@ref/0x7f080049" />
+    </item>
+
+    <item
+        android:state_enabled="false">
+
+        <bitmap
+            android:gravity="0x11"
+            android:src="@ref/0x7f080049" />
+    </item>
+
+    <item
+        android:state_pressed="true">
+
+        <bitmap
+            android:gravity="0x11"
+            android:src="@ref/0x7f08004b" />
+    </item>
+
+    <item>
+
+        <bitmap
+            android:gravity="0x11"
+            android:src="@ref/0x7f08004a" />
+    </item>
+</selector>
+
+tt.privacy.xml
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="0">
+
+    <gradient
+        android:startColor="argb8(0xff73cbfc)"
+        android:endColor="argb8(0xff3f9cf7)"
+        android:angle="0.000000"
+        android:type="0" />
+
+    <corners
+        android:radius="dimension(5633)" />
+
+    <size
+        android:height="dimension(11009)"
+        android:width="dimension(66049)" />
+</shape>
+
+style.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@ref/0x01020000">
+
+        <shape
+            android:shape="0">
+
+            <corners
+                android:radius="dimension(1)" />
+
+            <solid
+                android:color="argb8(0xffaaaaaa)" />
+        </shape>
+    </item>
+
+    <item
+        android:id="@ref/0x0102000d">
+
+        <clip>
+
+            <shape
+                android:shape="0">
+
+                <corners
+                    android:radius="dimension(1)" />
+
+                <solid
+                    android:color="argb8(0xff09bb07)" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>
+
+action.xml
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@ref/0x01020000">
+
+        <shape
+            android:shape="0">
+
+            <corners
+                android:radius="dimension(1)" />
+
+            <solid
+                android:color="argb8(0xffaaaaaa)" />
+        </shape>
+    </item>
+
+    <item
+        android:id="@ref/0x0102000d">
+
+        <clip>
+
+            <shape
+                android:shape="0">
+
+                <corners
+                    android:radius="dimension(1)" />
+
+                <solid
+                    android:color="argb8(0xff09bb07)" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>
+
+
+delete.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="dimension(6145)"
+    android:width="dimension(6145)"
+    android:viewportWidth="1103101952.000000"
+    android:viewportHeight="1103101952.000000">
+
+    <path
+        android:fillColor="argb8(0xff000000)"
+        android:pathData="M19,6.41L17.59,5 12,10.59 6.41,5 5,6.41 10.59,12 5,17.59 6.41,19 12,13.41 17.59,19 19,17.59 13.41,12z" />
+</vector>
+
+progress.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@ref/0x01020000">
+
+        <shape
+            android:shape="0">
+
+            <corners
+                android:radius="dimension(769)" />
+
+            <solid
+                android:color="argb8(0x4dfc625c)" />
+        </shape>
+    </item>
+
+    <item
+        android:id="@ref/0x0102000d">
+
+        <clip>
+
+            <shape
+                android:shape="0">
+
+                <corners
+                    android:radius="dimension(769)" />
+
+                <solid
+                    android:color="argb8(0xfffc625c)" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>
+
+elevate.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+
+        <shape
+            android:dither="true"
+            android:shape="0">
+
+            <corners
+                android:radius="dimension(513)" />
+
+            <solid
+                android:color="@ref/0x7f0600b6" />
+        </shape>
+    </item>
+
+    <item
+        android:bottom="dimension(257)">
+
+        <shape
+            android:dither="true"
+            android:shape="0">
+
+            <corners
+                android:radius="dimension(513)" />
+
+            <solid
+                android:color="@ref/0x0106000b" />
+        </shape>
+    </item>
+</layer-list>
+
+api.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:tint="@attr/0x7f0400b2"
+    android:height="dimension(6145)"
+    android:width="dimension(6145)"
+    android:viewportWidth="1103101952.000000"
+    android:viewportHeight="1103101952.000000">
+
+    <path
+        android:fillColor="@ref/0x0106000b"
+        android:pathData="M10,6l-1.4,1.4 4.599999,4.6 -4.599999,4.6 1.4,1.4 6,-6z" />
+</vector>
+
+reading.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="dimension(6145)"
+    android:width="dimension(6145)"
+    android:viewportWidth="1103101952.000000"
+    android:viewportHeight="1103101952.000000">
+
+    <path
+        android:fillColor="argb8(0xff000000)"
+        android:pathData="M14,17L4,17v2h10v-2zM20,9L4,9v2h16L20,9zM4,15h16v-2L4,13v2zM4,5v2h16L20,5L4,5z" />
+</vector>
+
+back.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="dimension(6145)"
+    android:width="dimension(6145)"
+    android:viewportWidth="1103101952.000000"
+    android:viewportHeight="1103101952.000000">
+
+    <path
+        android:fillColor="argb8(0xff000000)"
+        android:pathData="M20,11H7.83l5.59,-5.59L12,4l-8,8 8,8 1.41,-1.41L7.83,13H20v-2z" />
+</vector>
+
+szie.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="dimension(6145)"
+    android:width="dimension(6145)"
+    android:viewportWidth="1103101952.000000"
+    android:viewportHeight="1103101952.000000">
+
+    <path
+        android:fillColor="argb8(0xff000000)"
+        android:pathData="M2.5,4v3h5v12h3L10.5,7h5L15.5,4h-13zM21.5,9h-9v3h3v7h3v-7h3L21.5,9z" />
+</vector>
+
+reward.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@ref/0x0102000d">
+
+        <scale
+            android:scaleWidth="100%">
+
+            <shape
+                android:shape="0">
+
+                <corners
+                    android:radius="dimension(3841)" />
+
+                <solid
+                    android:color="argb8(0xceffffff)" />
+            </shape>
+        </scale>
+    </item>
+</layer-list>
+
+foward.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="dimension(6145)"
+    android:width="dimension(6145)"
+    android:viewportWidth="1103101952.000000"
+    android:viewportHeight="1103101952.000000">
+
+    <path
+        android:fillColor="argb8(0xff000000)"
+        android:pathData="M12,4l-1.41,1.41L16.17,11H4v2h12.17l-5.58,5.59L12,20l8,-8z" />
+</vector>
+
+horitonzonal.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@ref/0x01020000">
+
+        <shape>
+
+            <corners
+                android:radius="dimension(513)" />
+
+            <solid
+                android:color="@ref/0x7f0600e1" />
+        </shape>
+    </item>
+
+    <item
+        android:id="@ref/0x0102000d">
+
+        <clip>
+
+            <shape>
+
+                <corners
+                    android:radius="dimension(513)" />
+
+                <solid
+                    android:color="@ref/0x7f0600e6" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>
+
+holo.dark.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_window_focused="false"
+        android:drawable="@ref/0x0106000d" />
+
+    <item
+        android:state_focused="true"
+        android:state_enabled="false"
+        android:state_pressed="true"
+        android:drawable="@ref/0x7f080040" />
+
+    <item
+        android:state_focused="true"
+        android:state_enabled="false"
+        android:drawable="@ref/0x7f080040" />
+
+    <item
+        android:state_focused="true"
+        android:state_pressed="true"
+        android:drawable="@ref/0x7f08003e" />
+
+    <item
+        android:state_focused="false"
+        android:state_pressed="true"
+        android:drawable="@ref/0x7f08003e" />
+
+    <item
+        android:state_focused="true"
+        android:drawable="@ref/0x7f08003a" />
+</selector>
+
+holo.light.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_window_focused="false"
+        android:drawable="@ref/0x0106000d" />
+
+    <item
+        android:state_focused="true"
+        android:state_enabled="false"
+        android:state_pressed="true"
+        android:drawable="@ref/0x7f080041" />
+
+    <item
+        android:state_focused="true"
+        android:state_enabled="false"
+        android:drawable="@ref/0x7f080041" />
+
+    <item
+        android:state_focused="true"
+        android:state_pressed="true"
+        android:drawable="@ref/0x7f08003f" />
+
+    <item
+        android:state_focused="false"
+        android:state_pressed="true"
+        android:drawable="@ref/0x7f08003f" />
+
+    <item
+        android:state_focused="true"
+        android:drawable="@ref/0x7f08003a" />
+</selector>
+
+test.xml
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="dimension(6145)"
+    android:width="dimension(6145)"
+    android:viewportWidth="1103101952.000000"
+    android:viewportHeight="1103101952.000000">
+
+    <path
+        android:fillColor="@ref/0x0106000b"
+        android:pathData="M20,11L7.8,11l5.6,-5.6L12,4l-8,8l8,8l1.4,-1.4L7.8,13L20,13L20,11z" />
+</vector>
+
+background.xml
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="0">
+
+    <size
+        android:height="dimension(3073)"
+        android:width="dimension(8193)" />
+
+    <solid
+        android:color="argb8(0x20000000)" />
+
+    <corners
+        android:topLeftRadius="dimension(769)"
+        android:topRightRadius="dimension(769)"
+        android:bottomLeftRadius="dimension(769)"
+        android:bottomRightRadius="dimension(769)" />
+</shape>
+
+scroll.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@ref/0x01020000">
+
+        <shape>
+
+            <gradient
+                android:startColor="argb8(0x66dedede)"
+                android:endColor="argb8(0x66dedede)"
+                android:angle="1110704128.000000" />
+
+            <corners
+                android:radius="dimension(1025)" />
+        </shape>
+    </item>
+</layer-list>
+
+list.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+
+        <shape
+            android:shape="1">
+
+            <solid
+                android:color="argb8(0x20000000)" />
+        </shape>
+    </item>
+
+    <item
+        android:drawable="@ref/0x7f0802c1"
+        android:left="dimension(513)"
+        android:top="dimension(513)"
+        android:right="dimension(513)"
+        android:bottom="dimension(513)" />
+</layer-list>
+
+btn.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_pressed="true">
+
+        <shape
+            android:shape="0">
+
+            <solid
+                android:color="argb8(0x33f32830)" />
+
+            <corners
+                android:radius="dimension(1025)" />
+        </shape>
+    </item>
+
+    <item>
+
+        <shape
+            android:shape="0">
+
+            <solid
+                android:color="argb8(0xfff32830)" />
+
+            <corners
+                android:radius="dimension(1025)" />
+        </shape>
+    </item>
+</selector>
+
+collapse.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="dimension(6145)"
+    android:width="dimension(6145)"
+    android:viewportWidth="1103101952.000000"
+    android:viewportHeight="1103101952.000000">
+
+    <path
+        android:fillColor="argb8(0xff000000)"
+        android:pathData="M12,8l-6,6 1.41,1.41L12,10.83l4.59,4.58L18,14z" />
+</vector>
+
+expand.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="dimension(6145)"
+    android:width="dimension(6145)"
+    android:viewportWidth="1103101952.000000"
+    android:viewportHeight="1103101952.000000">
+
+    <path
+        android:fillColor="argb8(0xff000000)"
+        android:pathData="M16.59,8.59L12,13.17 7.41,8.59 6,10l6,6 6,-6z" />
+</vector>
+
+selector.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_pressed="true">
+
+        <shape
+            android:shape="0">
+
+            <solid
+                android:color="@ref/0x7f0600d8" />
+
+            <corners
+                android:radius="dimension(1281)" />
+        </shape>
+    </item>
+
+    <item
+        android:state_pressed="false">
+
+        <shape
+            android:shape="0">
+
+            <solid
+                android:color="@ref/0x7f0600d7" />
+
+            <corners
+                android:radius="dimension(1281)" />
+        </shape>
+    </item>
+</selector>
+
+balack.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="dimension(6145)"
+    android:width="dimension(6145)"
+    android:viewportWidth="1103101952.000000"
+    android:viewportHeight="1103101952.000000">
+
+    <path
+        android:fillColor="argb8(0xff000000)"
+        android:pathData="M9,16.2L4.8,12l-1.4,1.4L9,19 21,7l-1.4,-1.4L9,16.2z" />
+</vector>
+
+background.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<inset
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:insetLeft="dimension(4097)"
+    android:insetRight="dimension(4097)"
+    android:insetTop="dimension(4097)"
+    android:insetBottom="dimension(4097)">
+
+    <shape
+        android:shape="0">
+
+        <corners
+            android:radius="@ref/0x7f07001b" />
+
+        <solid
+            android:color="@ref/0x0106000b" />
+    </shape>
+</inset>
+
+home.xml
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="dimension(6145)"
+    android:width="dimension(6145)"
+    android:viewportWidth="1103101952.000000"
+    android:viewportHeight="1103101952.000000">
+
+    <path
+        android:fillColor="argb8(0xff000000)"
+        android:pathData="M10,20v-6h4v6h5v-8h3L12,3 2,12h3v8z" />
+</vector>
+
+holo.dark.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_focused="true"
+        android:state_enabled="false"
+        android:state_pressed="true"
+        android:drawable="@ref/0x7f080040" />
+
+    <item
+        android:state_focused="true"
+        android:state_enabled="false"
+        android:drawable="@ref/0x7f080040" />
+
+    <item
+        android:state_focused="true"
+        android:state_pressed="true"
+        android:drawable="@ref/0x7f08003e" />
+
+    <item
+        android:state_focused="false"
+        android:state_pressed="true"
+        android:drawable="@ref/0x7f08003e" />
+
+    <item
+        android:state_focused="true"
+        android:drawable="@ref/0x7f08003a" />
+
+    <item
+        android:drawable="@ref/0x0106000d" />
+</selector>
+
+holo.light.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_focused="true"
+        android:state_enabled="false"
+        android:state_pressed="true"
+        android:drawable="@ref/0x7f080041" />
+
+    <item
+        android:state_focused="true"
+        android:state_enabled="false"
+        android:drawable="@ref/0x7f080041" />
+
+    <item
+        android:state_focused="true"
+        android:state_pressed="true"
+        android:drawable="@ref/0x7f08003f" />
+
+    <item
+        android:state_focused="false"
+        android:state_pressed="true"
+        android:drawable="@ref/0x7f08003f" />
+
+    <item
+        android:state_focused="true"
+        android:drawable="@ref/0x7f08003a" />
+
+    <item
+        android:drawable="@ref/0x0106000d" />
+</selector>
+
+plus.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="dimension(6145)"
+    android:width="dimension(6145)"
+    android:viewportWidth="1103101952.000000"
+    android:viewportHeight="1103101952.000000">
+
+    <path
+        android:fillColor="argb8(0xff000000)"
+        android:pathData="M19,13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z" />
+</vector>
+
+send.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="dimension(6145)"
+    android:width="dimension(6145)"
+    android:viewportWidth="1103101952.000000"
+    android:viewportHeight="1103101952.000000">
+
+    <path
+        android:fillColor="argb8(0xffffffff)"
+        android:pathData="M2,21L23,12L2,3V10L17,12L2,14V21Z" />
+</vector>
+
+track.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@ref/0x01020000"
+        android:drawable="@ref/0x7f0800ba" />
+
+    <item
+        android:id="@ref/0x0102000f">
+
+        <scale
+            android:drawable="@ref/0x7f0800ba"
+            android:scaleWidth="100%" />
+    </item>
+
+    <item
+        android:id="@ref/0x0102000d">
+
+        <scale
+            android:drawable="@ref/0x7f0800ba"
+            android:scaleWidth="100%" />
+    </item>
+</layer-list>
+
+logo.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="0">
+
+    <corners
+        android:topRightRadius="dimension(513)" />
+
+    <solid
+        android:color="argb8(0x40222222)" />
+
+    <size
+        android:height="dimension(120795937)"
+        android:width="dimension(306184225)" />
+</shape>
+
+logo.bg.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="0">
+
+    <corners
+        android:topRightRadius="dimension(513)" />
+
+    <solid
+        android:color="argb8(0x25222222)" />
+
+    <size
+        android:height="dimension(120795937)"
+        android:width="dimension(306184225)" />
+</shape>
+
+bg.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="0">
+
+    <solid
+        android:color="@ref/0x7f0600d7" />
+
+    <corners
+        android:radius="dimension(513)"
+        android:topLeftRadius="dimension(1281)"
+        android:topRightRadius="dimension(1281)"
+        android:bottomLeftRadius="dimension(1)"
+        android:bottomRightRadius="dimension(1)" />
+</shape>
+
+draw.beginxml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+
+        <shape>
+
+            <stroke
+                android:width="dimension(257)"
+                android:color="@ref/0x7f0600d0" />
+
+            <solid
+                android:color="@ref/0x7f0600d0" />
+
+            <corners
+                android:radius="dimension(1024)" />
+        </shape>
+    </item>
+</selector>
+
+banner.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="0">
+
+    <size
+        android:height="dimension(6401)"
+        android:width="dimension(25089)" />
+
+    <corners
+        android:radius="dimension(4865)" />
+
+    <solid
+        android:color="argb8(0xff2f87f8)" />
+
+    <corners
+        android:radius="dimension(513)" />
+</shape>
+
+drawable.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@ref/0x01020000">
+
+        <shape>
+
+            <solid
+                android:color="argb8(0x0)" />
+        </shape>
+    </item>
+
+    <item
+        android:id="@ref/0x0102000d">
+
+        <clip>
+
+            <shape>
+
+                <solid
+                    android:color="argb8(0xff03a9f4)" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>
+
+meterail.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_focused="true"
+        android:state_enabled="true"
+        android:drawable="@ref/0x7f080060" />
+
+    <item
+        android:state_enabled="true"
+        android:drawable="@ref/0x7f080060"
+        android:state_activated="true" />
+
+    <item
+        android:state_enabled="true"
+        android:drawable="@ref/0x7f080061" />
+
+    <item
+        android:drawable="@ref/0x7f080061" />
+</selector>
+
+dark.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_enabled="true"
+        android:state_checked="true"
+        android:drawable="@ref/0x7f0801f6" />
+
+    <item
+        android:state_enabled="true"
+        android:state_checkable="true"
+        android:drawable="@ref/0x7f0801f8" />
+
+    <item
+        android:state_enabled="true"
+        android:drawable="@ref/0x7f0801de" />
+
+    <item
+        android:drawable="@ref/0x7f0801dc" />
+</selector>
+
+light.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_enabled="true"
+        android:state_checked="true"
+        android:drawable="@ref/0x7f0801f7" />
+
+    <item
+        android:state_enabled="true"
+        android:state_checkable="true"
+        android:drawable="@ref/0x7f0801f9" />
+
+    <item
+        android:state_enabled="true"
+        android:drawable="@ref/0x7f0801df" />
+
+    <item
+        android:drawable="@ref/0x7f0801dd" />
+</selector>
+
+download.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_pressed="true">
+
+        <shape
+            android:shape="0">
+
+            <solid
+                android:color="argb8(0xff2582c3)" />
+        </shape>
+    </item>
+
+    <item>
+
+        <shape
+            android:shape="0">
+
+            <solid
+                android:color="argb8(0xff2a90d7)" />
+        </shape>
+    </item>
+</selector>
+
+card.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+
+        <shape
+            android:dither="true"
+            android:shape="0">
+
+            <corners
+                android:radius="dimension(513)" />
+
+            <solid
+                android:color="@ref/0x0106000b" />
+        </shape>
+    </item>
+</layer-list>
+
+transparet.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+
+        <shape
+            android:dither="true"
+            android:shape="0">
+
+            <corners
+                android:radius="dimension(4609)" />
+
+            <solid
+                android:color="argb8(0x55ffffff)" />
+        </shape>
+    </item>
+</layer-list>
+
+rounded.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+
+        <shape
+            android:dither="true"
+            android:shape="0">
+
+            <corners
+                android:radius="dimension(4609)" />
+
+            <solid
+                android:color="@ref/0x0106000b" />
+        </shape>
+    </item>
+</layer-list>
+
+shape:xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_pressed="false">
+
+        <shape
+            android:shape="1">
+
+            <solid
+                android:color="argb8(0x44444488)" />
+        </shape>
+    </item>
+
+    <item
+        android:state_pressed="true">
+
+        <shape
+            android:shape="1">
+
+            <solid
+                android:color="argb8(0x55555566)" />
+        </shape>
+    </item>
+</selector>
+
+
+conntroller.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_enabled="true"
+        android:state_selected="false"
+        android:drawable="@ref/0x7f0802eb" />
+
+    <item
+        android:state_enabled="true"
+        android:state_selected="true"
+        android:drawable="@ref/0x7f0802e9" />
+
+    <item
+        android:state_enabled="false"
+        android:state_selected="false"
+        android:drawable="@ref/0x7f0802ea" />
+
+    <item
+        android:state_enabled="false"
+        android:state_selected="true"
+        android:drawable="@ref/0x7f0802e8" />
+
+    <item
+        android:drawable="@ref/0x7f0802eb" />
+</selector>
+
+selector.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_pressed="true">
+
+        <shape
+            android:shape="0">
+
+            <solid
+                android:color="@ref/0x7f0600d8" />
+        </shape>
+    </item>
+
+    <item
+        android:state_pressed="false">
+
+        <shape
+            android:shape="0">
+
+            <solid
+                android:color="@ref/0x7f0600d7" />
+        </shape>
+    </item>
+</selector>
+
+bg.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="0">
+
+    <solid
+        android:color="argb8(0xff007aff)" />
+
+    <corners
+        android:topLeftRadius="dimension(4609)"
+        android:topRightRadius="dimension(4609)"
+        android:bottomLeftRadius="dimension(4609)"
+        android:bottomRightRadius="dimension(4609)" />
+</shape>
+
+item.background.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_pressed="true">
+
+        <shape
+            android:shape="0">
+
+            <solid
+                android:color="argb8(0xffff0000)" />
+        </shape>
+    </item>
+
+    <item>
+
+        <shape
+            android:shape="0">
+
+            <solid
+                android:color="argb8(0xffffffff)" />
+        </shape>
+    </item>
+</selector>
+
+toolbar.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+
+        <shape
+            android:shape="0">
+
+            <solid
+                android:color="@ref/0x7f0600b7" />
+        </shape>
+    </item>
+
+    <item
+        android:bottom="dimension(257)">
+
+        <shape
+            android:shape="0">
+
+            <solid
+                android:color="@ref/0x7f0600aa" />
+        </shape>
+    </item>
+</layer-list>
+
+dark.elevate.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+
+        <shape
+            android:shape="0">
+
+            <solid
+                android:color="@ref/0x7f0600b8" />
+        </shape>
+    </item>
+
+    <item
+        android:bottom="dimension(257)">
+
+        <shape
+            android:shape="0">
+
+            <solid
+                android:color="@ref/0x7f0600ab" />
+        </shape>
+    </item>
+</layer-list>
+
+placeholder.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="0">
+
+    <solid
+        android:color="argb8(0xfff2f2f2)" />
+
+    <size
+        android:height="dimension(15361)"
+        android:width="dimension(15361)" />
+
+    <corners
+        android:radius="dimension(1025)" />
+</shape>
+
+black.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+
+        <shape
+            android:shape="0">
+
+            <solid
+                android:color="@ref/0x7f060033" />
+        </shape>
+    </item>
+
+    <item
+        android:bottom="dimension(257)">
+
+        <shape
+            android:shape="0">
+
+            <solid
+                android:color="@ref/0x7f060033" />
+        </shape>
+    </item>
+</layer-list>
+
+rating bar.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@ref/0x01020000"
+        android:drawable="@ref/0x7f080030" />
+
+    <item
+        android:id="@ref/0x0102000f"
+        android:drawable="@ref/0x7f080033" />
+
+    <item
+        android:id="@ref/0x0102000d">
+
+        <bitmap
+            android:src="@ref/0x7f080030" />
+    </item>
+</layer-list>
+
+ratnigbar2.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@ref/0x01020000"
+        android:drawable="@ref/0x7f080031" />
+
+    <item
+        android:id="@ref/0x0102000f"
+        android:drawable="@ref/0x7f080034" />
+
+    <item
+        android:id="@ref/0x0102000d">
+
+        <bitmap
+            android:src="@ref/0x7f080031" />
+    </item>
+</layer-list>
+
+btn.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@ref/0x7f0800fc" />
+
+    <item
+        android:left="dimension(-9215)">
+
+        <bitmap
+            android:gravity="0x13"
+            android:src="@ref/0x7f080121" />
+    </item>
+</layer-list>
+
+small.meterial.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@ref/0x01020000"
+        android:drawable="@ref/0x7f08002f" />
+
+    <item
+        android:id="@ref/0x0102000f"
+        android:drawable="@ref/0x7f080032" />
+
+    <item
+        android:id="@ref/0x0102000d">
+
+        <bitmap
+            android:src="@ref/0x7f08002f" />
+    </item>
+</layer-list>
+
+commnet.tv.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="0">
+
+    <stroke
+        android:width="dimension(1073741873)"
+        android:color="argb8(0xf161823)" />
+
+    <corners
+        android:radius="dimension(1025)" />
+
+    <solid
+        android:color="argb8(0xffffffff)" />
+</shape>
+
+normal.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@ref/0x7f080101" />
+
+    <item
+        android:left="dimension(-9215)">
+
+        <bitmap
+            android:gravity="0x13"
+            android:src="@ref/0x7f080121" />
+    </item>
+</layer-list>
+
+background.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="0">
+
+    <solid
+        android:color="@ref/0x7f0600ff" />
+
+    <stroke
+        android:width="dimension(1073741873)"
+        android:color="@ref/0x7f060078" />
+
+    <corners
+        android:radius="dimension(1025)" />
+</shape>
+
+border.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="0">
+
+    <corners
+        android:radius="dimension(513)" />
+
+    <solid
+        android:color="@ref/0x0106000d" />
+
+    <stroke
+        android:width="dimension(257)"
+        android:color="@ref/0x7f06001e" />
+</shape>
+
+normal.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="1">
+
+    <solid
+        android:color="argb8(0xffffffff)" />
+
+    <size
+        android:height="dimension(3841)"
+        android:width="dimension(3841)" />
+
+    <stroke
+        android:width="dimension(257)"
+        android:color="@ref/0x7f0600fd" />
+</shape>
+
+press.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="1">
+
+    <solid
+        android:color="argb8(0xffffffff)" />
+
+    <size
+        android:height="dimension(5633)"
+        android:width="dimension(5633)" />
+
+    <stroke
+        android:width="dimension(257)"
+        android:color="@ref/0x7f0600fd" />
+</shape>
+
+bk.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="0">
+
+    <corners
+        android:radius="dimension(7681)" />
+
+    <solid
+        android:color="@ref/0x7f0600f5" />
+
+    <stroke
+        android:width="dimension(257)"
+        android:color="@ref/0x7f0600fe" />
+</shape>
+
+fullscreen.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="1">
+
+    <solid
+        android:color="argb8(0xffffffff)" />
+
+    <size
+        android:height="dimension(4609)"
+        android:width="dimension(4609)" />
+
+    <stroke
+        android:width="dimension(257)"
+        android:color="@ref/0x0106000d" />
+</shape>
+
+press.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="1">
+
+    <solid
+        android:color="argb8(0xffffffff)" />
+
+    <size
+        android:height="dimension(4609)"
+        android:width="dimension(4609)" />
+
+    <stroke
+        android:width="dimension(257)"
+        android:color="@ref/0x0106000d" />
+</shape>
+
+three.left.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <stroke
+        android:width="dimension(12582945)"
+        android:color="argb8(0xffabacb0)" />
+
+    <corners
+        android:topLeftRadius="dimension(1537)"
+        android:bottomLeftRadius="dimension(1537)" />
+</shape>
+
+right.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <stroke
+        android:width="dimension(12582945)"
+        android:color="argb8(0xffabacb0)" />
+
+    <corners
+        android:topRightRadius="dimension(1537)"
+        android:bottomRightRadius="dimension(1537)" />
+</shape>
+
+bg.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="0">
+
+    <gradient
+        android:startColor="argb8(0x80000000)"
+        android:endColor="argb8(0x0)"
+        android:useLevel="true"
+        android:angle="1119092736.000000"
+        android:type="0" />
+</shape>
+
+countdown.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="1"
+    android:useLevel="false">
+
+    <solid
+        android:color="argb8(0x99333333)" />
+
+    <size
+        android:height="dimension(7169)"
+        android:width="dimension(7169)" />
+</shape>
+
+indicccator.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+
+        <shape
+            android:shape="0">
+
+            <solid
+                android:color="@ref/0x0106000b" />
+
+            <size
+                android:height="dimension(513)" />
+        </shape>
+    </item>
+</selector>
+
+loading.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <stroke
+        android:width="dimension(12582945)"
+        android:color="argb8(0xffffffff)" />
+
+    <corners
+        android:topRightRadius="dimension(1537)"
+        android:bottomRightRadius="dimension(1537)" />
+</shape>
+
+dialog.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <solid
+        android:color="argb8(0xffffffff)" />
+
+    <stroke
+        android:width="dimension(1717987121)"
+        android:color="argb8(0xffffffff)" />
+
+    <corners
+        android:radius="dimension(1537)" />
+</shape>
+
+background.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@ref/0x7f0800ac">
+
+        <shape
+            android:shape="0">
+
+            <corners
+                android:radius="dimension(2049)" />
+        </shape>
+    </item>
+</layer-list>
+
+three.left.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <stroke
+        android:width="dimension(12582945)"
+        android:color="argb8(0xffffffff)" />
+
+    <corners
+        android:topLeftRadius="dimension(1537)"
+        android:bottomLeftRadius="dimension(1537)" />
+</shape>
+
+bar.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<rotate
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@ref/0x010a000b"
+    android:drawable="@ref/0x7f080342"
+    android:fromDegrees="0.000000"
+    android:toDegrees="1135869952.000000"
+    android:pivotX="fraction(1073741872)"
+    android:pivotY="fraction(1073741872)" />
+
+dark.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_enabled="false"
+        android:drawable="@ref/0x7f0800f4" />
+
+    <item
+        android:state_focused="true"
+        android:drawable="@ref/0x7f0800f1" />
+
+    <item
+        android:drawable="@ref/0x7f0800f2" />
+</selector>
+
+light.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_enabled="false"
+        android:drawable="@ref/0x7f0800f4" />
+
+    <item
+        android:state_focused="true"
+        android:drawable="@ref/0x7f0800f6" />
+
+    <item
+        android:drawable="@ref/0x7f0800f7" />
+</selector>
+
+dark.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_enabled="false"
+        android:drawable="@ref/0x7f0800fd" />
+
+    <item
+        android:state_focused="true"
+        android:drawable="@ref/0x7f0800fa" />
+
+    <item
+        android:drawable="@ref/0x7f0800fb" />
+</selector>
+
+style.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@ref/0x01020000"
+        android:drawable="@ref/0x7f08034d" />
+
+    <item
+        android:id="@ref/0x0102000f"
+        android:width="dimension(3585)"
+        android:drawable="@ref/0x7f08034d" />
+
+    <item
+        android:id="@ref/0x0102000d"
+        android:drawable="@ref/0x7f08034e" />
+</layer-list>
+
+dark.normal.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@ref/0x7f0800f3" />
+
+    <item>
+
+        <bitmap
+            android:gravity="0x11"
+            android:src="@ref/0x7f080121" />
+    </item>
+</layer-list>
+
+connecting.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+
+    <item
+        android:duration="500"
+        android:drawable="@ref/0x7f0800d6" />
+
+    <item
+        android:duration="500"
+        android:drawable="@ref/0x7f0800d7" />
+
+    <item
+        android:duration="500"
+        android:drawable="@ref/0x7f0800d8" />
+
+    <item
+        android:duration="500"
+        android:drawable="@ref/0x7f0800d7" />
+</animation-list>
+
+normal.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@ref/0x7f0800f8" />
+
+    <item>
+
+        <bitmap
+            android:gravity="0x11"
+            android:src="@ref/0x7f080121" />
+    </item>
+</layer-list>
+
+text light.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_enabled="false"
+        android:drawable="@ref/0x7f0800fd" />
+
+    <item
+        android:state_focused="true"
+        android:drawable="@ref/0x7f0800ff" />
+
+    <item
+        android:drawable="@ref/0x7f080100" />
+</selector>
+
+rectangle.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="0">
+
+    <corners
+        android:radius="dimension(1281)" />
+
+    <padding
+        android:top="dimension(2561)" />
+
+    <solid
+        android:color="@ref/0x7f0600ff" />
+</shape>
+
+
+tt.shadow.sml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_pressed="true"
+        android:drawable="@ref/0x7f08036a" />
+
+    <item
+        android:state_enabled="false"
+        android:drawable="@ref/0x7f08036a" />
+
+    <item
+        android:drawable="@ref/0x7f080369" />
+</selector>
+
+back.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_pressed="true"
+        android:drawable="@ref/0x7f08036b" />
+
+    <item
+        android:state_enabled="false"
+        android:drawable="@ref/0x7f08036b" />
+
+    <item
+        android:drawable="@ref/0x7f08036c" />
+</selector>
+
+meterial.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_focused="true"
+        android:drawable="@ref/0x7f080017" />
+
+    <item
+        android:state_pressed="true"
+        android:drawable="@ref/0x7f080017" />
+
+    <item
+        android:drawable="@ref/0x0106000d" />
+</selector>
+
+low.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:exitFadeDuration="@ref/0x010e0001">
+
+    <item
+        android:state_pressed="true"
+        android:drawable="@ref/0x7f080213" />
+
+    <item
+        android:state_pressed="false"
+        android:drawable="@ref/0x7f080212" />
+</selector>
+
+about.xml
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="0">
+
+    <gradient
+        android:startColor="argb8(0xff94bc01)"
+        android:endColor="argb8(0xffc9dd02)"
+        android:angle="1110704128.000000" />
+</shape>
+
+graient.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <gradient
+        android:startColor="argb8(0xbbbbbb)"
+        android:endColor="argb8(0x77444444)"
+        android:angle="-1028390912.000000"
+        android:type="0" />
+</shape>
+
+dark.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_pressed="true"
+        android:drawable="@ref/0x7f0600bd" />
+
+    <item
+        android:drawable="@ref/0x7f0600bd"
+        android:state_activated="true" />
+</selector>
+
+light.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_pressed="true"
+        android:drawable="@ref/0x7f0600be" />
+
+    <item
+        android:drawable="@ref/0x7f0600be"
+        android:state_activated="true" />
+</selector>
+
+icon.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="0">
+
+    <solid
+        android:color="@ref/0x0106000d" />
+
+    <size
+        android:height="@ref/0x7f07009d"
+        android:width="@ref/0x7f07009d" />
+</shape>
+
+circle.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="1">
+
+    <size
+        android:height="dimension(15361)"
+        android:width="dimension(15361)" />
+
+    <stroke
+        android:width="dimension(257)"
+        android:color="argb8(0x80ffffff)" />
+</shape>
+
+meterail.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="1">
+
+    <size
+        android:height="@ref/0x7f070032"
+        android:width="@ref/0x7f070032" />
+
+    <solid
+        android:color="@ref/0x0106000b" />
+</shape>
+
+graident.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <gradient
+        android:startColor="@ref/0x7f0600f4"
+        android:endColor="@ref/0x7f0600f3"
+        android:angle="1132920832.000000"
+        android:type="0" />
+</shape>
+
+bg.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_pressed="true"
+        android:drawable="@ref/0x7f060075" />
+
+    <item
+        android:drawable="@ref/0x7f060075"
+        android:state_activated="true" />
+</selector>
+
+caption.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_enabled="true"
+        android:drawable="@ref/0x7f0802c9" />
+
+    <item
+        android:state_enabled="false"
+        android:drawable="@ref/0x7f0802c8" />
+
+    <item
+        android:drawable="@ref/0x7f0802c9" />
+</selector>
+
+foward.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_enabled="true"
+        android:drawable="@ref/0x7f0802cd" />
+
+    <item
+        android:state_enabled="false"
+        android:drawable="@ref/0x7f0802cb" />
+
+    <item
+        android:drawable="@ref/0x7f0802cd" />
+</selector>
+
+pause.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_enabled="true"
+        android:drawable="@ref/0x7f0802d0" />
+
+    <item
+        android:state_enabled="false"
+        android:drawable="@ref/0x7f0802cf" />
+
+    <item
+        android:drawable="@ref/0x7f0802d0" />
+</selector>
+
+play.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_enabled="true"
+        android:drawable="@ref/0x7f0802d8" />
+
+    <item
+        android:state_enabled="false"
+        android:drawable="@ref/0x7f0802d7" />
+
+    <item
+        android:drawable="@ref/0x7f0802d8" />
+</selector>
+
+rewind.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_enabled="true"
+        android:drawable="@ref/0x7f0802dd" />
+
+    <item
+        android:state_enabled="false"
+        android:drawable="@ref/0x7f0802db" />
+
+    <item
+        android:drawable="@ref/0x7f0802dd" />
+</selector>
+
+skip next.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_enabled="true"
+        android:drawable="@ref/0x7f0802e1" />
+
+    <item
+        android:state_enabled="false"
+        android:drawable="@ref/0x7f0802df" />
+
+    <item
+        android:drawable="@ref/0x7f0802e1" />
+</selector>
+
+skip.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_enabled="true"
+        android:drawable="@ref/0x7f0802e4" />
+
+    <item
+        android:state_enabled="false"
+        android:drawable="@ref/0x7f0802e2" />
+
+    <item
+        android:drawable="@ref/0x7f0802e4" />
+</selector>
+
+bg.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="1">
+
+    <solid
+        android:color="argb8(0x99333333)" />
+
+    <size
+        android:height="dimension(7169)"
+        android:width="dimension(7169)" />
+</shape>
+
+btn.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="1">
+
+    <solid
+        android:color="argb8(0x30333333)" />
+
+    <size
+        android:height="dimension(7169)"
+        android:width="dimension(7169)" />
+</shape>
+
+btn.lag.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="1">
+
+    <solid
+        android:color="argb8(0x99333333)" />
+
+    <size
+        android:height="dimension(7169)"
+        android:width="dimension(7169)" />
+</shape>
+
+ligt.xmll
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <gradient
+        android:startColor="@ref/0x0106000d"
+        android:endColor="@ref/0x0106000c"
+        android:angle="1119092736.000000"
+        android:type="0" />
+</shape>
+
+light.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <gradient
+        android:startColor="@ref/0x0106000c"
+        android:endColor="@ref/0x0106000d"
+        android:angle="1119092736.000000"
+        android:type="0" />
+</shape>
+
+stop.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_enabled="true"
+        android:drawable="@ref/0x7f0800e9" />
+
+    <item
+        android:state_enabled="false"
+        android:drawable="@ref/0x7f0800e8" />
+
+    <item
+        android:drawable="@ref/0x7f0800e9" />
+</selector>
+
+mute.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_selected="false"
+        android:drawable="@ref/0x7f0802ea" />
+
+    <item
+        android:state_selected="true"
+        android:drawable="@ref/0x7f0802e8" />
+
+    <item
+        android:drawable="@ref/0x7f0802ea" />
+</selector>
+
+meterial.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="0">
+
+    <size
+        android:height="dimension(513)"
+        android:width="dimension(513)" />
+
+    <solid
+        android:color="@ref/0x0106000b" />
+</shape>
+
+oval.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="1">
+
+    <size
+        android:height="dimension(12801)"
+        android:width="dimension(12801)" />
+
+    <solid
+        android:color="argb8(0x80ffffff)" />
+</shape>
+
+transparen.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <gradient
+        android:startColor="@ref/0x0106000d"
+        android:endColor="@ref/0x0106000d"
+        android:angle="1119092736.000000"
+        android:type="0" />
+</shape>
+
+meterial.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <solid
+        android:color="argb8(0x1f000000)" />
+
+    <size
+        android:height="dimension(257)"
+        android:width="dimension(257)" />
+</shape>
+
+rating bar.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@ref/0x01020000"
+        android:drawable="@ref/0x7f080067" />
+
+    <item
+        android:id="@ref/0x0102000f"
+        android:drawable="@ref/0x7f080067" />
+
+    <item
+        android:id="@ref/0x0102000d"
+        android:drawable="@ref/0x7f080068" />
+</layer-list>
+
+rating.bar.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@ref/0x01020000"
+        android:drawable="@ref/0x7f08006d" />
+
+    <item
+        android:id="@ref/0x0102000f"
+        android:drawable="@ref/0x7f08006d" />
+
+    <item
+        android:id="@ref/0x0102000d"
+        android:drawable="@ref/0x7f08006e" />
+</layer-list>
+
+top.right.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="0">
+
+    <solid
+        android:color="argb8(0x80222222)" />
+
+    <corners
+        android:topRightRadius="dimension(769)" />
+</shape>
+
+border.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="0">
+
+    <solid
+        android:color="@ref/0x0106000b" />
+
+    <stroke
+        android:width="dimension(257)"
+        android:color="argb8(0xffdfdfdf)" />
+</shape>
+
+b2k.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="0">
+
+    <solid
+        android:color="argb8(0x80222222)" />
+
+    <corners
+        android:topLeftRadius="dimension(5121)" />
+</shape>
+
+prewiwe.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_pressed="true"
+        android:drawable="@ref/0x7f080392" />
+
+    <item
+        android:drawable="@ref/0x7f080391" />
+</selector>
+
+selector.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_pressed="true"
+        android:drawable="@ref/0x7f080383" />
+
+    <item
+        android:drawable="@ref/0x7f080381" />
+</selector>
+
+dark.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_pressed="true"
+        android:drawable="@ref/0x7f080384" />
+
+    <item
+        android:drawable="@ref/0x7f080382" />
+</selector>
+
+meterail.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_selected="true"
+        android:drawable="@ref/0x7f080056" />
+
+    <item
+        android:drawable="@ref/0x0106000d" />
+</selector>
+
+detail.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_pressed="true"
+        android:drawable="@ref/0x7f080321" />
+
+    <item
+        android:drawable="@ref/0x7f080320" />
+</selector>
+
+selector.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_pressed="true"
+        android:drawable="@ref/0x7f08033b" />
+
+    <item
+        android:drawable="@ref/0x7f080339" />
+</selector>
+
+selector dark.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_pressed="true"
+        android:drawable="@ref/0x7f08033c" />
+
+    <item
+        android:drawable="@ref/0x7f08033a" />
+</selector>
+
+textpage.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_pressed="true"
+        android:drawable="@ref/0x7f080340" />
+
+    <item
+        android:drawable="@ref/0x7f08033f" />
+</selector>
+
+meterial.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_checked="true"
+        android:drawable="@ref/0x7f080015" />
+
+    <item
+        android:drawable="@ref/0x7f080014" />
+</selector>
+
+meterial.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_checked="true"
+        android:drawable="@ref/0x7f08001a" />
+
+    <item
+        android:drawable="@ref/0x7f080019" />
+</selector>
+
+thumb meterail.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_checked="true"
+        android:drawable="@ref/0x7f08001c" />
+
+    <item
+        android:drawable="@ref/0x7f08001b" />
+</selector>
+
+passworld.eye.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_checked="true"
+        android:drawable="@ref/0x7f080116" />
+
+    <item
+        android:drawable="@ref/0x7f080117" />
+</selector>
+
+textpage.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_pressed="true"
+        android:drawable="@ref/0x7f080358" />
+
+    <item
+        android:drawable="@ref/0x7f080357" />
+</selector>
+
+thumb.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_pressed="true"
+        android:drawable="@ref/0x7f080365" />
+
+    <item
+        android:drawable="@ref/0x7f080364" />
+</selector>
+
+selector.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_pressed="true"
+        android:drawable="@ref/0x7f080362" />
+
+    <item
+        android:drawable="@ref/0x7f080361" />
+</selector>
+
+textpage.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_pressed="true"
+        android:drawable="@ref/0x7f080341" />
+
+    <item
+        android:drawable="@ref/0x7f080341" />
+</selector>
+
+effect.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_pressed="true"
+        android:color="@ref/0x0106000b" />
+
+    <item
+        android:color="@ref/0x7f06002c" />
+</selector>
+
+border.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="0">
+
+    <solid
+        android:color="argb8(0x88000000)" />
+
+    <stroke
+        android:width="dimension(257)"
+        android:color="@ref/0x01060000" />
+</shape>
+
+text.bg
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="0">
+
+    <solid
+        android:color="argb8(0xc84a4a4a)" />
+
+    <corners
+        android:radius="dimension(3073)" />
+</shape>
+
+didver.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="0">
+
+    <size
+        android:height="dimension(257)" />
+
+    <solid
+        android:color="argb8(0x50ffffff)" />
+</shape>
+
+skip.btn.bg.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="0">
+
+    <solid
+        android:color="argb8(0x99333333)" />
+
+    <corners
+        android:radius="dimension(3585)" />
+</shape>
+
+light.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+
+        <bitmap
+            android:src="@ref/0x7f080135"
+            android:alpha="1063172160.000000" />
+    </item>
+</selector>
+
+light.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+
+        <bitmap
+            android:src="@ref/0x7f08015a"
+            android:alpha="1063172160.000000" />
+    </item>
+</selector>
+
+play.light.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+
+        <bitmap
+            android:src="@ref/0x7f08015c"
+            android:alpha="1063172160.000000" />
+    </item>
+</selector>
+
+audiotrack.light.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+
+        <bitmap
+            android:src="@ref/0x7f080131"
+            android:alpha="1063172160.000000" />
+    </item>
+</selector>
+
+bg2.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="0">
+
+    <solid
+        android:color="argb8(0x66161823)" />
+
+    <corners
+        android:radius="dimension(3585)" />
+</shape>
+
+stop.light.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+
+        <bitmap
+            android:src="@ref/0x7f08015e"
+            android:alpha="1063172160.000000" />
+    </item>
+</selector>
+
+tootrip.frame.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="0">
+
+    <solid
+        android:color="@ref/0x7f0600c6" />
+
+    <corners
+        android:radius="@ref/0x7f070110" />
+</shape>
+
+frame.light.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="0">
+
+    <solid
+        android:color="@ref/0x7f0600c7" />
+
+    <corners
+        android:radius="@ref/0x7f070110" />
+</shape>
+
+privacy.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="0">
+
+    <corners
+        android:radius="dimension(121634849)" />
+
+    <solid
+        android:color="argb8(0xffffffff)" />
+</shape>
+
+new bar.xml
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="0">
+
+    <solid
+        android:color="argb8(0xccffffff)" />
+
+    <corners
+        android:radius="dimension(4609)" />
+</shape>
+
+light.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="0">
+
+    <corners
+        android:radius="dimension(513)" />
+
+    <solid
+        android:color="@ref/0x7f060030" />
+</shape>
+
+background.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="0">
+
+    <corners
+        android:radius="@ref/0x7f0700ef" />
+
+    <solid
+        android:color="@ref/0x7f060065" />
+</shape>
+
+backup.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="0">
+
+    <solid
+        android:color="argb8(0x80222222)" />
+
+    <corners
+        android:radius="dimension(513)" />
+</shape>
+
+install.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="0">
+
+    <corners
+        android:radius="dimension(513)" />
+
+    <solid
+        android:color="@ref/0x7f0600fe" />
+</shape>
+
+install.bk.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="0">
+
+    <corners
+        android:radius="dimension(1025)" />
+
+    <solid
+        android:color="argb8(0xff0088ff)" />
+</shape>
+
+bg.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="0">
+
+    <solid
+        android:color="argb8(0xff0088ff)" />
+
+    <corners
+        android:radius="dimension(1537)" />
+</shape>
+
+background.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="0">
+
+    <corners
+        android:radius="@ref/0x7f0700a4" />
+
+    <solid
+        android:color="@ref/0x7f060065" />
+</shape>
+
+dark.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="0">
+
+    <corners
+        android:radius="dimension(513)" />
+
+    <solid
+        android:color="@ref/0x7f06002f" />
+</shape>
+
+placeholder.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="0">
+
+    <solid
+        android:color="@ref/0x7f06002d" />
+
+    <corners
+        android:radius="dimension(1025)" />
+</shape>
+
+bg.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="0">
+
+    <corners
+        android:radius="dimension(1025)" />
+
+    <solid
+        android:color="argb8(0x26000000)" />
+</shape>
+
+bg.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="0">
+
+    <solid
+        android:color="argb8(0xffffffff)" />
+
+    <corners
+        android:radius="dimension(3585)" />
+</shape>
+
+bg.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="0">
+
+    <corners
+        android:radius="dimension(2049)" />
+
+    <solid
+        android:color="argb8(0xffffffff)" />
+</shape>
+
+rect.banner.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <solid
+        android:color="argb8(0xff55a11f)" />
+
+    <corners
+        android:radius="dimension(769)" />
+</shape>
+
+corner.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <solid
+        android:color="@ref/0x7f0600cf" />
+
+    <corners
+        android:radius="dimension(1025)" />
+</shape>
+
+progressbar.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<animated-rotate
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@ref/0x7f080078"
+    android:pivotX="fraction(1073741872)"
+    android:pivotY="fraction(1073741872)" />
+
+three mid.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <stroke
+        android:width="dimension(12582945)"
+        android:color="argb8(0xffabacb0)" />
+</shape>
+
+holodark.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<transition
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@ref/0x7f08003c" />
+
+    <item
+        android:drawable="@ref/0x7f08003b" />
+</transition>
+
+holo.light.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<transition
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@ref/0x7f08003d" />
+
+    <item
+        android:drawable="@ref/0x7f08003b" />
+</transition>
+
+three.mid.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <stroke
+        android:width="dimension(12582945)"
+        android:color="argb8(0xffffffff)" />
+</shape>
+
+meterail.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@ref/0x7f080017" />
+</layer-list>
+
+bg.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="0">
+
+    <solid
+        android:color="@ref/0x0106000b" />
+</shape>
+
+dark.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@ref/0x7f080134" />
+</selector>
+
+solid.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="1">
+
+    <solid
+        android:color="@ref/0x7f0600e1" />
+</shape>
+
+background.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="1">
+
+    <solid
+        android:color="@ref/0x0106000b" />
+</shape>
+
+ mediapause.dark.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@ref/0x7f080159" />
+</selector>
+
+mediadarkpause.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@ref/0x7f08015b" />
+</selector>
+
+mediastop.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@ref/0x7f08015d" />
+</selector>
+
+vol.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@ref/0x7f080130" />
+</selector>
+
+background.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="1">
+
+    <solid
+        android:color="@ref/0x7f0600a8" />
+</shape>
+
+topxml.
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <solid
+        android:color="@ref/0x0106000b" />
+</shape>
+
+tile.bg.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:src="@ref/0x7f0802be"
+    android:tileMode="1" />
+
+caption.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:src="@ref/0x7f0802c8" />
+
+foward.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:src="@ref/0x7f0802cb" />
+    
+    pause.xml
+    
+    <?xml version="1.0" encoding="utf-8"?>
+<bitmap
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:src="@ref/0x7f0802d1" />
+
+large.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:src="@ref/0x7f0802d2" />
+
+play.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:src="@ref/0x7f0802d4" />
+    
+    xmlverisons.xml
+    
+    <?xml version="1.0" encoding="utf-8"?>
+<bitmap
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:src="@ref/0x7f0802d5" />
+   
+   
+   rewind.xml
+   
+   <?xml version="1.0" encoding="utf-8"?>
+<bitmap
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:src="@ref/0x7f0802db" />
+    
+    skipnext.xml
+    
+    <?xml version="1.0" encoding="utf-8"?>
+<bitmap
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:src="@ref/0x7f0802df" />
+
+skipprev.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:src="@ref/0x7f0802e2" />
+
+stopcontroller.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:src="@ref/0x7f0802e5" />
+    
+    stoplarge.xml
+    
+    <?xml version="1.0" encoding="utf-8"?>
+<bitmap
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:src="@ref/0x7f0802e6" />
+
+disconnet.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:src="@ref/0x7f0802c7" />
+    
+    foward.xml
+    
+    <?xml version="1.0" encoding="utf-8"?>
+<bitmap
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:src="@ref/0x7f0802d9" />
+    
+    foward10.xml
+    <?xml version="1.0" encoding="utf-8"?>
+<bitmap
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:src="@ref/0x7f0802ca" />
+
+foward30.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:src="@ref/0x7f0802cc" />
+
+pause.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:src="@ref/0x7f0802d3" />
+play.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:src="@ref/0x7f0802d6" />
+
+rewnid.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:src="@ref/0x7f0802de" />
+
+rewind.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:src="@ref/0x7f0802da" />
+    
+    rewind30.xml
+    
+    <?xml version="1.0" encoding="utf-8"?>
+<bitmap
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:src="@ref/0x7f0802dc" />
+
+skipnext.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:src="@ref/0x7f0802e0" />
+    
+    skipprev.xml
+    
+    <?xml version="1.0" encoding="utf-8"?>
+<bitmap
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:src="@ref/0x7f0802e3" />
+    
+    smallicon.xml
+    
+    <?xml version="1.0" encoding="utf-8"?>
+<bitmap
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:src="@ref/0x7f0802c5" />
+
+livestream.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:src="@ref/0x7f0802e7" />
+
+
+
+
+
+
+
+
+
