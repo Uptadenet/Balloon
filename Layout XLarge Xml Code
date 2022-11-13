@@ -1,0 +1,242 @@
+widget.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@ref/0x7f090351"
+    android:background="argb8(0xaa000000)"
+    android:layout_width="-1"
+    android:layout_height="-2"
+    android:layout_marginLeft="dimension(2049)"
+    android:layout_marginTop="dimension(2049)"
+    android:layout_marginRight="dimension(2049)"
+    android:layout_marginBottom="dimension(2049)"
+    card_view:cardCornerRadius="dimension(1025)">
+
+    <RelativeLayout
+        android:orientation="0"
+        android:layout_width="-1"
+        android:layout_height="dimension(30721)">
+
+        <LinearLayout
+            android:orientation="0"
+            android:id="@ref/0x7f090227"
+            android:visibility="2"
+            android:layout_width="dimension(64001)"
+            android:layout_height="-1"
+            android:layout_marginLeft="dimension(4097)">
+
+            <TextView
+                android:textSize="dimension(25602)"
+                android:textColor="argb8(0xffffffff)"
+                android:gravity="0x10"
+                android:id="@ref/0x7f090226"
+                android:layout_width="-2"
+                android:layout_height="-1"
+                android:layout_marginTop="dimension(-4095)"
+                android:layout_marginBottom="dimension(4097)"
+                android:text="64°" />
+
+            <RelativeLayout
+                android:orientation="1"
+                android:layout_width="-2"
+                android:layout_height="-1"
+                android:layout_marginBottom="dimension(2049)">
+
+                <TextView
+                    android:textSize="dimension(12290)"
+                    android:textColor="argb8(0xffffffff)"
+                    android:id="@ref/0x7f0900ad"
+                    android:layout_width="-2"
+                    android:layout_height="-2"
+                    android:text="C"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_gravity="0x50"
+            android:orientation="1"
+            android:id="@ref/0x7f09013a"
+            android:layout_width="-1"
+            android:layout_height="-1"
+            android:layout_marginLeft="dimension(2049)"
+            android:layout_marginTop="dimension(4097)"
+            android:layout_marginBottom="dimension(4097)"
+            android:layout_toLeftOf="@ref/0x7f090113"
+            android:layout_toRightOf="@ref/0x7f090227">
+
+            <TextView
+                android:textSize="dimension(10242)"
+                android:textColor="argb8(0xffffffff)"
+                android:gravity="0x10"
+                android:id="@ref/0x7f090139"
+                android:layout_width="-1"
+                android:layout_height="-1"
+                android:text="@ref/0x7f10016a"
+                android:textAlignment="4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_gravity="0x50"
+            android:orientation="1"
+            android:id="@ref/0x7f090113"
+            android:visibility="2"
+            android:layout_width="dimension(64001)"
+            android:layout_height="-1"
+            android:layout_marginTop="dimension(4097)"
+            android:layout_marginRight="dimension(4097)"
+            android:layout_marginBottom="dimension(4097)"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true">
+
+            <TextView
+                android:textSize="dimension(5122)"
+                android:textColor="argb8(0xffffffff)"
+                android:gravity="0x1"
+                android:id="@ref/0x7f090350"
+                android:layout_width="-1"
+                android:layout_height="-2"
+                android:text="Mostly cloudy"
+                android:textAlignment="4" />
+
+            <ImageView
+                android:layout_gravity="0x11"
+                android:id="@ref/0x7f090352"
+                android:layout_width="dimension(12801)"
+                android:layout_height="-1"
+                android:src="@ref/0x7f0802f1" />
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
+
+layout.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:background="@attr/0x101030e"
+    android:focusable="true"
+    android:clickable="true"
+    android:layout_width="-1"
+    android:layout_height="-2">
+
+    <LinearLayout
+        android:orientation="0"
+        android:layout_width="-1"
+        android:layout_height="dimension(25601)">
+
+        <ImageView
+            android:id="@ref/0x7f090112"
+            android:layout_width="dimension(25601)"
+            android:layout_height="-1"
+            android:src="@ref/0x7f0802bf"
+            android:scaleType="6" />
+
+        <RelativeLayout
+            android:orientation="1"
+            android:layout_width="-1"
+            android:layout_height="-1"
+            android:layout_marginLeft="dimension(4097)"
+            android:layout_marginTop="dimension(2049)"
+            android:layout_marginRight="dimension(4097)"
+            android:layout_marginBottom="dimension(2049)">
+
+            <TextView
+                android:textSize="dimension(5122)"
+                android:id="@ref/0x7f09023c"
+                android:layout_width="-1"
+                android:layout_height="-2"
+                android:text="News Title"
+                android:lines="1" />
+
+            <TextView
+                android:ellipsize="3"
+                android:id="@ref/0x7f090229"
+                android:layout_width="-1"
+                android:layout_height="-1"
+                android:text="news body"
+                android:lines="2"
+                android:layout_above="@ref/0x7f0900fd"
+                android:layout_below="@ref/0x7f09023c" />
+
+            <RelativeLayout
+                android:id="@ref/0x7f0900fd"
+                android:layout_width="-1"
+                android:layout_height="dimension(4097)"
+                android:layout_alignParentBottom="true">
+
+                <TextView
+                    android:textSize="dimension(3074)"
+                    android:gravity="0x800003"
+                    android:id="@ref/0x7f0901fd"
+                    android:layout_width="-1"
+                    android:layout_height="-2"
+                    android:text="News Title"
+                    android:lines="1"
+                    android:layout_toLeftOf="@ref/0x7f0900cb"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toStartOf="@ref/0x7f0900cb" />
+
+                <TextView
+                    android:textSize="dimension(3074)"
+                    android:gravity="0x800005"
+                    android:id="@ref/0x7f0900cb"
+                    android:layout_width="-2"
+                    android:layout_height="-2"
+                    android:text="News Title"
+                    android:lines="1"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:textAlignment="6"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>
+
+
+homepage.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="1"
+    android:layout_width="-1"
+    android:layout_height="-1">
+
+    <ImageView
+        android:id="@ref/0x7f090077"
+        android:layout_width="-1"
+        android:layout_height="-1" />
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="-1"
+        android:layout_height="-1">
+
+        <LinearLayout
+            android:orientation="1"
+            android:layout_width="-1"
+            android:layout_height="-1">
+
+            <com.google.android.material.tabs.TabLayout
+                android:layout_gravity="0x3"
+                android:id="@ref/0x7f090213"
+                android:layout_width="-1"
+                android:layout_height="-2"
+                android:minHeight="dimension(12289)"
+                app:tabMode="0">
+
+            </com.google.android.material.tabs.TabLayout>
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@ref/0x7f0901b0"
+                android:layout_width="-1"
+                android:layout_height="-1" />
+        </LinearLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</FrameLayout>
