@@ -1,0 +1,162 @@
+main.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@ref/0x7f09002e"
+        android:title="@ref/0x7f1001bd" />
+
+    <item
+        android:id="@ref/0x7f090048"
+        android:title="@ref/0x7f10003e" />
+
+    <item
+        android:id="@ref/0x7f090042"
+        android:title="@ref/0x7f10003c" />
+
+    <item
+        android:id="@ref/0x7f09004c"
+        android:title="@ref/0x7f100043" />
+
+    <item
+        android:id="@ref/0x7f09003f"
+        android:title="@ref/0x7f10003a" />
+
+    <item
+        android:id="@ref/0x7f09003c"
+        android:title="@ref/0x7f100034" />
+
+    <item
+        android:id="@ref/0x7f09003d"
+        android:title="@ref/0x7f100036" />
+
+    <item
+        android:id="@ref/0x7f09003a"
+        android:title="@ref/0x7f10002f" />
+
+    <item
+        android:id="@ref/0x7f09002d"
+        android:title="@ref/0x7f100028" />
+
+    <item
+        android:id="@ref/0x7f090037"
+        android:title="@ref/0x7f10002d" />
+
+    <item
+        android:id="@ref/0x7f09002c"
+        android:title="@ref/0x7f100027" />
+
+    <item
+        android:id="@ref/0x7f09004a"
+        android:title="@ref/0x7f10018c" />
+
+    <item
+        android:id="@ref/0x7f09004b"
+        android:title="@ref/0x7f10019e" />
+
+    <item
+        android:id="@ref/0x7f09013c"
+        android:title="@ref/0x7f100061" />
+</menu>
+
+incognito.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@ref/0x7f09002e"
+        android:title="@ref/0x7f1001bd" />
+
+    <item
+        android:id="@ref/0x7f090048"
+        android:title="@ref/0x7f10003e" />
+
+    <item
+        android:id="@ref/0x7f09004c"
+        android:title="@ref/0x7f100043" />
+
+    <item
+        android:id="@ref/0x7f09003d"
+        android:title="@ref/0x7f100036" />
+
+    <item
+        android:id="@ref/0x7f09003f"
+        android:title="@ref/0x7f10003a" />
+
+    <item
+        android:id="@ref/0x7f090037"
+        android:title="@ref/0x7f10002d" />
+
+    <item
+        android:id="@ref/0x7f09004a"
+        android:title="@ref/0x7f10018c" />
+</menu>
+
+reading.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:icon="@ref/0x7f080129"
+        android:id="@ref/0x7f09011d"
+        android:title="@ref/0x7f100124"
+        app:showAsAction="0x1" />
+
+    <item
+        android:icon="@ref/0x7f08012f"
+        android:id="@ref/0x7f090235"
+        android:title="@ref/0x7f1001a7"
+        app:showAsAction="0x1" />
+</menu>
+
+activity.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:icon="@ref/0x7f0800a4"
+        android:id="@ref/0x7f09004c"
+        android:title="Share"
+        android:showAsAction="0x2" />
+</menu>
+
+examplemenu.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@ref/0x7f09011f"
+        android:title="Item1" />
+
+    <item
+        android:id="@ref/0x7f090120"
+        android:title="Item2" />
+</menu>
+
+menu2.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@ref/0x7f090121"
+        android:title="Item3" />
+
+    <item
+        android:id="@ref/0x7f090122"
+        android:title="Item4" />
+</menu>
