@@ -1,0 +1,27 @@
+snackbar.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<view
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:theme="@ref/0x7f110190"
+    android:layout_gravity="0x51"
+    android:layout_width="-2"
+    android:layout_height="-2"
+    class="com.google.android.material.snackbar.Snackbar$SnackbarLayout"
+    style="@ref/0x7f1101f4" />
+    
+    layout.snackbar.xml
+    
+    <?xml version="1.0" encoding="utf-8"?>
+<view
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:theme="@ref/0x7f110190"
+    android:layout_gravity="0x51"
+    android:layout_width="-2"
+    android:layout_height="-2"
+    class="com.google.android.material.snackbar.Snackbar$SnackbarLayout"
+    style="@attr/0x7f0401b4" />
+
+
+
+
