@@ -1,0 +1,873 @@
+ripple color xml:
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_selected="true"
+        android:state_pressed="true"
+        android:color="@attr/0x7f0400ad"
+        android:alpha="1034147584.000000" />
+
+    <item
+        android:state_focused="true"
+        android:state_selected="true"
+        android:color="@attr/0x7f0400ad"
+        android:alpha="1042536192.000000"
+        android:state_hovered="true" />
+
+    <item
+        android:state_focused="true"
+        android:state_selected="true"
+        android:color="@attr/0x7f0400ad"
+        android:alpha="1039516288.000000" />
+
+    <item
+        android:state_selected="true"
+        android:color="@attr/0x7f0400ad"
+        android:alpha="1025758976.000000"
+        android:state_hovered="true" />
+
+    <item
+        android:state_selected="true"
+        android:color="@attr/0x7f0400ad"
+        android:alpha="0.000000" />
+
+    <item
+        android:state_pressed="true"
+        android:color="argb8(0xff000000)"
+        android:alpha="1034147584.000000" />
+
+    <item
+        android:state_focused="true"
+        android:color="argb8(0xff000000)"
+        android:alpha="1042536192.000000"
+        android:state_hovered="true" />
+
+    <item
+        android:state_focused="true"
+        android:color="argb8(0xff000000)"
+        android:alpha="1039516288.000000" />
+
+    <item
+        android:color="argb8(0xff000000)"
+        android:alpha="1025758976.000000"
+        android:state_hovered="true" />
+
+    <item
+        android:color="argb8(0xff000000)"
+        android:alpha="0.000000" />
+</selector>
+
+defeault.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:state_enabled="false"
+        android:color="@attr/0x7f0400b2"
+        app:alpha="@attr/0x1010033" />
+
+    <item
+        android:state_focused="true"
+        android:color="@attr/0x7f0400b0" />
+
+    <item
+        android:state_pressed="true"
+        android:color="@attr/0x7f0400b0" />
+
+    <item
+        android:color="@attr/0x7f0400b0"
+        android:state_activated="true" />
+
+    <item
+        android:state_selected="true"
+        android:color="@attr/0x7f0400b0" />
+
+    <item
+        android:state_checked="true"
+        android:color="@attr/0x7f0400b0" />
+
+    <item
+        android:color="@attr/0x7f0400b2" />
+</selector>
+
+tint.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_pressed="true"
+        android:color="argb8(0xff000000)"
+        android:alpha="1065353216.000000" />
+
+    <item
+        android:state_focused="true"
+        android:color="argb8(0xff000000)"
+        android:alpha="1065353216.000000"
+        android:state_hovered="true" />
+
+    <item
+        android:state_focused="true"
+        android:color="argb8(0xff000000)"
+        android:alpha="1063172160.000000" />
+
+    <item
+        android:color="argb8(0xff000000)"
+        android:alpha="1060655616.000000"
+        android:state_hovered="true" />
+
+    <item
+        android:state_enabled="true"
+        android:color="argb8(0xff000000)"
+        android:alpha="1057635712.000000" />
+
+    <item
+        android:color="argb8(0xff000000)"
+        android:alpha="1045891648.000000" />
+</selector>
+
+ripple color.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_pressed="true"
+        android:color="@ref/0x0106000b"
+        android:alpha="1042536192.000000" />
+
+    <item
+        android:state_focused="true"
+        android:color="@ref/0x0106000b"
+        android:alpha="1050924800.000000"
+        android:state_hovered="true" />
+
+    <item
+        android:state_focused="true"
+        android:color="@ref/0x0106000b"
+        android:alpha="1047904896.000000" />
+
+    <item
+        android:color="@ref/0x0106000b"
+        android:alpha="1034147584.000000"
+        android:state_hovered="true" />
+
+    <item
+        android:color="@ref/0x0106000b"
+        android:alpha="0.000000" />
+</selector>
+
+ripple color.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_pressed="true"
+        android:color="@attr/0x7f0400ad"
+        android:alpha="1042536192.000000" />
+
+    <item
+        android:state_focused="true"
+        android:color="@attr/0x7f0400ad"
+        android:alpha="1039516288.000000"
+        android:state_hovered="true" />
+
+    <item
+        android:state_focused="true"
+        android:color="@attr/0x7f0400ad"
+        android:alpha="1039516288.000000" />
+
+    <item
+        android:color="@attr/0x7f0400ad"
+        android:alpha="1025758976.000000"
+        android:state_hovered="true" />
+
+    <item
+        android:color="@attr/0x7f0400ad"
+        android:alpha="0.000000" />
+</selector>
+
+color.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_pressed="true"
+        android:color="@ref/0x0106000b"
+        android:alpha="1050924800.000000" />
+
+    <item
+        android:state_focused="true"
+        android:color="@ref/0x0106000b"
+        android:alpha="1047904896.000000"
+        android:state_hovered="true" />
+
+    <item
+        android:state_focused="true"
+        android:color="@ref/0x0106000b"
+        android:alpha="1047904896.000000" />
+
+    <item
+        android:color="@ref/0x0106000b"
+        android:alpha="1034147584.000000"
+        android:state_hovered="true" />
+
+    <item
+        android:color="@ref/0x0106000b"
+        android:alpha="0.000000" />
+</selector>
+
+color.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_pressed="true"
+        android:color="argb8(0xff000000)"
+        android:alpha="1042536192.000000" />
+
+    <item
+        android:state_focused="true"
+        android:color="argb8(0xff000000)"
+        android:alpha="1042536192.000000"
+        android:state_hovered="true" />
+
+    <item
+        android:state_focused="true"
+        android:color="argb8(0xff000000)"
+        android:alpha="1039516288.000000" />
+
+    <item
+        android:color="argb8(0xff000000)"
+        android:alpha="1025758976.000000"
+        android:state_hovered="true" />
+
+    <item
+        android:color="argb8(0xff000000)"
+        android:alpha="0.000000" />
+</selector>
+
+color.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_pressed="true"
+        android:color="@ref/0x0106000b"
+        android:alpha="1050924800.000000" />
+
+    <item
+        android:state_focused="true"
+        android:color="@ref/0x0106000b"
+        android:alpha="1050924800.000000"
+        android:state_hovered="true" />
+
+    <item
+        android:state_focused="true"
+        android:color="@ref/0x0106000b"
+        android:alpha="1047904896.000000" />
+
+    <item
+        android:color="@ref/0x0106000b"
+        android:alpha="1034147584.000000"
+        android:state_hovered="true" />
+
+    <item
+        android:color="@ref/0x0106000b"
+        android:alpha="0.000000" />
+</selector>
+
+edittext.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:state_enabled="false"
+        android:color="@attr/0x7f0400b2"
+        app:alpha="@attr/0x1010033" />
+
+    <item
+        android:state_focused="false"
+        android:state_pressed="false"
+        android:color="@attr/0x7f0400b2" />
+
+    <item
+        android:color="@attr/0x7f0400b0" />
+</selector>
+
+snipper.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:state_enabled="false"
+        android:color="@attr/0x7f0400b2"
+        app:alpha="@attr/0x1010033" />
+
+    <item
+        android:state_focused="false"
+        android:state_pressed="false"
+        android:color="@attr/0x7f0400b2" />
+
+    <item
+        android:color="@attr/0x7f0400b0" />
+</selector>
+
+track.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:state_enabled="false"
+        android:color="@attr/0x1010030"
+        app:alpha="1036831936.000000" />
+
+    <item
+        android:state_checked="true"
+        android:color="@attr/0x7f0400b0"
+        app:alpha="1050253696.000000" />
+
+    <item
+        android:color="@attr/0x1010030"
+        app:alpha="1050253696.000000" />
+</selector>
+
+checkable.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:state_enabled="false"
+        android:color="@attr/0x7f0400b2"
+        app:alpha="@attr/0x1010033" />
+
+    <item
+        android:state_checked="true"
+        android:color="@attr/0x7f0400b0" />
+
+    <item
+        android:color="@attr/0x7f0400b2" />
+</selector>
+
+item.tint.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_enabled="true"
+        android:state_checked="true"
+        android:color="@attr/0x7f0400b4"
+        android:alpha="1065353216.000000" />
+
+    <item
+        android:state_enabled="true"
+        android:color="argb8(0xff000000)"
+        android:alpha="1057635712.000000" />
+
+    <item
+        android:color="argb8(0xff000000)"
+        android:alpha="1045891648.000000" />
+</selector>
+
+item.tint.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_enabled="true"
+        android:state_checked="true"
+        android:color="@ref/0x0106000b"
+        android:alpha="1065353216.000000" />
+
+    <item
+        android:state_enabled="true"
+        android:color="@ref/0x0106000b"
+        android:alpha="1057635712.000000" />
+
+    <item
+        android:color="@ref/0x0106000b"
+        android:alpha="1045891648.000000" />
+</selector>
+
+dark.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_enabled="false"
+        android:color="@ref/0x7f060051" />
+
+    <item
+        android:state_pressed="true"
+        android:color="@ref/0x7f060053" />
+
+    <item
+        android:state_focused="true"
+        android:color="@ref/0x7f060052" />
+
+    <item
+        android:color="@ref/0x7f060050" />
+</selector>
+
+light.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_enabled="false"
+        android:color="@ref/0x7f060056" />
+
+    <item
+        android:state_pressed="true"
+        android:color="@ref/0x7f060058" />
+
+    <item
+        android:state_focused="true"
+        android:color="@ref/0x7f060057" />
+
+    <item
+        android:color="@ref/0x7f060055" />
+</selector>
+
+meterial.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:state_enabled="false"
+        android:color="@attr/0x1010038"
+        app:alpha="@attr/0x1010033" />
+
+    <item
+        android:color="@attr/0x7f0400ad" />
+</selector>
+
+meterial.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:state_enabled="false"
+        android:color="@attr/0x1010036"
+        app:alpha="@attr/0x1010033" />
+
+    <item
+        android:color="@attr/0x1010039" />
+</selector>
+thumb.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:state_enabled="false"
+        android:color="@attr/0x7f0400b0"
+        app:alpha="@attr/0x1010033" />
+
+    <item
+        android:color="@attr/0x7f0400b0" />
+</selector>
+
+color.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_enabled="true"
+        android:state_selected="true"
+        android:color="argb8(0xffcacaca)" />
+
+    <item
+        android:state_enabled="true"
+        android:color="argb8(0xffebebeb)" />
+
+    <item
+        android:color="argb8(0xfff7f7f7)" />
+</selector>
+
+dark.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_enabled="true"
+        android:state_pressed="true"
+        android:color="@ref/0x7f060072"
+        android:alpha="@ref/0x7f0700bf" />
+
+    <item
+        android:color="@ref/0x7f060072"
+        android:alpha="@ref/0x7f0700bd" />
+</selector>
+
+light.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_enabled="true"
+        android:state_pressed="true"
+        android:color="@ref/0x7f060073"
+        android:alpha="@ref/0x7f0700c0" />
+
+    <item
+        android:color="@ref/0x7f060073"
+        android:alpha="@ref/0x7f0700be" />
+</selector>
+
+url.text.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_pressed="true"
+        android:color="@ref/0x7f06000e" />
+
+    <item
+        android:state_selected="true"
+        android:color="@ref/0x7f06000f" />
+
+    <item
+        android:color="@ref/0x7f06000d" />
+</selector>
+
+toogle.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:color="@attr/0x1010030"
+        app:alpha="1057635712.000000" />
+</selector>
+
+selector.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_enabled="true"
+        android:color="@attr/0x7f0400ad" />
+
+    <item
+        android:color="@ref/0x7f06008f" />
+</selector>
+
+selector.xml text.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_enabled="true"
+        android:color="@ref/0x0106000b" />
+
+    <item
+        android:color="@ref/0x7f060094" />
+</selector>
+
+selector.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_enabled="true"
+        android:color="@attr/0x7f0400ad" />
+
+    <item
+        android:color="@ref/0x7f060094" />
+</selector>
+
+dark.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:color="@ref/0x7f060031"
+        android:state_accelerated="false" />
+
+    <item
+        android:color="@ref/0x0106000d" />
+</selector>
+
+meterial.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:color="@ref/0x7f060032"
+        android:state_accelerated="false" />
+
+    <item
+        android:color="@ref/0x0106000d" />
+</selector>
+
+tint.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_pressed="true"
+        android:color="argb8(0x11000000)" />
+
+    <item
+        android:color="@ref/0x0106000d" />
+</selector>
+
+error.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_enabled="false"
+        android:color="@attr/0x1010212" />
+
+    <item
+        android:color="@attr/0x7f0400b3" />
+</selector>
+
+color.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_enabled="true"
+        android:color="argb8(0xde000000)" />
+
+    <item
+        android:color="argb8(0x54000000)" />
+</selector>
+
+selector.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_selected="true"
+        android:color="@attr/0x7f0400ad" />
+
+    <item
+        android:color="argb8(0x99000000)" />
+</selector>
+
+colored.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_selected="true"
+        android:color="@ref/0x0106000b" />
+
+    <item
+        android:color="argb8(0x99ffffff)" />
+</selector>
+
+dark.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_enabled="false"
+        android:color="@ref/0x7f0600bf" />
+
+    <item
+        android:color="@ref/0x7f0600c3" />
+</selector>
+
+light.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_enabled="false"
+        android:color="@ref/0x7f0600c0" />
+
+    <item
+        android:color="@ref/0x7f0600c4" />
+</selector>
+
+dark.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_enabled="false"
+        android:color="@ref/0x7f0600b2" />
+
+    <item
+        android:color="@ref/0x7f0600b0" />
+</selector>
+
+light.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_enabled="false"
+        android:color="@ref/0x7f0600b3" />
+
+    <item
+        android:color="@ref/0x7f0600b1" />
+</selector>
+
+dark.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_enabled="false"
+        android:color="@ref/0x7f0600bb" />
+
+    <item
+        android:color="@ref/0x7f0600b9" />
+</selector>
+
+light.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_enabled="false"
+        android:color="@ref/0x7f0600bc" />
+
+    <item
+        android:color="@ref/0x7f0600ba" />
+</selector>
+
+dark.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_enabled="false"
+        android:color="@ref/0x7f060034" />
+
+    <item
+        android:color="@ref/0x7f060038" />
+</selector>
+
+selector.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_selected="true"
+        android:color="@attr/0x1010036" />
+
+    <item
+        android:color="@attr/0x1010038" />
+</selector>
+
+light.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_enabled="false"
+        android:color="@ref/0x7f060035" />
+
+    <item
+        android:color="@ref/0x7f060039" />
+</selector>
+
+color.sheddle.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:color="@ref/0x0106000c"
+        android:alpha="1039516288.000000" />
+</selector>
