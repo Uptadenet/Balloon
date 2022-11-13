@@ -1,0 +1,43 @@
+sheet_slide.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<set
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@ref/0x010c000f"
+    android:duration="@ref/0x7f0a0004">
+
+    <translate
+        android:fromYDelta="fraction(429496881)"
+        android:toYDelta="0.000000" />
+
+    <alpha
+        android:fromAlpha="0.000000"
+        android:toAlpha="1065353216.000000" />
+</set>
+
+sheet_slide.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<set
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@ref/0x010c000d"
+    android:duration="@ref/0x7f0a0004">
+
+    <translate
+        android:fromYDelta="0.000000"
+        android:toYDelta="fraction(429496881)" />
+
+    <alpha
+        android:fromAlpha="1065353216.000000"
+        android:toAlpha="0.000000" />
+</set>
+
+decelarete.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<pathInterpolator
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:controlX1="1048576000.000000"
+    android:controlY1="1036831936.000000"
+    android:controlX2="1048576000.000000"
+    android:controlY2="1065353216.000000" />
