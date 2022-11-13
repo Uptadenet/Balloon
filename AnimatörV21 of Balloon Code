@@ -1,0 +1,38 @@
+animatör.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:state_enabled="true"
+        app:state_liftable="true"
+        app:state_lifted="false">
+
+        <objectAnimator
+            android:duration="@ref/0x7f0a0003"
+            android:valueTo="dimension(1)"
+            android:valueType="0"
+            android:propertyName="elevation" />
+    </item>
+
+    <item
+        android:state_enabled="true">
+
+        <objectAnimator
+            android:duration="@ref/0x7f0a0003"
+            android:valueTo="@ref/0x7f070086"
+            android:valueType="0"
+            android:propertyName="elevation" />
+    </item>
+
+    <item>
+
+        <objectAnimator
+            android:duration="0"
+            android:valueTo="0"
+            android:valueType="0"
+            android:propertyName="elevation" />
+    </item>
+</selector>
