@@ -1,0 +1,80 @@
+title meterial.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="0x31"
+    android:orientation="1"
+    android:id="@ref/0x7f090243"
+    android:layout_width="-1"
+    android:layout_height="-2">
+
+    <LinearLayout
+        android:gravity="0x1"
+        android:orientation="1"
+        android:id="@ref/0x7f09023e"
+        android:layout_width="-1"
+        android:layout_height="-2"
+        android:layout_marginTop="dimension(6145)">
+
+        <ImageView
+            android:layout_gravity="0x1"
+            android:id="@ref/0x01020006"
+            android:layout_width="-2"
+            android:layout_height="-2"
+            android:adjustViewBounds="true"
+            android:maxWidth="dimension(6145)"
+            android:maxHeight="dimension(6145)" />
+
+        <androidx.appcompat.widget.DialogTitle
+            android:gravity="0x11"
+            android:id="@ref/0x7f090061"
+            android:layout_width="-1"
+            android:layout_height="-2"
+            style="@attr/0x101005b" />
+    </LinearLayout>
+
+    <android.widget.Space
+        android:id="@ref/0x7f09023d"
+        android:visibility="2"
+        android:layout_width="-1"
+        android:layout_height="@ref/0x7f070026" />
+</LinearLayout>
+
+bar.meterial.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.ButtonBarLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="0x50"
+    android:orientation="0"
+    android:id="@ref/0x7f090095"
+    android:paddingLeft="dimension(3073)"
+    android:paddingTop="dimension(1025)"
+    android:paddingRight="dimension(3073)"
+    android:paddingBottom="dimension(1025)"
+    android:layout_width="-1"
+    android:layout_height="-2"
+    android:layoutDirection="3">
+
+    <Button
+        android:id="@ref/0x0102001b"
+        android:layout_width="-2"
+        android:layout_height="-2"
+        android:layout_weight="1065353216.000000"
+        style="@attr/0x7f040056" />
+
+    <Button
+        android:id="@ref/0x0102001a"
+        android:layout_width="-2"
+        android:layout_height="-2"
+        android:layout_weight="1065353216.000000"
+        style="@attr/0x7f040055" />
+
+    <Button
+        android:id="@ref/0x01020019"
+        android:layout_width="-2"
+        android:layout_height="-2"
+        android:layout_weight="1065353216.000000"
+        style="@attr/0x7f040057" />
+</androidx.appcompat.widget.ButtonBarLayout>
