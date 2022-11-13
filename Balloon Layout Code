@@ -1,0 +1,1192 @@
+activity.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="1"
+    android:background="@ref/0x7f060028"
+    android:layout_width="-1"
+    android:layout_height="-1">
+
+    <FrameLayout
+        android:layout_gravity="0x1"
+        android:id="@ref/0x7f09007f"
+        android:background="@ref/0x0106000b"
+        android:layout_width="-2"
+        android:layout_height="-2">
+
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="-1"
+        android:layout_height="dimension(1)"
+        android:layout_weight="1065353216.000000">
+
+        <FrameLayout
+            android:id="@ref/0x7f09005c"
+            android:layout_width="-2"
+            android:layout_height="-2"
+            android:layout_centerInParent="true">
+
+            <FrameLayout
+                android:id="@ref/0x7f090186"
+                android:background="@ref/0x0106000b"
+                android:layout_width="@ref/0x7f070054"
+                android:layout_height="@ref/0x7f070053"
+                android:layout_centerInParent="true">
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@ref/0x7f09017d"
+                android:background="@ref/0x0106000b"
+                android:layout_width="@ref/0x7f070054"
+                android:layout_height="@ref/0x7f070053"
+                android:layout_centerInParent="true">
+
+            </FrameLayout>
+        </FrameLayout>
+
+        <LinearLayout
+            android:gravity="0x11"
+            android:orientation="0"
+            android:layout_width="-1"
+            android:layout_height="-2"
+            android:layout_below="@ref/0x7f09005c"
+            android:layout_alignParentBottom="true">
+
+            <Button
+                android:id="@ref/0x7f0901f4"
+                android:layout_width="-2"
+                android:layout_height="-2"
+                android:text="MREC" />
+
+            <Button
+                android:id="@ref/0x7f0901f5"
+                android:layout_width="-2"
+                android:layout_height="-2"
+                android:text="Native" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="1"
+        android:id="@ref/0x7f090055"
+        android:background="@ref/0x0106000b"
+        android:paddingLeft="dimension(2049)"
+        android:paddingTop="dimension(1025)"
+        android:paddingRight="dimension(2049)"
+        android:paddingBottom="dimension(1025)"
+        android:layout_width="-1"
+        android:layout_height="-2"
+        android:paddingHorizontal="dimension(2049)"
+        android:paddingVertical="dimension(1025)">
+
+        <RelativeLayout
+            android:orientation="0"
+            android:id="@ref/0x7f090081"
+            android:layout_width="-1"
+            android:layout_height="-2"
+            android:layout_marginTop="dimension(1025)"
+            android:layout_marginBottom="dimension(1025)"
+            android:layout_marginVertical="dimension(1025)">
+
+            <com.applovin.impl.mediation.debugger.ui.testmode.AdControlButton
+                android:id="@ref/0x7f090080"
+                android:layout_width="@ref/0x7f07004f"
+                android:layout_height="@ref/0x7f07004e" />
+
+            <TextView
+                android:id="@ref/0x7f090082"
+                android:layout_width="-2"
+                android:layout_height="-2"
+                android:layout_marginLeft="dimension(2049)"
+                android:text="Banner"
+                android:layout_toRightOf="@ref/0x7f090080"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="dimension(2049)"
+                android:layout_toEndOf="@ref/0x7f090080" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:orientation="0"
+            android:id="@ref/0x7f09017f"
+            android:layout_width="-1"
+            android:layout_height="-2"
+            android:layout_marginTop="dimension(1025)"
+            android:layout_marginBottom="dimension(1025)"
+            android:layout_marginVertical="dimension(1025)">
+
+            <com.applovin.impl.mediation.debugger.ui.testmode.AdControlButton
+                android:id="@ref/0x7f09017e"
+                android:layout_width="@ref/0x7f07004f"
+                android:layout_height="@ref/0x7f07004e" />
+
+            <TextView
+                android:layout_width="-2"
+                android:layout_height="-2"
+                android:layout_marginLeft="dimension(2049)"
+                android:text="MREC"
+                android:layout_toRightOf="@ref/0x7f09017e"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="dimension(2049)"
+                android:layout_toEndOf="@ref/0x7f09017e" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:orientation="0"
+            android:id="@ref/0x7f09011c"
+            android:layout_width="-1"
+            android:layout_height="-2"
+            android:layout_marginTop="dimension(1025)"
+            android:layout_marginBottom="dimension(1025)"
+            android:layout_marginVertical="dimension(1025)">
+
+            <com.applovin.impl.mediation.debugger.ui.testmode.AdControlButton
+                android:id="@ref/0x7f09011b"
+                android:layout_width="@ref/0x7f07004f"
+                android:layout_height="@ref/0x7f07004e" />
+
+            <TextView
+                android:layout_width="-2"
+                android:layout_height="-2"
+                android:layout_marginLeft="dimension(2049)"
+                android:text="Interstitial"
+                android:layout_toRightOf="@ref/0x7f09011b"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="dimension(2049)"
+                android:layout_toEndOf="@ref/0x7f09011b" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:orientation="0"
+            android:id="@ref/0x7f0901ce"
+            android:layout_width="-1"
+            android:layout_height="-2"
+            android:layout_marginTop="dimension(1025)"
+            android:layout_marginBottom="dimension(1025)"
+            android:layout_marginVertical="dimension(1025)">
+
+            <com.applovin.impl.mediation.debugger.ui.testmode.AdControlButton
+                android:id="@ref/0x7f0901cd"
+                android:layout_width="@ref/0x7f07004f"
+                android:layout_height="@ref/0x7f07004e" />
+
+            <TextView
+                android:layout_width="-2"
+                android:layout_height="-2"
+                android:layout_marginLeft="dimension(2049)"
+                android:text="Rewarded Interstitial"
+                android:layout_toRightOf="@ref/0x7f0901cd"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="dimension(2049)"
+                android:layout_toEndOf="@ref/0x7f0901cd" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:orientation="0"
+            android:id="@ref/0x7f0901cc"
+            android:layout_width="-1"
+            android:layout_height="-2"
+            android:layout_marginTop="dimension(1025)"
+            android:layout_marginBottom="dimension(1025)"
+            android:layout_marginVertical="dimension(1025)">
+
+            <com.applovin.impl.mediation.debugger.ui.testmode.AdControlButton
+                android:id="@ref/0x7f0901cb"
+                android:layout_width="@ref/0x7f07004f"
+                android:layout_height="@ref/0x7f07004e" />
+
+            <TextView
+                android:layout_width="-2"
+                android:layout_height="-2"
+                android:layout_marginLeft="dimension(2049)"
+                android:text="Rewarded"
+                android:layout_toRightOf="@ref/0x7f0901cb"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="dimension(2049)"
+                android:layout_toEndOf="@ref/0x7f0901cb" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:orientation="0"
+            android:id="@ref/0x7f09018a"
+            android:layout_width="-1"
+            android:layout_height="-2"
+            android:layout_marginTop="dimension(1025)"
+            android:layout_marginBottom="dimension(1025)"
+            android:layout_marginVertical="dimension(1025)">
+
+            <com.applovin.impl.mediation.debugger.ui.testmode.AdControlButton
+                android:id="@ref/0x7f090189"
+                android:layout_width="@ref/0x7f07004f"
+                android:layout_height="@ref/0x7f07004e" />
+
+            <TextView
+                android:layout_width="-2"
+                android:layout_height="-2"
+                android:layout_marginLeft="dimension(2049)"
+                android:text="Native"
+                android:layout_toRightOf="@ref/0x7f090189"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="dimension(2049)"
+                android:layout_toEndOf="@ref/0x7f090189" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>
+
+template1.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="-2"
+    android:layout_height="-2"
+    android:minWidth="dimension(76801)"
+    android:minHeight="dimension(64001)">
+
+    <LinearLayout
+        android:gravity="0x10"
+        android:orientation="0"
+        android:id="@ref/0x7f090185"
+        android:layout_width="-1"
+        android:layout_height="-2"
+        android:layout_margin="@ref/0x7f070084"
+        android:layout_toLeftOf="@ref/0x7f0901a8"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@ref/0x7f0901a8">
+
+        <FrameLayout
+            android:id="@ref/0x7f09018e"
+            style="@ref/0x7f1100f2">
+
+            <ImageView
+                android:id="@ref/0x7f09018d"
+                android:layout_width="-1"
+                android:layout_height="-1"
+                android:scaleType="3"
+                android:adjustViewBounds="true" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:orientation="1"
+            android:layout_width="-2"
+            android:layout_height="-2"
+            android:layout_marginLeft="@ref/0x7f070084"
+            android:layout_marginStart="@ref/0x7f070084">
+
+            <LinearLayout
+                android:orientation="0"
+                android:layout_width="-2"
+                android:layout_height="-2">
+
+                <TextView
+                    style="@ref/0x7f11022f" />
+
+                <TextView
+                    android:id="@ref/0x7f090191"
+                    style="@ref/0x7f110231" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@ref/0x7f090187"
+                style="@ref/0x7f110230" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@ref/0x7f0901a8"
+        android:layout_width="dimension(5121)"
+        android:layout_height="dimension(5121)"
+        android:layout_marginTop="dimension(513)"
+        android:layout_marginRight="dimension(513)"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="dimension(513)"
+        android:layout_alignParentEnd="true">
+
+    </FrameLayout>
+
+    <TextView
+        android:textSize="dimension(3074)"
+        android:id="@ref/0x7f090188"
+        android:layout_width="-2"
+        android:layout_height="-2"
+        android:layout_marginLeft="dimension(2049)"
+        android:layout_marginRight="dimension(2049)"
+        android:layout_marginBottom="dimension(2049)"
+        android:maxLines="3"
+        android:layout_below="@ref/0x7f090185"
+        android:layout_marginHorizontal="dimension(2049)" />
+
+    <FrameLayout
+        android:id="@ref/0x7f090190"
+        android:layout_width="-2"
+        android:layout_height="-2"
+        android:layout_above="@ref/0x7f09018b"
+        android:layout_below="@ref/0x7f090188"
+        android:layout_centerHorizontal="true">
+
+    </FrameLayout>
+
+    <Button
+        android:textSize="dimension(3842)"
+        android:id="@ref/0x7f09018b"
+        android:layout_width="-1"
+        android:layout_height="-2"
+        android:layout_margin="@ref/0x7f070084"
+        android:singleLine="false"
+        android:layout_alignParentBottom="true"
+        style="@ref/0x7f110228" />
+</RelativeLayout>
+
+wiew.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="1"
+    android:layout_width="dimension(81921)"
+    android:layout_height="dimension(12801)">
+
+    <RelativeLayout
+        android:id="@ref/0x7f090118"
+        android:layout_width="dimension(12801)"
+        android:layout_height="dimension(81921)"
+        android:transformPivotX="dimension(6401)"
+        android:transformPivotY="dimension(6401)"
+        android:rotation="1132920832.000000">
+
+        <LinearLayout
+            android:orientation="1"
+            android:layout_width="-1"
+            android:layout_height="-2"
+            android:layout_above="@ref/0x7f09018b"
+            android:layout_alignParentTop="true">
+
+            <FrameLayout
+                android:id="@ref/0x7f0901a8"
+                android:layout_width="-2"
+                android:layout_height="-2">
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@ref/0x7f09018e"
+                style="@ref/0x7f1100f2">
+
+                <ImageView
+                    android:id="@ref/0x7f09018d"
+                    style="@ref/0x7f1100f2" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@ref/0x7f090190"
+                style="@ref/0x7f1100f2">
+
+            </FrameLayout>
+
+            <TextView
+                android:layout_margin="dimension(513)"
+                style="@ref/0x7f11022f" />
+
+            <TextView
+                android:gravity="0x11"
+                android:id="@ref/0x7f090191"
+                android:paddingLeft="dimension(513)"
+                android:paddingRight="dimension(513)"
+                android:layout_width="-1"
+                android:layout_height="-2"
+                android:paddingHorizontal="dimension(513)"
+                style="@ref/0x7f110233" />
+
+            <TextView
+                android:gravity="0x11"
+                android:id="@ref/0x7f090188"
+                android:paddingLeft="dimension(513)"
+                android:paddingRight="dimension(513)"
+                android:layout_width="-1"
+                android:layout_height="-2"
+                android:paddingHorizontal="dimension(513)"
+                style="@ref/0x7f110232" />
+        </LinearLayout>
+
+        <Button
+            android:textSize="dimension(3074)"
+            android:id="@ref/0x7f09018b"
+            android:padding="dimension(257)"
+            android:layout_width="-2"
+            android:layout_height="-2"
+            android:layout_marginLeft="dimension(257)"
+            android:layout_marginRight="dimension(257)"
+            android:layout_marginBottom="dimension(769)"
+            android:minWidth="dimension(1)"
+            android:minHeight="dimension(1)"
+            android:singleLine="false"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginHorizontal="dimension(257)"
+            style="@ref/0x7f110228" />
+    </RelativeLayout>
+</LinearLayout>
+
+vertical.banner.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="1"
+    android:layout_width="dimension(81921)"
+    android:layout_height="dimension(12801)">
+
+    <RelativeLayout
+        android:id="@ref/0x7f090118"
+        android:layout_width="dimension(12801)"
+        android:layout_height="dimension(81921)"
+        android:transformPivotX="dimension(6401)"
+        android:transformPivotY="dimension(6401)"
+        android:rotation="1132920832.000000">
+
+        <LinearLayout
+            android:orientation="1"
+            android:layout_width="-1"
+            android:layout_height="-2"
+            android:layout_above="@ref/0x7f09018b"
+            android:layout_alignParentTop="true">
+
+            <FrameLayout
+                android:id="@ref/0x7f0901a8"
+                android:layout_width="-2"
+                android:layout_height="-2">
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@ref/0x7f09018e"
+                style="@ref/0x7f1100f2">
+
+                <ImageView
+                    android:id="@ref/0x7f09018d"
+                    style="@ref/0x7f1100f2" />
+            </FrameLayout>
+
+            <TextView
+                android:layout_margin="dimension(513)"
+                style="@ref/0x7f11022f" />
+
+            <TextView
+                android:gravity="0x11"
+                android:id="@ref/0x7f090191"
+                android:paddingLeft="dimension(513)"
+                android:paddingRight="dimension(513)"
+                android:layout_width="-1"
+                android:layout_height="-2"
+                android:paddingHorizontal="dimension(513)"
+                style="@ref/0x7f110233" />
+
+            <TextView
+                android:gravity="0x11"
+                android:id="@ref/0x7f090188"
+                android:paddingLeft="dimension(513)"
+                android:paddingRight="dimension(513)"
+                android:layout_width="-1"
+                android:layout_height="-2"
+                android:paddingHorizontal="dimension(513)"
+                style="@ref/0x7f110232" />
+        </LinearLayout>
+
+        <Button
+            android:textSize="dimension(3074)"
+            android:id="@ref/0x7f09018b"
+            android:padding="dimension(257)"
+            android:layout_width="-2"
+            android:layout_height="-2"
+            android:layout_marginLeft="dimension(257)"
+            android:layout_marginRight="dimension(257)"
+            android:layout_marginBottom="dimension(769)"
+            android:minWidth="dimension(1)"
+            android:minHeight="dimension(1)"
+            android:singleLine="false"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginHorizontal="dimension(257)"
+            style="@ref/0x7f110228" />
+    </RelativeLayout>
+</LinearLayout>
+
+leader.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="dimension(186369)"
+    android:layout_height="dimension(23041)">
+
+    <LinearLayout
+        android:orientation="0"
+        android:id="@ref/0x7f09018f"
+        android:layout_width="-2"
+        android:layout_height="-1"
+        android:layout_toLeftOf="@ref/0x7f09018b"
+        android:layout_alignParentLeft="true"
+        android:layout_toStartOf="@ref/0x7f09018b"
+        android:layout_alignParentStart="true">
+
+        <FrameLayout
+            android:id="@ref/0x7f09018e"
+            style="@ref/0x7f1100d0">
+
+            <ImageView
+                android:id="@ref/0x7f09018d"
+                style="@ref/0x7f1100d0" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:orientation="0"
+            android:layout_width="-2"
+            android:layout_height="-1">
+
+            <FrameLayout
+                android:id="@ref/0x7f090190"
+                android:layout_width="dimension(46081)"
+                android:layout_height="-1">
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_gravity="0x10"
+                android:orientation="1"
+                android:id="@ref/0x7f090185"
+                android:layout_width="-2"
+                android:layout_height="-2"
+                android:layout_marginLeft="dimension(2049)"
+                android:layout_marginRight="dimension(2049)"
+                android:layout_marginHorizontal="dimension(2049)">
+
+                <RelativeLayout
+                    android:layout_width="-1"
+                    android:layout_height="-2">
+
+                    <TextView
+                        android:id="@ref/0x7f090191"
+                        android:layout_marginBottom="dimension(1537)"
+                        android:layout_toLeftOf="@ref/0x7f0901a8"
+                        android:layout_alignParentLeft="true"
+                        android:layout_toStartOf="@ref/0x7f0901a8"
+                        android:layout_alignParentStart="true"
+                        style="@ref/0x7f11022b" />
+
+                    <FrameLayout
+                        android:id="@ref/0x7f0901a8"
+                        android:layout_width="-2"
+                        android:layout_height="-2"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true">
+
+                    </FrameLayout>
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:orientation="0"
+                    android:layout_width="-2"
+                    android:layout_height="-2">
+
+                    <TextView
+                        style="@ref/0x7f110229" />
+
+                    <TextView
+                        android:id="@ref/0x7f090188"
+                        style="@ref/0x7f11022a" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:textSize="dimension(5122)"
+        android:id="@ref/0x7f09018b"
+        android:paddingLeft="dimension(2049)"
+        android:paddingRight="dimension(2049)"
+        android:layout_width="-2"
+        android:layout_height="-2"
+        android:layout_marginRight="dimension(2049)"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="dimension(2049)"
+        android:layout_alignParentEnd="true"
+        android:paddingHorizontal="dimension(2049)"
+        style="@ref/0x7f110228" />
+</RelativeLayout>
+
+smalltemplate.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="-1"
+    android:layout_height="-1">
+
+    <LinearLayout
+        android:orientation="0"
+        android:layout_width="-1"
+        android:layout_height="-2"
+        android:baselineAligned="false"
+        android:minWidth="dimension(92161)"
+        android:minHeight="dimension(30721)">
+
+        <FrameLayout
+            android:layout_gravity="0x10"
+            android:id="@ref/0x7f090190"
+            android:layout_width="dimension(1)"
+            android:layout_height="-2"
+            android:layout_weight="1051361024.000000">
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:gravity="0x10"
+            android:orientation="1"
+            android:layout_width="dimension(1)"
+            android:layout_height="-1"
+            android:layout_marginLeft="@ref/0x7f070084"
+            android:layout_marginTop="@ref/0x7f07010f"
+            android:layout_marginRight="@ref/0x7f070084"
+            android:layout_marginBottom="@ref/0x7f07010f"
+            android:layout_weight="1056964608.000000"
+            android:layout_marginHorizontal="@ref/0x7f070084"
+            android:layout_marginVertical="@ref/0x7f07010f">
+
+            <LinearLayout
+                android:orientation="1"
+                android:layout_width="-2"
+                android:layout_height="-2">
+
+                <LinearLayout
+                    android:orientation="0"
+                    android:layout_width="-2"
+                    android:layout_height="-2">
+
+                    <TextView
+                        style="@ref/0x7f11022f" />
+
+                    <TextView
+                        android:id="@ref/0x7f090191"
+                        style="@ref/0x7f110231" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@ref/0x7f090187"
+                    style="@ref/0x7f110230" />
+
+                <TextView
+                    android:id="@ref/0x7f090188"
+                    style="@ref/0x7f110230" />
+            </LinearLayout>
+
+            <Button
+                android:textSize="dimension(3842)"
+                android:layout_gravity="0x10"
+                android:id="@ref/0x7f09018b"
+                android:layout_width="-1"
+                android:layout_height="-2"
+                android:layout_margin="@ref/0x7f070084"
+                android:singleLine="false"
+                style="@ref/0x7f110228" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@ref/0x7f0901a8"
+        android:layout_width="dimension(5121)"
+        android:layout_height="dimension(5121)"
+        android:layout_marginTop="dimension(513)"
+        android:layout_marginRight="dimension(513)"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="dimension(513)"
+        android:layout_alignParentEnd="true">
+
+    </FrameLayout>
+</RelativeLayout>
+
+list item detail.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@ref/0x0106000b"
+    android:paddingLeft="@attr/0x10103a3"
+    android:paddingRight="@attr/0x10103a4"
+    android:layout_width="-1"
+    android:layout_height="-2"
+    android:minHeight="@attr/0x101004d"
+    android:paddingStart="@attr/0x10103bd"
+    android:paddingEnd="@attr/0x10103be">
+
+    <ImageView
+        android:id="@ref/0x7f090114"
+        android:paddingRight="@attr/0x10103a4"
+        android:layout_width="dimension(15361)"
+        android:layout_height="dimension(15361)"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@ref/0x7f10005e"
+        android:paddingEnd="@attr/0x10103be"
+        android:layout_alignParentStart="true" />
+
+    <RelativeLayout
+        android:layout_width="-1"
+        android:layout_height="-2"
+        android:layout_marginTop="dimension(2049)"
+        android:layout_marginBottom="dimension(2049)"
+        android:layout_toLeftOf="@ref/0x7f0900d7"
+        android:layout_toRightOf="@ref/0x7f090114"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@ref/0x7f0900d7"
+        android:layout_toEndOf="@ref/0x7f090114"
+        android:layout_marginVertical="dimension(2049)">
+
+        <TextView
+            android:textAppearance="@attr/0x101039e"
+            android:textSize="@ref/0x7f070050"
+            android:textColor="@ref/0x01060003"
+            android:id="@ref/0x01020014"
+            android:layout_width="-1"
+            android:layout_height="-2" />
+
+        <TextView
+            android:textAppearance="@attr/0x101039e"
+            android:textColor="@ref/0x01060007"
+            android:id="@ref/0x01020015"
+            android:layout_width="-1"
+            android:layout_height="-2"
+            android:layout_below="@ref/0x01020014"
+            android:layout_alignLeft="@ref/0x01020014"
+            android:layout_alignStart="@ref/0x01020014" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@ref/0x7f0900d7"
+        android:layout_width="dimension(6145)"
+        android:layout_height="dimension(6145)"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@ref/0x7f10005e"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
+
+right detail.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@ref/0x0106000b"
+    android:paddingLeft="@attr/0x10103a3"
+    android:paddingRight="@attr/0x10103a4"
+    android:layout_width="-1"
+    android:layout_height="-2"
+    android:minHeight="@attr/0x1010387"
+    android:paddingStart="@attr/0x10103bd"
+    android:paddingEnd="@attr/0x10103be">
+
+    <ImageView
+        android:id="@ref/0x7f090114"
+        android:layout_width="dimension(10241)"
+        android:layout_height="dimension(10241)"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@ref/0x7f10005e"
+        android:layout_alignParentStart="true" />
+
+    <RelativeLayout
+        android:layout_width="-1"
+        android:layout_height="-2"
+        android:layout_marginTop="dimension(2049)"
+        android:layout_marginBottom="dimension(2049)"
+        android:layout_toLeftOf="@ref/0x7f0900d7"
+        android:layout_toRightOf="@ref/0x7f090114"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@ref/0x7f0900d7"
+        android:layout_toEndOf="@ref/0x7f090114"
+        android:layout_marginVertical="dimension(2049)">
+
+        <TextView
+            android:textAppearance="@attr/0x101039f"
+            android:textSize="@ref/0x7f070050"
+            android:textColor="@ref/0x01060003"
+            android:id="@ref/0x01020014"
+            android:layout_width="-2"
+            android:layout_height="-1"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:textAppearance="@attr/0x101039f"
+            android:textColor="@ref/0x01060007"
+            android:gravity="0x800005"
+            android:id="@ref/0x01020015"
+            android:layout_width="-2"
+            android:layout_height="-1"
+            android:layout_toRightOf="@ref/0x01020014"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@ref/0x01020014"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@ref/0x7f0900d7"
+        android:layout_width="dimension(6145)"
+        android:layout_height="dimension(6145)"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@ref/0x7f10005e"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
+
+vertical.leader.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="dimension(186369)"
+    android:layout_height="dimension(23041)">
+
+    <LinearLayout
+        android:gravity="0x10"
+        android:orientation="1"
+        android:id="@ref/0x7f090118"
+        android:layout_width="dimension(23041)"
+        android:layout_height="dimension(186369)"
+        android:transformPivotX="dimension(11521)"
+        android:transformPivotY="dimension(11521)"
+        android:rotation="1132920832.000000">
+
+        <FrameLayout
+            android:layout_gravity="0x11"
+            android:id="@ref/0x7f0901a8"
+            android:layout_width="-2"
+            android:layout_height="-2">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@ref/0x7f09018e"
+            style="@ref/0x7f1100d0">
+
+            <ImageView
+                android:id="@ref/0x7f09018d"
+                style="@ref/0x7f1100d0" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@ref/0x7f090190"
+            style="@ref/0x7f1100d0">
+
+        </FrameLayout>
+
+        <TextView
+            android:layout_margin="dimension(1025)"
+            style="@ref/0x7f110229" />
+
+        <TextView
+            android:gravity="0x11"
+            android:id="@ref/0x7f090191"
+            android:paddingLeft="dimension(1025)"
+            android:paddingRight="dimension(1025)"
+            android:layout_width="-1"
+            android:layout_height="-2"
+            android:layout_marginBottom="dimension(2049)"
+            android:paddingHorizontal="dimension(1025)"
+            style="@ref/0x7f11022d" />
+
+        <TextView
+            android:gravity="0x11"
+            android:id="@ref/0x7f090188"
+            android:paddingLeft="dimension(1025)"
+            android:paddingRight="dimension(1025)"
+            android:layout_width="-1"
+            android:layout_height="-2"
+            android:layout_marginBottom="dimension(2049)"
+            android:paddingHorizontal="dimension(1025)"
+            style="@ref/0x7f11022c" />
+
+        <Button
+            android:textSize="dimension(5122)"
+            android:layout_gravity="0x1"
+            android:id="@ref/0x7f09018b"
+            android:padding="dimension(513)"
+            android:layout_width="-1"
+            android:layout_height="-2"
+            android:layout_marginLeft="dimension(1025)"
+            android:layout_marginRight="dimension(1025)"
+            android:layout_marginBottom="dimension(2049)"
+            android:minWidth="dimension(1)"
+            android:minHeight="dimension(1)"
+            android:singleLine="false"
+            android:layout_marginHorizontal="dimension(1025)"
+            style="@ref/0x7f110228" />
+    </LinearLayout>
+</LinearLayout>
+
+banner.wiew.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="0"
+    android:layout_width="dimension(81921)"
+    android:layout_height="dimension(12801)">
+
+    <FrameLayout
+        android:id="@ref/0x7f09018e"
+        style="@ref/0x7f1100f2">
+
+        <ImageView
+            android:id="@ref/0x7f09018d"
+            style="@ref/0x7f1100f2" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="-2"
+        android:layout_height="-2">
+
+        <FrameLayout
+            android:id="@ref/0x7f090190"
+            android:layout_width="-1"
+            android:layout_height="-1">
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:orientation="1"
+            android:id="@ref/0x7f090185"
+            android:layout_width="-1"
+            android:layout_height="-2">
+
+            <RelativeLayout
+                android:layout_width="-1"
+                android:layout_height="-2"
+                android:layout_marginLeft="dimension(513)"
+                android:layout_marginRight="dimension(513)"
+                android:layout_marginHorizontal="dimension(513)">
+
+                <TextView
+                    android:id="@ref/0x7f090191"
+                    android:layout_width="-2"
+                    android:layout_marginBottom="dimension(257)"
+                    android:layout_toLeftOf="@ref/0x7f0901a8"
+                    android:layout_alignParentLeft="true"
+                    android:layout_toStartOf="@ref/0x7f0901a8"
+                    android:layout_alignParentStart="true"
+                    style="@ref/0x7f110231" />
+
+                <FrameLayout
+                    android:id="@ref/0x7f0901a8"
+                    android:layout_width="-2"
+                    android:layout_height="-2"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true">
+
+                </FrameLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="-1"
+                android:layout_height="-2"
+                android:layout_marginLeft="dimension(513)"
+                android:layout_marginRight="dimension(513)"
+                android:layout_marginHorizontal="dimension(513)">
+
+                <TextView
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    style="@ref/0x7f11022f" />
+
+                <Button
+                    android:textSize="dimension(3842)"
+                    android:id="@ref/0x7f09018b"
+                    android:layout_width="-2"
+                    android:layout_height="dimension(6145)"
+                    android:layout_marginBottom="dimension(513)"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    style="@ref/0x7f110228" />
+            </RelativeLayout>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>
+
+text.layout.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="0"
+    android:layout_width="-2"
+    android:layout_height="-1"
+    android:layout_toLeftOf="@ref/0x7f09018b"
+    android:layout_alignParentLeft="true"
+    android:layout_toStartOf="@ref/0x7f09018b"
+    android:layout_alignParentStart="true">
+
+    <FrameLayout
+        android:id="@ref/0x7f09018e"
+        style="@ref/0x7f1100f2">
+
+        <ImageView
+            android:id="@ref/0x7f09018d"
+            style="@ref/0x7f1100f2" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_gravity="0x10"
+        android:orientation="1"
+        android:id="@ref/0x7f090185"
+        android:layout_width="-2"
+        android:layout_height="-2"
+        android:layout_marginLeft="dimension(1025)"
+        android:layout_marginRight="dimension(1025)"
+        android:layout_marginHorizontal="dimension(1025)">
+
+        <RelativeLayout
+            android:layout_width="-2"
+            android:layout_height="-2">
+
+            <TextView
+                android:id="@ref/0x7f090191"
+                android:layout_marginBottom="dimension(257)"
+                android:layout_toLeftOf="@ref/0x7f0901a8"
+                android:layout_alignParentLeft="true"
+                android:layout_toStartOf="@ref/0x7f0901a8"
+                android:layout_alignParentStart="true"
+                style="@ref/0x7f110231" />
+
+            <FrameLayout
+                android:id="@ref/0x7f0901a8"
+                android:layout_width="-2"
+                android:layout_height="-2"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true">
+
+            </FrameLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:orientation="0"
+            android:layout_width="-2"
+            android:layout_height="-2">
+
+            <TextView
+                style="@ref/0x7f11022f" />
+
+            <TextView
+                android:id="@ref/0x7f090188"
+                style="@ref/0x7f110230" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+
+meterial.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@ref/0x7f090095"
+    android:layout_width="-1"
+    android:layout_height="-2"
+    android:fillViewport="true"
+    android:scrollIndicators="0x3"
+    style="@attr/0x7f040058">
+
+    <androidx.appcompat.widget.ButtonBarLayout
+        android:gravity="0x50"
+        android:orientation="0"
+        android:paddingLeft="dimension(3073)"
+        android:paddingTop="dimension(1025)"
+        android:paddingRight="dimension(3073)"
+        android:paddingBottom="dimension(1025)"
+        android:layout_width="-1"
+        android:layout_height="-2"
+        android:layoutDirection="3">
+
+        <Button
+            android:id="@ref/0x0102001b"
+            android:layout_width="-2"
+            android:layout_height="-2"
+            style="@attr/0x7f040056" />
+
+        <android.widget.Space
+            android:id="@ref/0x7f0901fe"
+            android:visibility="1"
+            android:layout_width="dimension(1)"
+            android:layout_height="dimension(1)"
+            android:layout_weight="1065353216.000000" />
+
+        <Button
+            android:id="@ref/0x0102001a"
+            android:layout_width="-2"
+            android:layout_height="-2"
+            style="@attr/0x7f040055" />
+
+        <Button
+            android:id="@ref/0x01020019"
+            android:layout_width="-2"
+            android:layout_height="-2"
+            style="@attr/0x7f040057" />
+    </androidx.appcompat.widget.ButtonBarLayout>
+</ScrollView>
+
+wiew.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="dimension(76801)"
+    android:layout_height="dimension(64001)">
+
+    <include
+        android:id="@ref/0x7f09018c"
+        android:layout_width="-1"
+        android:layout_height="dimension(12801)"
+        android:layout_marginLeft="dimension(2049)"
+        android:layout_marginTop="dimension(1025)"
+        android:layout_marginRight="dimension(2049)"
+        android:layout_marginHorizontal="dimension(2049)"
+        layout="@ref/0x7f0c0069" />
+
+    <FrameLayout
+        android:id="@ref/0x7f090190"
+        android:layout_width="-1"
+        android:layout_height="-2"
+        android:layout_marginTop="dimension(1025)"
+        android:layout_above="@ref/0x7f09018b"
+        android:layout_below="@ref/0x7f09018c">
+
+    </FrameLayout>
+
+    <Button
+        android:textSize="dimension(4354)"
+        android:id="@ref/0x7f09018b"
+        android:layout_width="-1"
+        android:layout_height="-2"
+        android:layout_marginLeft="dimension(2049)"
+        android:layout_marginTop="dimension(1025)"
+        android:layout_marginRight="dimension(2049)"
+        android:layout_marginBottom="dimension(1025)"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="dimension(2049)"
+        style="@ref/0x7f110228" />
+</RelativeLayout>
+
+
+
