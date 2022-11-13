@@ -1,0 +1,646 @@
+layout.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@ref/0x7f09031a"
+android:background="@ref/0x7f0600f4"
+android:visibility="2"
+android:layout_width="-1"
+android:layout_height="-1">
+<ImageView
+android:id="@ref/0x7f09031b"
+android:layout_width="-1"
+android:layout_height="-1"
+android:scaleType="6"
+android:tint="@ref/0x7f0600e3"
+android:tintMode="3" />
+
+    <RelativeLayout
+        android:id="@ref/0x7f090318"
+        android:layout_width="-2"
+        android:layout_height="-2"
+        android:layout_centerInParent="true">
+
+        <com.bytedance.sdk.openadsdk.core.widget.RoundImageView
+            android:id="@ref/0x7f09031d"
+            android:layout_width="dimension(11265)"
+            android:layout_height="dimension(11265)"
+            android:scaleType="7"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:textSize="dimension(4866)"
+            android:textStyle="0x1"
+            android:textColor="@ref/0x7f0600fe"
+            android:gravity="0x11"
+            android:id="@ref/0x7f090321"
+            android:background="@ref/0x7f08031e"
+            android:visibility="2"
+            android:layout_width="dimension(11265)"
+            android:layout_height="dimension(11265)"
+            android:layout_alignLeft="@ref/0x7f09031d"
+            android:layout_alignTop="@ref/0x7f09031d"
+            android:layout_alignRight="@ref/0x7f09031d"
+            android:layout_alignBottom="@ref/0x7f09031d"
+            android:layout_centerHorizontal="true"
+            android:layout_alignStart="@ref/0x7f09031d"
+            android:layout_alignEnd="@ref/0x7f09031d" />
+
+        <TextView
+            android:textSize="dimension(3074)"
+            android:textColor="@ref/0x7f0600fe"
+            android:ellipsize="3"
+            android:id="@ref/0x7f09031e"
+            android:layout_width="-2"
+            android:layout_height="-2"
+            android:layout_marginTop="dimension(1537)"
+            android:maxLines="1"
+            android:layout_below="@ref/0x7f09031d"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:textSize="dimension(3586)"
+            android:textColor="@ref/0x7f0600fe"
+            android:ellipsize="3"
+            android:gravity="0x11"
+            android:layout_gravity="0x10"
+            android:id="@ref/0x7f090313"
+            android:background="@ref/0x7f08030a"
+            android:paddingLeft="dimension(2561)"
+            android:paddingTop="dimension(513)"
+            android:paddingRight="dimension(2561)"
+            android:paddingBottom="dimension(513)"
+            android:visibility="2"
+            android:layout_width="dimension(25601)"
+            android:layout_height="dimension(7169)"
+            android:layout_marginTop="dimension(5121)"
+            android:minWidth="dimension(18433)"
+            android:maxLines="1"
+            android:layout_below="@ref/0x7f09031e"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@ref/0x7f090319"
+        android:visibility="2"
+        android:layout_width="-2"
+        android:layout_height="-2"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:textSize="dimension(8704)"
+            android:textColor="@ref/0x7f0600fe"
+            android:gravity="0x11"
+            android:layout_gravity="0x10"
+            android:id="@ref/0x7f090314"
+            android:background="@ref/0x7f08030b"
+            android:padding="dimension(513)"
+            android:visibility="2"
+            android:layout_width="dimension(148480)"
+            android:layout_height="dimension(25088)"
+            android:layout_marginTop="dimension(5121)"
+            android:text="@ref/0x7f10024e"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:textSize="dimension(8704)"
+            android:textColor="@ref/0x7f0600fe"
+            android:ellipsize="3"
+            android:id="@ref/0x7f09031f"
+            android:layout_width="-2"
+            android:layout_height="-2"
+            android:layout_marginTop="dimension(15360)"
+            android:text="点击重播"
+            android:maxLines="1"
+            android:layout_below="@ref/0x7f090314"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>
+
+costum.big.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@ref/0x7f0901a5"
+    android:layout_width="-1"
+    android:layout_height="-2">
+
+    <include
+        android:layout_width="@ref/0x7f070100"
+        android:layout_height="@ref/0x7f0700ff"
+        layout="@ref/0x7f0c0095" />
+
+    <LinearLayout
+        android:layout_gravity="0x30"
+        android:orientation="1"
+        android:layout_width="-1"
+        android:layout_height="-2"
+        android:layout_marginStart="@ref/0x7f070100">
+
+        <LinearLayout
+            android:orientation="0"
+            android:id="@ref/0x7f0901a7"
+            android:layout_width="-1"
+            android:layout_height="-2"
+            android:minHeight="@ref/0x7f0700ff">
+
+            <FrameLayout
+                android:id="@ref/0x7f0901a6"
+                android:layout_width="-1"
+                android:layout_height="-2"
+                android:layout_marginBottom="dimension(2049)"
+                android:layout_weight="1065353216.000000"
+                android:layout_marginEnd="dimension(2049)">
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@ref/0x7f0901d3"
+                android:paddingTop="@ref/0x7f070104"
+                android:layout_width="-2"
+                android:layout_height="-2"
+                android:layout_marginEnd="dimension(2049)">
+
+                <ViewStub
+                    android:layout_gravity="0x800035"
+                    android:id="@ref/0x7f09023a"
+                    android:visibility="2"
+                    android:layout="@ref/0x7f0c009a"
+                    android:layout_width="-2"
+                    android:layout_height="-2" />
+
+                <ViewStub
+                    android:layout_gravity="0x800035"
+                    android:id="@ref/0x7f0900b2"
+                    android:visibility="2"
+                    android:layout="@ref/0x7f0c0099"
+                    android:layout_width="-2"
+                    android:layout_height="-2" />
+
+                <TextView
+                    android:textAppearance="@ref/0x7f110128"
+                    android:layout_gravity="0x800055"
+                    android:id="@ref/0x7f090116"
+                    android:layout_width="-2"
+                    android:layout_height="-2"
+                    android:layout_marginTop="dimension(5121)"
+                    android:singleLine="true" />
+            </FrameLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@ref/0x7f09003b"
+            android:background="argb8(0x29000000)"
+            android:visibility="2"
+            android:layout_width="-1"
+            android:layout_height="dimension(257)" />
+
+        <LinearLayout
+            android:orientation="0"
+            android:id="@ref/0x7f09004f"
+            android:visibility="2"
+            android:layout_width="-1"
+            android:layout_height="-2"
+            android:layout_marginStart="dimension(-2047)">
+
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
+
+search.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="0x11"
+    android:id="@ref/0x7f0901e2"
+    android:focusableInTouchMode="true"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:descendantFocusability="0"
+    android:layout_width="-1"
+    android:layout_height="-1"
+    android:layout_marginLeft="dimension(513)"
+    android:layout_marginTop="dimension(1537)"
+    android:layout_marginRight="dimension(2049)"
+    android:layout_marginBottom="dimension(1537)"
+    android:layout_weight="1065353216.000000"
+    android:elevation="dimension(513)">
+
+    <acr.browser.lightning.view.SearchView
+        android:textColor="@ref/0x7f060074"
+        android:textColorHint="@ref/0x7f06007c"
+        android:gravity="0x13"
+        android:id="@ref/0x7f0901dd"
+        android:background="@ref/0x00000000"
+        android:paddingLeft="dimension(2049)"
+        android:paddingTop="dimension(257)"
+        android:paddingRight="dimension(1281)"
+        android:paddingBottom="dimension(257)"
+        android:layout_width="-1"
+        android:layout_height="-1"
+        android:hint="@ref/0x7f10019a"
+        android:singleLine="true"
+        android:inputType="0x11"
+        android:imeOptions="0x2"
+        android:textCursorDrawable="@ref/0x00000000" />
+</LinearLayout>
+
+toolbar.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="1"
+    android:id="@ref/0x7f090241"
+    android:background="@attr/0x7f0400b4"
+    android:fitsSystemWindows="true"
+    android:layout_width="-1"
+    android:layout_height="-2"
+    android:elevation="dimension(1)">
+
+    <FrameLayout
+        android:id="@ref/0x7f090218"
+        android:layout_width="-1"
+        android:layout_height="dimension(10241)">
+
+    </FrameLayout>
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@ref/0x7f090240"
+        android:background="@ref/0x7f080301"
+        android:paddingLeft="dimension(1)"
+        android:paddingTop="dimension(513)"
+        android:paddingRight="dimension(1)"
+        android:paddingBottom="dimension(1)"
+        android:layout_width="-1"
+        android:layout_height="@attr/0x7f040003"
+        custom:contentInsetEnd="dimension(1)"
+        custom:contentInsetStart="dimension(1)" />
+
+    <LinearLayout
+        android:background="@attr/0x7f04018f"
+        android:layout_width="-1"
+        android:layout_height="-2">
+
+        <com.anthonycr.progress.AnimatedProgressBar
+            android:id="@ref/0x7f0901c2"
+            android:background="@ref/0x0106000d"
+            android:layout_width="-1"
+            android:layout_height="dimension(513)"
+            custom:bidirectionalAnimate="false"
+            custom:progressColor="@attr/0x7f0400ad" />
+    </LinearLayout>
+</LinearLayout>
+
+transpared.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="1"
+    android:id="@ref/0x7f090241"
+    android:background="@attr/0x7f0400b4"
+    android:fitsSystemWindows="true"
+    android:layout_width="-1"
+    android:layout_height="-2"
+    android:elevation="dimension(513)">
+
+    <FrameLayout
+        android:id="@ref/0x7f090218"
+        android:layout_width="-1"
+        android:layout_height="dimension(10241)">
+
+    </FrameLayout>
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@ref/0x7f090240"
+        android:paddingLeft="dimension(1)"
+        android:paddingTop="dimension(513)"
+        android:paddingRight="dimension(1)"
+        android:paddingBottom="dimension(1)"
+        android:layout_width="-1"
+        android:layout_height="@attr/0x7f040003"
+        custom:contentInsetEnd="dimension(1)"
+        custom:contentInsetStart="dimension(1)" />
+
+    <LinearLayout
+        android:background="@attr/0x7f04018f"
+        android:layout_width="-1"
+        android:layout_height="-2">
+
+        <com.anthonycr.progress.AnimatedProgressBar
+            android:id="@ref/0x7f0901c2"
+            android:background="@ref/0x0106000d"
+            android:layout_width="-1"
+            android:layout_height="dimension(513)"
+            custom:bidirectionalAnimate="false"
+            custom:progressColor="@attr/0x7f0400ad" />
+    </LinearLayout>
+</LinearLayout>
+
+bottom.xml
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="1"
+    android:id="@ref/0x7f090241"
+    android:background="@attr/0x7f0400b4"
+    android:fitsSystemWindows="true"
+    android:layout_width="-1"
+    android:layout_height="-2"
+    android:elevation="dimension(513)">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@ref/0x7f090240"
+        android:paddingLeft="dimension(1)"
+        android:paddingTop="dimension(513)"
+        android:paddingRight="dimension(1)"
+        android:paddingBottom="dimension(1)"
+        android:layout_width="-1"
+        android:layout_height="@attr/0x7f040003"
+        custom:contentInsetEnd="dimension(1)"
+        custom:contentInsetStart="dimension(1)" />
+
+    <LinearLayout
+        android:background="@attr/0x7f04018f"
+        android:layout_width="-1"
+        android:layout_height="-2">
+
+        <com.anthonycr.progress.AnimatedProgressBar
+            android:id="@ref/0x7f0901c2"
+            android:background="@ref/0x0106000d"
+            android:layout_width="-1"
+            android:layout_height="dimension(513)"
+            custom:bidirectionalAnimate="false"
+            custom:progressColor="@attr/0x7f0400ad" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@ref/0x7f090218"
+        android:layout_width="-1"
+        android:layout_height="dimension(10241)">
+
+    </FrameLayout>
+</LinearLayout>
+
+viev.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="1"
+    android:layout_width="-1"
+    android:layout_height="-1">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@ref/0x7f090240"
+        android:background="@attr/0x7f04021d"
+        android:layout_width="-1"
+        android:layout_height="@attr/0x7f040003"
+        android:minHeight="@attr/0x7f040003"
+        android:elevation="dimension(513)"
+        custom:contentInsetEnd="dimension(1)"
+        custom:contentInsetStart="dimension(1)" />
+
+    <ScrollView
+        android:layout_width="-1"
+        android:layout_height="-1">
+
+        <LinearLayout
+            android:orientation="1"
+            android:padding="dimension(5121)"
+            android:layout_width="-1"
+            android:layout_height="-2">
+
+            <TextView
+                android:textAppearance="@attr/0x1010040"
+                android:gravity="0x11"
+                android:id="@ref/0x7f090232"
+                android:layout_width="-1"
+                android:layout_height="-2"
+                android:layout_marginBottom="dimension(5121)"
+                android:text="Large Text" />
+
+            <TextView
+                android:textAppearance="@attr/0x1010041"
+                android:gravity="0x800003"
+                android:id="@ref/0x7f090231"
+                android:layout_width="-1"
+                android:layout_height="-2"
+                android:text="Medium Text" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
+toolbar.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.ActionBarOverlayLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@ref/0x7f0900cc"
+    android:fitsSystemWindows="true"
+    android:layout_width="-1"
+    android:layout_height="-1">
+
+    <include
+        layout="@ref/0x7f0c0014" />
+
+    <androidx.appcompat.widget.ActionBarContainer
+        android:gravity="0x30"
+        android:id="@ref/0x7f090032"
+        android:layout_width="-1"
+        android:layout_height="-2"
+        android:layout_alignParentTop="true"
+        android:touchscreenBlocksFocus="true"
+        style="@attr/0x7f040005">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@ref/0x7f090030"
+            android:layout_width="-1"
+            android:layout_height="-2"
+            app:navigationContentDescription="@ref/0x7f100001"
+            style="@attr/0x7f04021e" />
+
+        <androidx.appcompat.widget.ActionBarContextView
+            android:theme="@attr/0x7f040009"
+            android:id="@ref/0x7f090039"
+            android:visibility="2"
+            android:layout_width="-1"
+            android:layout_height="-2"
+            style="@attr/0x7f04001b" />
+    </androidx.appcompat.widget.ActionBarContainer>
+</androidx.appcompat.widget.ActionBarOverlayLayout>
+
+activity.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="1"
+    android:layout_width="-1"
+    android:layout_height="-1">
+
+    <include
+        android:id="@ref/0x7f090131"
+        android:layout_width="-1"
+        android:layout_height="-2"
+        android:layout_above="@ref/0x7f090059"
+        android:layout_alignParentTop="true"
+        layout="@ref/0x7f0c0068" />
+
+    <RelativeLayout
+        android:id="@ref/0x7f090059"
+        android:layout_width="-1"
+        android:layout_height="dimension(25601)"
+        android:layout_alignParentBottom="true"
+        android:elevation="dimension(769)">
+
+        <TextView
+            android:id="@ref/0x7f090209"
+            android:layout_width="-2"
+            android:layout_height="-2"
+            android:layout_margin="dimension(3073)"
+            android:layout_above="@ref/0x7f090054"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <com.applovin.impl.mediation.debugger.ui.testmode.AdControlButton
+            android:id="@ref/0x7f090054"
+            android:layout_width="@ref/0x7f07004f"
+            android:layout_height="@ref/0x7f07004e"
+            android:layout_marginBottom="dimension(3073)"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>
+
+thomp.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:enabled="false"
+    android:orientation="0"
+    android:id="@ref/0x7f090038"
+    android:background="@ref/0x00000000"
+    android:layout_width="dimension(1)"
+    android:layout_height="dimension(12289)"
+    android:layout_weight="1065353216.000000"
+    android:paddingStart="dimension(1025)"
+    style="@ref/0x7f1101eb">
+
+    <ImageView
+        android:enabled="false"
+        android:layout_gravity="0x800013"
+        android:id="@ref/0x7f090041"
+        android:layout_width="@ref/0x7f0700fb"
+        android:layout_height="@ref/0x7f0700fb"
+        android:scaleType="7"
+        android:alpha="1056964608.000000" />
+
+    <TextView
+        android:enabled="false"
+        android:ellipsize="3"
+        android:layout_gravity="0x800013"
+        android:id="@ref/0x7f09004d"
+        android:clickable="false"
+        android:layout_width="-2"
+        android:layout_height="-2"
+        android:singleLine="true"
+        android:alpha="1056964608.000000"
+        android:paddingStart="dimension(1025)"
+        style="@ref/0x7f1101ec" />
+</LinearLayout>
+
+action.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="0"
+    android:id="@ref/0x7f090038"
+    android:layout_width="dimension(1)"
+    android:layout_height="dimension(12289)"
+    android:layout_weight="1065353216.000000"
+    android:paddingStart="dimension(1025)"
+    style="@ref/0x7f1101eb">
+
+    <ImageView
+        android:layout_gravity="0x800013"
+        android:id="@ref/0x7f090041"
+        android:layout_width="@ref/0x7f0700fb"
+        android:layout_height="@ref/0x7f0700fb"
+        android:scaleType="7" />
+
+    <TextView
+        android:ellipsize="3"
+        android:layout_gravity="0x800013"
+        android:id="@ref/0x7f09004d"
+        android:clickable="false"
+        android:layout_width="-2"
+        android:layout_height="-2"
+        android:singleLine="true"
+        android:paddingStart="dimension(1025)"
+        style="@ref/0x7f1101ec" />
+</LinearLayout>
+
+icon.group.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@ref/0x7f09010a"
+    android:layout_width="@ref/0x7f070100"
+    android:layout_height="@ref/0x7f0700ff">
+
+    <ImageView
+        android:id="@ref/0x7f090106"
+        android:layout_width="-1"
+        android:layout_height="-1"
+        android:layout_marginTop="@ref/0x7f0700fd"
+        android:layout_marginBottom="@ref/0x7f0700fd"
+        android:scaleType="7"
+        android:layout_marginStart="@ref/0x7f0700fd"
+        android:layout_marginEnd="@ref/0x7f0700fd" />
+
+    <ImageView
+        android:layout_gravity="0x800055"
+        android:id="@ref/0x7f0901d2"
+        android:visibility="2"
+        android:layout_width="@ref/0x7f070103"
+        android:layout_height="@ref/0x7f070103"
+        android:layout_marginBottom="dimension(2049)"
+        android:scaleType="7"
+        android:layout_marginEnd="dimension(2049)" />
+</FrameLayout>
+
+settings.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="1"
+    android:layout_width="-1"
+    android:layout_height="-2">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@ref/0x7f090240"
+        android:background="@attr/0x7f04021d"
+        android:layout_width="-1"
+        android:layout_height="@attr/0x7f040003"
+        android:minHeight="@attr/0x7f040003"
+        android:elevation="dimension(513)"
+        custom:contentInsetEnd="dimension(1)"
+        custom:contentInsetStart="dimension(1)" />
+</LinearLayout>
+
+
