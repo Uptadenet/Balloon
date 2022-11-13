@@ -1,0 +1,466 @@
+about.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@ref/0x7f10019f">
+
+        <Preference
+            android:title="@ref/0x7f10025d"
+            android:key="pref_version" />
+
+        <Preference
+            android:title="@ref/0x7f10017b"
+            android:summary="@ref/0x7f10017a" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@ref/0x7f10012a">
+
+        <Preference
+            android:title="@ref/0x7f1000d1"
+            android:summary="@ref/0x7f10014a">
+
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="http://www.mozilla.org/MPL/2.0/">
+
+                <extra
+                    android:name="SOURCE"
+                    android:value="SELF" />
+            </intent>
+        </Preference>
+
+        <Preference
+            android:title="@ref/0x7f10012c"
+            android:summary="@ref/0x7f10014a">
+
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/anthonycr/Lightning-Browser/blob/dev/LICENSE">
+
+                <extra
+                    android:name="SOURCE"
+                    android:value="SELF" />
+            </intent>
+        </Preference>
+
+        <Preference
+            android:title="@ref/0x7f10004c"
+            android:summary="@ref/0x7f10004e">
+
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="http://www.apache.org/licenses/LICENSE-2.0">
+
+                <extra
+                    android:name="SOURCE"
+                    android:value="SELF" />
+            </intent>
+        </Preference>
+
+        <Preference
+            android:title="@ref/0x7f10011b"
+            android:summary="@ref/0x7f100110">
+
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="http://hosts-file.net/">
+
+                <extra
+                    android:name="SOURCE"
+                    android:value="SELF" />
+            </intent>
+        </Preference>
+
+        <Preference
+            android:title="@ref/0x7f100128"
+            android:summary="@ref/0x7f100129">
+
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="http://www.gnu.org/licenses/lgpl.html">
+
+                <extra
+                    android:name="SOURCE"
+                    android:value="SELF" />
+            </intent>
+        </Preference>
+
+        <Preference
+            android:title="@ref/0x7f1001ad"
+            android:summary="@ref/0x7f10004e">
+
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="http://www.apache.org/licenses/LICENSE-2.0">
+
+                <extra
+                    android:name="SOURCE"
+                    android:value="SELF" />
+            </intent>
+        </Preference>
+
+        <Preference
+            android:title="@ref/0x7f100126"
+            android:summary="@ref/0x7f100148">
+
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="http://jsoup.org/license">
+
+                <extra
+                    android:name="SOURCE"
+                    android:value="SELF" />
+            </intent>
+        </Preference>
+    </PreferenceCategory>
+</PreferenceScreen>
+
+privacy.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@ref/0x7f1001a6">
+
+        <CheckBoxPreference
+            android:title="@ref/0x7f10012f"
+            android:key="location"
+            android:defaultValue="true" />
+
+        <CheckBoxPreference
+            android:title="@ref/0x7f1001be"
+            android:key="third_party"
+            android:defaultValue="false" />
+
+        <CheckBoxPreference
+            android:title="@ref/0x7f100174"
+            android:key="password"
+            android:summary="@ref/0x7f10018d"
+            android:defaultValue="true" />
+
+        <CheckBoxPreference
+            android:title="@ref/0x7f1000f1"
+            android:key="do_not_track"
+            android:defaultValue="false" />
+
+        <CheckBoxPreference
+            android:title="@ref/0x7f10018f"
+            android:key="remove_identifying_headers"
+            android:defaultValue="false" />
+
+        <CheckBoxPreference
+            android:title="@ref/0x7f100081"
+            android:key="clear_cache_exit"
+            android:defaultValue="false" />
+
+        <CheckBoxPreference
+            android:title="@ref/0x7f1000b4"
+            android:key="clear_history_exit"
+            android:defaultValue="false" />
+
+        <CheckBoxPreference
+            android:title="@ref/0x7f1000b2"
+            android:key="clear_cookies_exit"
+            android:defaultValue="false" />
+
+        <CheckBoxPreference
+            android:title="@ref/0x7f1000b6"
+            android:key="clear_webstorage_exit"
+            android:defaultValue="false" />
+
+        <Preference
+            android:title="@ref/0x7f1000b0"
+            android:key="clear_cache" />
+
+        <Preference
+            android:title="@ref/0x7f1000b3"
+            android:key="clear_history" />
+
+        <Preference
+            android:title="@ref/0x7f1000b1"
+            android:key="clear_cookies" />
+
+        <Preference
+            android:title="@ref/0x7f1000b5"
+            android:key="clear_webstorage" />
+    </PreferenceCategory>
+</PreferenceScreen>
+
+general.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@ref/0x7f1001a5"
+        android:key="general_settings">
+
+        <CheckBoxPreference
+            android:title="@ref/0x7f10010b"
+            android:key="cb_flash"
+            android:defaultValue="false" />
+
+        <CheckBoxPreference
+            android:title="@ref/0x7f1000f8"
+            android:key="cb_notification_search_bar"
+            android:defaultValue="true" />
+
+        <CheckBoxPreference
+            android:title="@ref/0x7f1000f9"
+            android:key="cb_notification_weather"
+            android:defaultValue="true" />
+
+        <CheckBoxPreference
+            android:title="@ref/0x7f10007c"
+            android:key="cb_ads"
+            android:defaultValue="false" />
+
+        <CheckBoxPreference
+            android:title="@ref/0x7f10007b"
+            android:key="cb_images"
+            android:defaultValue="false" />
+
+        <CheckBoxPreference
+            android:title="@ref/0x7f100125"
+            android:key="cb_javascript"
+            android:defaultValue="true" />
+
+        <Preference
+            android:title="@ref/0x7f10011c"
+            android:key="proxy" />
+
+        <Preference
+            android:title="@ref/0x7f100047"
+            android:key="agent" />
+
+        <Preference
+            android:title="@ref/0x7f1000f2"
+            android:key="download" />
+
+        <Preference
+            android:title="@ref/0x7f100118"
+            android:key="home" />
+
+        <Preference
+            android:title="@ref/0x7f100199"
+            android:key="search" />
+
+        <Preference
+            android:title="@ref/0x7f10019c"
+            android:key="suggestions_choice" />
+    </PreferenceCategory>
+</PreferenceScreen>
+
+display.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@ref/0x7f1001a4">
+
+        <Preference
+            android:title="@ref/0x7f1000ad"
+            android:key="setHomePageBackground" />
+
+        <CheckBoxPreference
+            android:title="@ref/0x7f1001ba"
+            android:key="cb_drawertabs"
+            android:defaultValue="true" />
+
+        <CheckBoxPreference
+            android:title="@ref/0x7f1001b6"
+            android:key="cb_swapdrawers"
+            android:defaultValue="true" />
+
+        <CheckBoxPreference
+            android:title="@ref/0x7f100111"
+            android:key="fullScreenOption"
+            android:defaultValue="false" />
+
+        <CheckBoxPreference
+            android:title="@ref/0x7f100112"
+            android:key="fullscreen"
+            android:defaultValue="true" />
+
+        <CheckBoxPreference
+            android:title="@ref/0x7f10025e"
+            android:key="wideViewPort"
+            android:summary="@ref/0x7f10018d"
+            android:defaultValue="true" />
+
+        <CheckBoxPreference
+            android:title="@ref/0x7f100173"
+            android:key="overViewMode"
+            android:summary="@ref/0x7f10018d"
+            android:defaultValue="true" />
+
+        <CheckBoxPreference
+            android:title="@ref/0x7f10018e"
+            android:key="text_reflow"
+            android:defaultValue="false" />
+
+        <Preference
+            android:title="@ref/0x7f1001cc"
+            android:key="text_size" />
+    </PreferenceCategory>
+</PreferenceScreen>
+
+advanced.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@ref/0x7f1001a2">
+
+        <CheckBoxPreference
+            android:title="@ref/0x7f100260"
+            android:key="allow_new_window"
+            android:summary="@ref/0x7f10018d"
+            android:defaultValue="true" />
+
+        <CheckBoxPreference
+            android:title="@ref/0x7f1000cf"
+            android:key="allow_cookies"
+            android:summary="@ref/0x7f10018d"
+            android:defaultValue="true" />
+
+        <CheckBoxPreference
+            android:title="@ref/0x7f100122"
+            android:key="incognito_cookies"
+            android:defaultValue="false" />
+
+        <CheckBoxPreference
+            android:title="@ref/0x7f100191"
+            android:key="restore_tabs"
+            android:defaultValue="true" />
+
+        <Preference
+            android:title="@ref/0x7f1001bc"
+            android:key="text_encoding" />
+
+        <Preference
+            android:title="@ref/0x7f100190"
+            android:key="rendering_mode" />
+
+        <Preference
+            android:title="@ref/0x7f100259"
+            android:key="url_contents" />
+    </PreferenceCategory>
+</PreferenceScreen>
+
+headers.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <header
+        android:title="@ref/0x7f1001a5"
+        android:fragment="acr.browser.lightning.fragment.GeneralSettingsFragment" />
+
+    <header
+        android:title="@ref/0x7f10007f"
+        android:fragment="acr.browser.lightning.fragment.BookmarkSettingsFragment" />
+
+    <header
+        android:title="@ref/0x7f1001a4"
+        android:fragment="acr.browser.lightning.fragment.DisplaySettingsFragment" />
+
+    <header
+        android:title="@ref/0x7f1001a6"
+        android:fragment="acr.browser.lightning.fragment.PrivacySettingsFragment" />
+
+    <header
+        android:title="@ref/0x7f1001a2"
+        android:fragment="acr.browser.lightning.fragment.AdvancedSettingsFragment" />
+
+    <header
+        android:title="@ref/0x7f10019f"
+        android:summary="@ref/0x7f1001a0"
+        android:fragment="acr.browser.lightning.fragment.AboutSettingsFragment" />
+
+    <header
+        android:title="@ref/0x7f1000d5"
+        android:fragment="acr.browser.lightning.fragment.DebugSettingsFragment" />
+</preference-headers>
+
+boomarks.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@ref/0x7f10007f">
+
+        <Preference
+            android:title="@ref/0x7f100104"
+            android:key="export_bookmark" />
+
+        <Preference
+            android:title="@ref/0x7f10011f"
+            android:key="import_bookmark" />
+
+        <Preference
+            android:title="@ref/0x7f100121"
+            android:key="import_browser" />
+
+        <Preference
+            android:title="@ref/0x7f100031"
+            android:key="delete_bookmarks" />
+    </PreferenceCategory>
+</PreferenceScreen>
+
+debug.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@ref/0x7f1000d5">
+
+        <SwitchPreference
+            android:title="@ref/0x7f1000d4"
+            android:key="leak_canary_enabled"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>
+
+config.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+
+    <domain-config
+        cleartextTrafficPermitted="false">
+
+        <domain
+            includeSubdomains="true" />
+    </domain-config>
+</network-security-config>
+
+filepaths.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+
+    <external-path
+        name="share"
+        path="/" />
+
+    <external-path
+        name="external_files"
+        path="." />
+</paths>
