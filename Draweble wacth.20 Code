@@ -1,0 +1,104 @@
+google singin disabled.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:left="dimension(769)"
+        android:top="dimension(769)"
+        android:right="dimension(769)"
+        android:bottom="dimension(769)">
+
+        <shape
+            android:shape="0">
+
+            <solid
+                android:color="argb8(0x18ffffff)" />
+
+            <padding
+                android:left="dimension(12801)"
+                android:top="dimension(2049)"
+                android:right="dimension(2817)"
+                android:bottom="dimension(1793)" />
+        </shape>
+    </item>
+
+    <item
+        android:left="dimension(-9215)">
+
+        <bitmap
+            android:gravity="0x13"
+            android:src="@ref/0x7f080120" />
+    </item>
+</layer-list>
+
+google singin disabled memory card.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:gravity="0x10"
+        android:height="dimension(10241)"
+        android:width="dimension(10241)"
+        android:left="dimension(1025)">
+
+        <shape
+            android:shape="1">
+
+            <solid
+                android:color="@ref/0x0106000b" />
+        </shape>
+    </item>
+
+    <item
+        android:left="dimension(3841)"
+        android:top="dimension(257)">
+
+        <bitmap
+            android:gravity="0x13"
+            android:src="@ref/0x7f080121" />
+    </item>
+</layer-list>
+
+google text light normal.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:gravity="0x10"
+        android:height="dimension(10241)"
+        android:width="dimension(10241)"
+        android:left="dimension(1025)">
+
+        <shape
+            android:shape="1">
+
+            <solid
+                android:color="@ref/0x0106000b" />
+        </shape>
+    </item>
+
+    <item
+        android:left="dimension(3841)">
+
+        <bitmap
+            android:gravity="0x13"
+            android:src="@ref/0x7f080121" />
+    </item>
+</layer-list>
+
+meterial.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="0">
+
+    <solid
+        android:color="@ref/0x0106000b" />
+</shape>
