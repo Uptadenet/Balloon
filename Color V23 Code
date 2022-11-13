@@ -1,0 +1,187 @@
+tint.defeault.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_enabled="false"
+        android:color="@attr/0x7f0400b2"
+        android:alpha="@attr/0x1010033" />
+
+    <item
+        android:state_focused="true"
+        android:color="@attr/0x7f0400b0" />
+
+    <item
+        android:state_pressed="true"
+        android:color="@attr/0x7f0400b0" />
+
+    <item
+        android:color="@attr/0x7f0400b0"
+        android:state_activated="true" />
+
+    <item
+        android:state_selected="true"
+        android:color="@attr/0x7f0400b0" />
+
+    <item
+        android:state_checked="true"
+        android:color="@attr/0x7f0400b0" />
+
+    <item
+        android:color="@attr/0x7f0400b2" />
+</selector>
+
+edittext.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_enabled="false"
+        android:color="@attr/0x7f0400b2"
+        android:alpha="@attr/0x1010033" />
+
+    <item
+        android:state_focused="false"
+        android:state_pressed="false"
+        android:color="@attr/0x7f0400b2" />
+
+    <item
+        android:color="@attr/0x7f0400b0" />
+</selector>
+
+snipper.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_enabled="false"
+        android:color="@attr/0x7f0400b2"
+        android:alpha="@attr/0x1010033" />
+
+    <item
+        android:state_focused="false"
+        android:state_pressed="false"
+        android:color="@attr/0x7f0400b2" />
+
+    <item
+        android:color="@attr/0x7f0400b0" />
+</selector>
+
+swich.track.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_enabled="false"
+        android:color="@attr/0x1010030"
+        android:alpha="1036831936.000000" />
+
+    <item
+        android:state_checked="true"
+        android:color="@attr/0x7f0400b0"
+        android:alpha="1050253696.000000" />
+
+    <item
+        android:color="@attr/0x1010030"
+        android:alpha="1050253696.000000" />
+</selector>
+
+checkable.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_enabled="false"
+        android:color="@attr/0x7f0400b2"
+        android:alpha="@attr/0x1010033" />
+
+    <item
+        android:state_checked="true"
+        android:color="@attr/0x7f0400b0" />
+
+    <item
+        android:color="@attr/0x7f0400b2" />
+</selector>
+
+meterial.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_enabled="true"
+        android:state_checked="true"
+        android:color="@attr/0x101042a"
+        android:alpha="@ref/0x7f0700ba" />
+
+    <item
+        android:color="@attr/0x101042c" />
+</selector>
+
+text.meterial.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_enabled="false"
+        android:color="@attr/0x1010038"
+        android:alpha="@attr/0x1010033" />
+
+    <item
+        android:color="@attr/0x7f0400ad" />
+</selector>
+
+text.meterail.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_enabled="false"
+        android:color="@attr/0x1010036"
+        android:alpha="@attr/0x1010033" />
+
+    <item
+        android:color="@attr/0x1010039" />
+</selector>
+
+thumb.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_enabled="false"
+        android:color="@attr/0x7f0400b0"
+        android:alpha="@attr/0x1010033" />
+
+    <item
+        android:color="@attr/0x7f0400b0" />
+</selector>
+
+passoworld.toggle.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:color="@attr/0x1010030"
+        android:alpha="1057635712.000000" />
+</selector>
+
