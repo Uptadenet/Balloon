@@ -1,0 +1,506 @@
+from.buttom.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<set
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shareInterpolator="false">
+
+    <scale
+        android:interpolator="@ref/0x010a0006"
+        android:duration="@ref/0x7f0a0000"
+        android:pivotX="fraction(1073741872)"
+        android:pivotY="fraction(256)"
+        android:fromXScale="1063675520.000000"
+        android:toXScale="1065353216.000000"
+        android:fromYScale="1063675520.000000"
+        android:toYScale="1065353216.000000" />
+
+    <alpha
+        android:interpolator="@ref/0x010a0006"
+        android:duration="@ref/0x7f0a0001"
+        android:fromAlpha="0.000000"
+        android:toAlpha="1065353216.000000" />
+</set>
+
+outfrom.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<set
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shareInterpolator="false">
+
+    <scale
+        android:interpolator="@ref/0x010a0006"
+        android:duration="@ref/0x7f0a0000"
+        android:pivotX="fraction(1073741872)"
+        android:pivotY="fraction(256)"
+        android:fromXScale="1065353216.000000"
+        android:toXScale="1063675520.000000"
+        android:fromYScale="1065353216.000000"
+        android:toYScale="1063675520.000000" />
+
+    <alpha
+        android:interpolator="@ref/0x010a0006"
+        android:duration="@ref/0x7f0a0001"
+        android:fromAlpha="1065353216.000000"
+        android:toAlpha="0.000000" />
+</set>
+
+fadein scale.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<set
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <scale
+        android:interpolator="@ref/0x7f01000d"
+        android:duration="@ref/0x7f0a0002"
+        android:pivotX="fraction(1073741873)"
+        android:pivotY="fraction(1073741873)"
+        android:fromXScale="1062836608.000000"
+        android:toXScale="1065353216.000000"
+        android:fromYScale="1062836608.000000"
+        android:toYScale="1065353216.000000" />
+
+    <alpha
+        android:duration="@ref/0x7f0a0002"
+        android:fromAlpha="0.000000"
+        android:toAlpha="1065353216.000000" />
+</set>
+
+fade.out.scale.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<set
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <scale
+        android:interpolator="@ref/0x7f01000d"
+        android:duration="@ref/0x7f0a0002"
+        android:pivotX="fraction(1073741873)"
+        android:pivotY="fraction(1073741873)"
+        android:fromXScale="1065353216.000000"
+        android:toXScale="1062836608.000000"
+        android:fromYScale="1065353216.000000"
+        android:toYScale="1062836608.000000" />
+
+    <alpha
+        android:duration="@ref/0x7f0a0002"
+        android:fromAlpha="1065353216.000000"
+        android:toAlpha="0.000000" />
+</set>
+
+stream.loader.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<set
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <rotate
+        android:duration="10"
+        android:fromDegrees="0.000000"
+        android:toDegrees="1110704128.000000"
+        android:pivotX="fraction(1073741872)"
+        android:pivotY="fraction(1073741872)"
+        android:startOffset="0" />
+
+    <rotate
+        android:duration="10"
+        android:fromDegrees="0.000000"
+        android:toDegrees="1110704128.000000"
+        android:pivotX="fraction(1073741872)"
+        android:pivotY="fraction(1073741872)"
+        android:startOffset="100" />
+
+    <rotate
+        android:duration="10"
+        android:fromDegrees="0.000000"
+        android:toDegrees="1110704128.000000"
+        android:pivotX="fraction(1073741872)"
+        android:pivotY="fraction(1073741872)"
+        android:startOffset="200" />
+
+    <rotate
+        android:duration="10"
+        android:fromDegrees="0.000000"
+        android:toDegrees="1110704128.000000"
+        android:pivotX="fraction(1073741872)"
+        android:pivotY="fraction(1073741872)"
+        android:startOffset="300" />
+
+    <rotate
+        android:duration="10"
+        android:fromDegrees="0.000000"
+        android:toDegrees="1110704128.000000"
+        android:pivotX="fraction(1073741872)"
+        android:pivotY="fraction(1073741872)"
+        android:startOffset="400" />
+
+    <rotate
+        android:duration="10"
+        android:fromDegrees="0.000000"
+        android:toDegrees="1110704128.000000"
+        android:pivotX="fraction(1073741872)"
+        android:pivotY="fraction(1073741872)"
+        android:startOffset="500" />
+
+    <rotate
+        android:duration="10"
+        android:fromDegrees="0.000000"
+        android:toDegrees="1110704128.000000"
+        android:pivotX="fraction(1073741872)"
+        android:pivotY="fraction(1073741872)"
+        android:startOffset="600" />
+
+    <rotate
+        android:duration="10"
+        android:fromDegrees="0.000000"
+        android:toDegrees="1110704128.000000"
+        android:pivotX="fraction(1073741872)"
+        android:pivotY="fraction(1073741872)"
+        android:startOffset="700" />
+</set>
+
+icon.scale.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<set
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:repeatCount="-1"
+    android:repeatMode="2">
+
+    <scale
+        android:duration="700"
+        android:pivotX="fraction(1073741872)"
+        android:pivotY="fraction(1073741872)"
+        android:repeatCount="-1"
+        android:repeatMode="2"
+        android:fromXScale="1065353216.000000"
+        android:toXScale="1067030912.000000"
+        android:fromYScale="1065353216.000000"
+        android:toYScale="1067030912.000000" />
+</set>
+
+x_in_scale.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<set
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <translate
+        android:duration="1000"
+        android:fillAfter="true"
+        android:fromYDelta="fraction(257)"
+        android:toYDelta="fraction(1)" />
+
+    <translate
+        android:duration="2000"
+        android:fillAfter="true"
+        android:startOffset="1000"
+        android:fromXDelta="fraction(1)"
+        android:toXDelta="fraction(-255)" />
+</set>
+
+slide down out.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<set
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <translate
+        android:interpolator="@ref/0x010c0002"
+        android:duration="@ref/0x7f0a0002"
+        android:fromYDelta="fraction(1)"
+        android:toYDelta="fraction(257)" />
+
+    <alpha
+        android:duration="@ref/0x7f0a0002"
+        android:fromAlpha="1065353216.000000"
+        android:toAlpha="0.000000" />
+</set>
+
+sheet slide.out.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<set
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@ref/0x010a0005"
+    android:duration="@ref/0x7f0a0004">
+
+    <translate
+        android:fromYDelta="0.000000"
+        android:toYDelta="fraction(429496881)" />
+
+    <alpha
+        android:fromAlpha="1065353216.000000"
+        android:toAlpha="0.000000" />
+</set>
+
+sheet slide.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<set
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@ref/0x010a0004"
+    android:duration="@ref/0x7f0a0004">
+
+    <translate
+        android:fromYDelta="fraction(429496881)"
+        android:toYDelta="0.000000" />
+
+    <alpha
+        android:fromAlpha="0.000000"
+        android:toAlpha="1065353216.000000" />
+</set>
+
+popup exit.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<set
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shareInterpolator="false">
+
+    <alpha
+        android:interpolator="@ref/0x010a0006"
+        android:duration="@ref/0x7f0a0001"
+        android:fromAlpha="1065353216.000000"
+        android:toAlpha="0.000000" />
+</set>
+
+popup enter.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<set
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shareInterpolator="false">
+
+    <alpha
+        android:interpolator="@ref/0x010a0006"
+        android:duration="@ref/0x7f0a0001"
+        android:fromAlpha="0.000000"
+        android:toAlpha="1065353216.000000" />
+</set>
+
+from.right.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<set
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <translate
+        android:interpolator="@ref/0x7f01000d"
+        android:duration="@ref/0x7f0a0002"
+        android:fromXDelta="fraction(257)"
+        android:toXDelta="fraction(1)" />
+</set>
+
+up.in.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<set
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <translate
+        android:interpolator="@ref/0x7f01000d"
+        android:duration="@ref/0x7f0a0002"
+        android:fromYDelta="fraction(257)"
+        android:toYDelta="fraction(1)" />
+</set>
+
+rgiht.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<set
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <translate
+        android:interpolator="@ref/0x7f01000d"
+        android:duration="@ref/0x7f0a0002"
+        android:fromXDelta="fraction(1)"
+        android:toXDelta="fraction(257)" />
+</set>
+
+slide.in.top.xml
+<?xml version="1.0" encoding="utf-8"?>
+<translate
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@ref/0x010a0006"
+    android:duration="@ref/0x010e0001"
+    android:fromYDelta="fraction(-1073741775)"
+    android:toYDelta="0.000000" />
+
+shake.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<translate
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@ref/0x7f01000e"
+    android:duration="250"
+    android:fromXDelta="0.000000"
+    android:toXDelta="1092616192.000000" />
+    
+    bottom.xml
+    <?xml version="1.0" encoding="utf-8"?>
+<translate
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@ref/0x010a0006"
+    android:duration="@ref/0x010e0001"
+    android:fromYDelta="fraction(1073741873)"
+    android:toYDelta="0.000000" />
+
+outtop.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<translate
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@ref/0x010a0005"
+    android:duration="@ref/0x010e0001"
+    android:fromYDelta="0.000000"
+    android:toYDelta="fraction(-1073741775)" />
+
+slide.out.buttom.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<translate
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@ref/0x010a0005"
+    android:duration="@ref/0x010e0001"
+    android:fromYDelta="0.000000"
+    android:toYDelta="fraction(1073741873)" />
+
+show.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<translate
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@ref/0x010a000b"
+    android:duration="200"
+    android:fromYDelta="fraction(256)"
+    android:toYDelta="0.000000" />
+    
+    in.xml
+    
+    <?xml version="1.0" encoding="utf-8"?>
+<set
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <translate
+        android:duration="1000"
+        android:fromYDelta="fraction(257)"
+        android:toYDelta="fraction(1)" />
+</set>
+
+exit.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<alpha
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@ref/0x010c0000"
+    android:duration="@ref/0x7f0a0007"
+    android:fromAlpha="1065353216.000000"
+    android:toAlpha="0.000000" />
+
+out.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<alpha
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@ref/0x010a0006"
+    android:duration="@ref/0x010e0001"
+    android:fromAlpha="1065353216.000000"
+    android:toAlpha="0.000000" />
+
+enter.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<alpha
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@ref/0x010c0001"
+    android:duration="@ref/0x7f0a0007"
+    android:fromAlpha="0.000000"
+    android:toAlpha="1065353216.000000" />
+
+in.xml
+<?xml version="1.0" encoding="utf-8"?>
+<alpha
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@ref/0x010a0006"
+    android:duration="@ref/0x010e0001"
+    android:fromAlpha="0.000000"
+    android:toAlpha="1065353216.000000" />
+
+fade.out.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<alpha
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@ref/0x010c0006"
+    android:duration="0"
+    android:fromAlpha="1065353216.000000"
+    android:toAlpha="0.000000" />
+    
+    animation.xml
+    
+    <?xml version="1.0" encoding="utf-8"?>
+<set
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <translate
+        android:duration="1000"
+        android:fromYDelta="fraction(1)"
+        android:toYDelta="fraction(-255)" />
+</set>
+fadein.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<alpha
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@ref/0x010c0006"
+    android:duration="0"
+    android:fromAlpha="0.000000"
+    android:toAlpha="1065353216.000000" />
+
+dismiss.xml
+<?xml version="1.0" encoding="utf-8"?>
+<translate
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="200"
+    android:fromYDelta="0.000000"
+    android:toYDelta="fraction(256)" />
+    
+    out.xml
+    
+    <?xml version="1.0" encoding="utf-8"?>
+<alpha
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="400"
+    android:fromAlpha="1065353216.000000"
+    android:toAlpha="0.000000" />
+
+snackbar.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<translate
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fromYDelta="fraction(256)"
+    android:toYDelta="0.000000" />
+    
+    snackbar.xml
+    
+    <?xml version="1.0" encoding="utf-8"?>
+<translate
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fromYDelta="0.000000"
+    android:toYDelta="fraction(256)" />
+    
+    cycle.xml
+    
+    <?xml version="1.0" encoding="utf-8"?>
+<cycleInterpolator
+    xmlns:android="schemas.android.com/apk/res/android"
+    android:cycles="11" />
+
+decelarate.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<decelerateInterpolator />
