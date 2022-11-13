@@ -1,0 +1,53 @@
+out.slow.in.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<pathInterpolator
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:controlX1="1053609152.000000"
+    android:controlY1="0.000000"
+    android:controlX2="1045220544.000000"
+    android:controlY2="1065353216.000000" />
+
+linear outslow in.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<pathInterpolator
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:controlX1="0.000000"
+    android:controlY1="0.000000"
+    android:controlX2="1045220544.000000"
+    android:controlY2="1065353216.000000" />
+    
+    fastlinear in .xml
+    
+    <?xml version="1.0" encoding="utf-8"?>
+<pathInterpolator
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:controlX1="1053609152.000000"
+    android:controlY1="0.000000"
+    android:controlX2="1065353216.000000"
+    android:controlY2="1065353216.000000" />
+    
+    snackbar.xml
+    
+    <?xml version="1.0" encoding="utf-8"?>
+<view
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:theme="@ref/0x7f110190"
+    android:layout_gravity="0x51"
+    android:layout_width="-2"
+    android:layout_height="-2"
+    class="com.google.android.material.snackbar.Snackbar$SnackbarLayout"
+    style="@ref/0x7f1101f4" />
+
+mtrl.layout.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<view
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:theme="@ref/0x7f110190"
+    android:layout_gravity="0x51"
+    android:layout_width="-2"
+    android:layout_height="-2"
+    class="com.google.android.material.snackbar.Snackbar$SnackbarLayout"
+    style="@attr/0x7f0401b4" />
