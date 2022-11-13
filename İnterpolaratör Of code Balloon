@@ -1,0 +1,39 @@
+slow.in.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<pathInterpolator
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:controlX1="1053609152.000000"
+    android:controlY1="0.000000"
+    android:controlX2="1045220544.000000"
+    android:controlY2="1065353216.000000" />
+
+slow.in.linear.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<pathInterpolator
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:controlX1="0.000000"
+    android:controlY1="0.000000"
+    android:controlX2="1045220544.000000"
+    android:controlY2="1065353216.000000" />
+    
+    slow.in.xml
+    
+    <?xml version="1.0" encoding="utf-8"?>
+<accelerateDecelerateInterpolator />
+
+linear.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<accelerateInterpolator />
+
+slow.in,xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<decelerateInterpolator />
+
+linear.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<linearInterpolator />
