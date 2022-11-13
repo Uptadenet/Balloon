@@ -1,0 +1,457 @@
+meterial.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<inset
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:insetLeft="@ref/0x7f070012"
+    android:insetRight="@ref/0x7f070012"
+    android:insetTop="@ref/0x7f070013"
+    android:insetBottom="@ref/0x7f070013">
+
+    <ripple
+        android:color="@attr/0x101042c">
+
+        <item>
+
+            <selector>
+
+                <item
+                    android:state_enabled="false">
+
+                    <shape
+                        android:shape="0">
+
+                        <corners
+                            android:radius="@ref/0x7f070018" />
+
+                        <solid
+                            android:color="@attr/0x101042b" />
+
+                        <padding
+                            android:left="@ref/0x7f070014"
+                            android:top="@ref/0x7f070015"
+                            android:right="@ref/0x7f070014"
+                            android:bottom="@ref/0x7f070015" />
+                    </shape>
+                </item>
+
+                <item>
+
+                    <shape
+                        android:shape="0">
+
+                        <corners
+                            android:radius="@ref/0x7f070018" />
+
+                        <solid
+                            android:color="@attr/0x1010435" />
+
+                        <padding
+                            android:left="@ref/0x7f070014"
+                            android:top="@ref/0x7f070015"
+                            android:right="@ref/0x7f070014"
+                            android:bottom="@ref/0x7f070015" />
+                    </shape>
+                </item>
+            </selector>
+        </item>
+    </ripple>
+</inset>
+
+passoworld.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="dimension(6145)"
+    android:width="dimension(6145)"
+    android:viewportWidth="1103101952.000000"
+    android:viewportHeight="1103101952.000000">
+
+    <path
+        android:name="strike_through"
+        android:pathData="@ref/0x7f100179"
+        android:strokeColor="@ref/0x0106000b"
+        android:strokeWidth="1072064128.000000"
+        android:trimPathEnd="0.000000"
+        android:strokeLineCap="2" />
+
+    <group>
+
+        <clip-path
+            android:name="eye_mask"
+            android:pathData="@ref/0x7f100178" />
+
+        <path
+            android:name="eye"
+            android:fillColor="@ref/0x0106000b"
+            android:pathData="@ref/0x7f100176" />
+    </group>
+</vector>
+
+hide passoworld.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="dimension(6145)"
+    android:width="dimension(6145)"
+    android:viewportWidth="1103101952.000000"
+    android:viewportHeight="1103101952.000000">
+
+    <path
+        android:name="strike_through"
+        android:pathData="@ref/0x7f100179"
+        android:strokeColor="@ref/0x0106000b"
+        android:strokeWidth="1072064128.000000"
+        android:strokeLineCap="2" />
+
+    <group>
+
+        <clip-path
+            android:name="eye_mask"
+            android:pathData="@ref/0x7f100177" />
+
+        <path
+            android:name="eye"
+            android:fillColor="@ref/0x0106000b"
+            android:pathData="@ref/0x7f100176" />
+    </group>
+</vector>
+
+background.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<ripple
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@ref/0x7f06001c">
+
+    <item
+        android:id="@ref/0x0102002e">
+
+        <inset
+            android:insetLeft="@ref/0x7f07007d"
+            android:insetRight="@ref/0x7f07007d"
+            android:insetTop="@ref/0x7f07007e"
+            android:insetBottom="@ref/0x7f07007e">
+
+            <shape
+                android:shape="0">
+
+                <corners
+                    android:radius="@ref/0x7f070081" />
+
+                <solid
+                    android:color="@ref/0x0106000b" />
+
+                <padding
+                    android:left="@ref/0x7f07007f"
+                    android:top="@ref/0x7f070080"
+                    android:right="@ref/0x7f07007f"
+                    android:bottom="@ref/0x7f070080" />
+            </shape>
+        </inset>
+    </item>
+</ripple>
+
+abc edit.text.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<inset
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:insetLeft="@ref/0x7f07002d"
+    android:insetRight="@ref/0x7f07002d"
+    android:insetTop="@ref/0x7f07002e"
+    android:insetBottom="@ref/0x7f07002c">
+
+    <selector>
+
+        <item
+            android:state_enabled="false">
+
+            <nine-patch
+                android:src="@ref/0x7f08005f"
+                android:tint="@attr/0x7f0400b2"
+                android:alpha="@attr/0x1010033" />
+        </item>
+
+        <item
+            android:state_focused="false"
+            android:state_pressed="false">
+
+            <nine-patch
+                android:src="@ref/0x7f08005f"
+                android:tint="@attr/0x7f0400b2" />
+        </item>
+
+        <item>
+
+            <nine-patch
+                android:src="@ref/0x7f08005e"
+                android:tint="@attr/0x7f0400b0" />
+        </item>
+    </selector>
+</inset>
+
+design.passowolrd.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_checked="true"
+        android:id="@ref/0x7f090347"
+        android:drawable="@ref/0x7f080116" />
+
+    <item
+        android:id="@ref/0x7f09013d"
+        android:drawable="@ref/0x7f080117" />
+
+    <transition
+        android:drawable="@ref/0x7f0800af"
+        android:toId="@ref/0x7f090347"
+        android:fromId="@ref/0x7f09013d" />
+
+    <transition
+        android:drawable="@ref/0x7f0800ae"
+        android:toId="@ref/0x7f09013d"
+        android:fromId="@ref/0x7f090347" />
+</animated-selector>
+
+background.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<inset
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:insetLeft="dimension(4097)"
+    android:insetRight="dimension(4097)"
+    android:insetTop="dimension(4097)"
+    android:insetBottom="dimension(4097)">
+
+    <shape
+        android:shape="0">
+
+        <corners
+            android:radius="@attr/0x7f0400d4" />
+
+        <solid
+            android:color="@ref/0x0106000b" />
+    </shape>
+</inset>
+
+button.clickefect.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<ripple
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="argb8(0xfffa9491)">
+
+    <item>
+
+        <shape
+            android:shape="0">
+
+            <solid
+                android:color="@ref/0x7f06002c" />
+
+            <corners
+                android:radius="dimension(1537)" />
+        </shape>
+    </item>
+
+    <item
+        android:id="@ref/0x0102002e">
+
+        <shape
+            android:shape="0">
+
+            <solid
+                android:color="argb8(0xfffa9491)" />
+        </shape>
+    </item>
+</ripple>
+
+passoworld.xml 
+
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:interpolator="@ref/0x010c000d"
+    android:duration="@ref/0x7f0a000b"
+    android:valueFrom="@ref/0x7f100178"
+    android:valueTo="@ref/0x7f100177"
+    android:valueType="2"
+    android:propertyName="pathData" />
+
+show passoworld.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:interpolator="@ref/0x010c000f"
+    android:duration="@ref/0x7f0a0014"
+    android:valueFrom="@ref/0x7f100177"
+    android:valueTo="@ref/0x7f100178"
+    android:valueType="2"
+    android:propertyName="pathData" />
+
+avd.show.passoworld.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:drawable="@ref/0x7f080003">
+
+    <target
+        android:name="eye_mask"
+        android:animation="@ref/0x7f080004" />
+
+    <target
+        android:name="strike_through"
+        android:animation="@ref/0x7f080005" />
+</animated-vector>
+
+passoworld.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:drawable="@ref/0x7f080000">
+
+    <target
+        android:name="eye_mask"
+        android:animation="@ref/0x7f080001" />
+
+    <target
+        android:name="strike_through"
+        android:animation="@ref/0x7f080002" />
+</animated-vector>
+
+passoworld.xml 2 
+
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:interpolator="@ref/0x010c000d"
+    android:duration="@ref/0x7f0a000b"
+    android:valueFrom="0"
+    android:valueTo="1"
+    android:propertyName="trimPathEnd" />
+
+passoworld.xml 
+
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:interpolator="@ref/0x010c000f"
+    android:duration="@ref/0x7f0a0014"
+    android:valueFrom="1"
+    android:valueTo="0"
+    android:propertyName="trimPathEnd" />
+
+indicator.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@ref/0x01020000"
+        android:drawable="@ref/0x7f080030" />
+
+    <item
+        android:id="@ref/0x0102000f"
+        android:drawable="@ref/0x7f080033" />
+
+    <item
+        android:id="@ref/0x0102000d">
+
+        <bitmap
+            android:src="@ref/0x7f080030"
+            android:tileModeX="1" />
+    </item>
+</layer-list>
+
+ratingbar.meterial.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@ref/0x01020000"
+        android:drawable="@ref/0x7f080031" />
+
+    <item
+        android:id="@ref/0x0102000f"
+        android:drawable="@ref/0x7f080034" />
+
+    <item
+        android:id="@ref/0x0102000d">
+
+        <bitmap
+            android:src="@ref/0x7f080031"
+            android:tileModeX="1" />
+    </item>
+</layer-list>
+
+small.meterial.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@ref/0x01020000"
+        android:drawable="@ref/0x7f08002f" />
+
+    <item
+        android:id="@ref/0x0102000f"
+        android:drawable="@ref/0x7f080032" />
+
+    <item
+        android:id="@ref/0x0102000d">
+
+        <bitmap
+            android:src="@ref/0x7f08002f"
+            android:tileModeX="1" />
+    </item>
+</layer-list>
+
+meterial.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:tint="@attr/0x1010030">
+
+    <solid
+        android:color="argb8(0x1f000000)" />
+
+    <size
+        android:height="dimension(257)"
+        android:width="dimension(257)" />
+</shape>
+
+background.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<ripple
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@attr/0x7f0400b4" />
+
+backgorund.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<ripple
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@attr/0x101042c" />
